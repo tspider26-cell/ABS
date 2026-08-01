@@ -1,0 +1,1 @@
+# Panel informacji o karcie.
