@@ -1,1 +1,2 @@
-# Panel informacji o karcie.
+class InfoPanel:
+    pass

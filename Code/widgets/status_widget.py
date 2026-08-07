@@ -1,1 +1,2 @@
-# Pasek statusu.
+class StatusWidget:
+    pass

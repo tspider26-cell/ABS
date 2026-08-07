@@ -1,19 +1,87 @@
+"""
+Artysta Break Studio
+Main Window
 
+Główne okno aplikacji.
+"""
+
+import time
 import sys
-from PySide6.QtCore import Qt
+
+from PySide6.QtCore import Qt, QTimer
+
 from PySide6.QtWidgets import (
-    QApplication,QMainWindow,QWidget,QVBoxLayout,QHBoxLayout,
-    QLabel,QComboBox,QPushButton,QFrame,QSplitter,QGroupBox,QStatusBar
+    QApplication,
+    QComboBox,
+    QGroupBox,
+    QHBoxLayout,
+    QMainWindow,
+    QPushButton,
+    QSplitter,
+    QStatusBar,
+    QVBoxLayout,
+    QWidget,
+    QLabel,
 )
+
 from theme import DARK_THEME
 from camera_manager import CameraManager
+from widgets.camera_widget import CameraWidget
+
+from vision.card_detector import CardDetector
+
 
 class MainWindow(QMainWindow):
+
     def __init__(self):
+
         super().__init__()
-        self.setWindowTitle("Artysta Break Studio")
-        self.resize(1400,900)
-        self.setStyleSheet(DARK_THEME)
+
+        self.setWindowTitle(
+            "Artysta Break Studio"
+        )
+
+        self.resize(
+            1400,
+            900
+        )
+
+        self.setStyleSheet(
+            DARK_THEME
+        )
+
+
+        self.camera_manager = CameraManager()
+
+
+        # Vision Engine
+
+        self.card_detector = CardDetector()
+
+
+        self.camera_timer = QTimer()
+
+        self.camera_timer.timeout.connect(
+            self.update_camera
+        )
+
+
+        self.last_time = time.time()
+
+        self.frame_count = 0
+
+
+        self.create_menu()
+
+        self.create_ui()
+
+        self.load_cameras()
+
+
+
+    # --------------------------------------------------
+
+    def create_menu(self):
 
         self.menuBar().addMenu("Plik")
         self.menuBar().addMenu("Kamera")
@@ -21,47 +89,302 @@ class MainWindow(QMainWindow):
         self.menuBar().addMenu("Widok")
         self.menuBar().addMenu("Pomoc")
 
-        cm=CameraManager()
 
-        central=QWidget()
-        self.setCentralWidget(central)
-        layout=QVBoxLayout(central)
 
-        top=QHBoxLayout()
-        top.addWidget(QLabel("Kamera:"))
-        combo=QComboBox()
-        cams=cm.available_cameras()
-        if cams:
-            for c in cams:
-                combo.addItem(f"Kamera {c}", c)
-        else:
-            combo.addItem("Brak wykrytej kamery")
-        top.addWidget(combo)
-        top.addWidget(QPushButton("Start"))
-        top.addWidget(QPushButton("Stop"))
-        top.addStretch()
-        top.addWidget(QLabel("FPS: 0"))
-        layout.addLayout(top)
+    # --------------------------------------------------
 
-        frame=QFrame()
-        pv=QVBoxLayout(frame)
-        lbl=QLabel("PODGLĄD KAMERY")
-        lbl.setAlignment(Qt.AlignCenter)
-        lbl.setMinimumHeight(500)
-        pv.addWidget(lbl)
-        layout.addWidget(frame)
+    def create_ui(self):
 
-        split=QSplitter()
-        split.addWidget(QGroupBox("Historia sesji"))
-        split.addWidget(QGroupBox("Rozpoznana karta"))
-        layout.addWidget(split)
+        central = QWidget()
 
-        sb=QStatusBar()
-        sb.showMessage("🟢 GOTOWY | ABS v0.2")
-        self.setStatusBar(sb)
+        self.setCentralWidget(
+            central
+        )
+
+
+        layout = QVBoxLayout(
+            central
+        )
+
+
+        toolbar = QHBoxLayout()
+
+
+        toolbar.addWidget(
+            QLabel("Kamera:")
+        )
+
+
+        self.camera_combo = QComboBox()
+
+        toolbar.addWidget(
+            self.camera_combo
+        )
+
+
+        self.start_button = QPushButton(
+            "▶ Start"
+        )
+
+
+        self.stop_button = QPushButton(
+            "■ Stop"
+        )
+
+
+        toolbar.addWidget(
+            self.start_button
+        )
+
+
+        toolbar.addWidget(
+            self.stop_button
+        )
+
+
+        toolbar.addStretch()
+
+
+        self.fps_label = QLabel(
+            "FPS: 0"
+        )
+
+
+        toolbar.addWidget(
+            self.fps_label
+        )
+
+
+        layout.addLayout(
+            toolbar
+        )
+
+
+        self.camera_widget = CameraWidget()
+
+
+        layout.addWidget(
+            self.camera_widget
+        )
+
+
+        splitter = QSplitter(
+            Qt.Horizontal
+        )
+
+
+        splitter.addWidget(
+            QGroupBox(
+                "Historia sesji"
+            )
+        )
+
+
+        splitter.addWidget(
+            QGroupBox(
+                "Rozpoznana karta"
+            )
+        )
+
+
+        splitter.setSizes(
+            [350,900]
+        )
+
+
+        layout.addWidget(
+            splitter
+        )
+
+
+        self.status = QStatusBar()
+
+        self.status.showMessage(
+            "🟢 GOTOWY"
+        )
+
+
+        self.setStatusBar(
+            self.status
+        )
+
+
+        self.start_button.clicked.connect(
+            self.start_camera
+        )
+
+
+        self.stop_button.clicked.connect(
+            self.stop_camera
+        )
+
+
+
+    # --------------------------------------------------
+
+    def load_cameras(self):
+
+        self.camera_combo.clear()
+
+
+        cameras = self.camera_manager.available_cameras()
+
+
+        if not cameras:
+
+            self.camera_combo.addItem(
+                "Brak wykrytej kamery"
+            )
+
+            self.start_button.setEnabled(
+                False
+            )
+
+            return
+
+
+
+        for camera in cameras:
+
+            self.camera_combo.addItem(
+                f"Kamera {camera}",
+                camera
+            )
+
+
+
+    # --------------------------------------------------
+
+    def start_camera(self):
+
+        index = self.camera_combo.currentData()
+
+
+        if index is None:
+
+            return
+
+
+
+        success = self.camera_manager.open(
+            index
+        )
+
+
+        if not success:
+
+            self.status.showMessage(
+                f"🔴 Nie udało się uruchomić kamery {index}"
+            )
+
+            return
+
+
+
+        self.camera_timer.start(
+            30
+        )
+
+
+        self.status.showMessage(
+            f"🟢 Kamera {index} uruchomiona"
+        )
+
+
+
+    # --------------------------------------------------
+
+    def update_camera(self):
+
+        frame = self.camera_manager.read()
+
+
+        if frame is None:
+
+            return
+
+
+
+        # Card Detector v1.1
+
+        frame, corners = self.card_detector.detect(
+            frame
+        )
+
+
+        self.camera_widget.set_frame(
+            frame
+        )
+
+
+
+        # FPS
+
+        self.frame_count += 1
+
+
+        now = time.time()
+
+
+        if now - self.last_time >= 1:
+
+            fps = self.frame_count
+
+
+            self.frame_count = 0
+
+            self.last_time = now
+
+
+            self.fps_label.setText(
+                f"FPS: {fps}"
+            )
+
+
+
+    # --------------------------------------------------
+
+    def stop_camera(self):
+
+        self.camera_timer.stop()
+
+
+        self.camera_manager.close()
+
+
+        self.camera_widget.clear_preview()
+
+
+        self.fps_label.setText(
+            "FPS: 0"
+        )
+
+
+        self.status.showMessage(
+            "🔴 Kamera zatrzymana"
+        )
+
+
 
 def main():
-    app=QApplication(sys.argv)
-    w=MainWindow()
-    w.show()
-    sys.exit(app.exec())
+
+    app = QApplication(
+        sys.argv
+    )
+
+
+    window = MainWindow()
+
+
+    window.show()
+
+
+    sys.exit(
+        app.exec()
+    )
+
+
+
+if __name__ == "__main__":
+
+    main()
