@@ -1,9 +1,8 @@
-"""
-Artysta Break Studio
-Main Window
-
-Główne okno aplikacji.
-"""
+# ============================================================
+# Artysta Break Studio
+# Main Window v2.1
+# Camera + Detector Test Mode
+# ============================================================
 
 import time
 import sys
@@ -25,38 +24,51 @@ from PySide6.QtWidgets import (
 )
 
 from theme import DARK_THEME
+
 from camera_manager import CameraManager
 from widgets.camera_widget import CameraWidget
 
 from vision.card_detector import CardDetector
 
 
+# AutoCapture wyłączony na czas testów
+AUTO_CAPTURE_ENABLED = False
+
+
+
 class MainWindow(QMainWindow):
+
 
     def __init__(self):
 
         super().__init__()
 
+
         self.setWindowTitle(
             "Artysta Break Studio"
         )
+
 
         self.resize(
             1400,
             900
         )
 
+
         self.setStyleSheet(
             DARK_THEME
         )
 
 
+        # Kamera
+
         self.camera_manager = CameraManager()
 
 
-        # Vision Engine
+        # Detector
 
         self.card_detector = CardDetector()
+
 
 
         self.camera_timer = QTimer()
@@ -66,9 +78,11 @@ class MainWindow(QMainWindow):
         )
 
 
+
         self.last_time = time.time()
 
         self.frame_count = 0
+
 
 
         self.create_menu()
@@ -116,6 +130,7 @@ class MainWindow(QMainWindow):
 
 
         self.camera_combo = QComboBox()
+
 
         toolbar.addWidget(
             self.camera_combo
@@ -167,7 +182,6 @@ class MainWindow(QMainWindow):
             self.camera_widget
         )
 
-
         splitter = QSplitter(
             Qt.Horizontal
         )
@@ -197,7 +211,9 @@ class MainWindow(QMainWindow):
         )
 
 
+
         self.status = QStatusBar()
+
 
         self.status.showMessage(
             "🟢 GOTOWY"
@@ -207,6 +223,7 @@ class MainWindow(QMainWindow):
         self.setStatusBar(
             self.status
         )
+
 
 
         self.start_button.clicked.connect(
@@ -287,7 +304,7 @@ class MainWindow(QMainWindow):
 
 
         self.status.showMessage(
-            f"🟢 Kamera {index} uruchomiona"
+            "🟢 Kamera uruchomiona"
         )
 
 
@@ -305,33 +322,63 @@ class MainWindow(QMainWindow):
 
 
 
-        # Card Detector v1.1
+        # zachowujemy oryginalny obraz kamery
 
-        frame, corners = self.card_detector.detect(
-            frame
-        )
+        display_frame = frame.copy()
 
+
+
+        # DETECTOR TEST
+
+        try:
+
+            result = self.card_detector.detect(
+                frame
+            )
+
+
+            if result is not None:
+
+                warped, corners, score = result
+
+
+                if corners is not None:
+
+                    display_frame = self.card_detector.draw_result(
+                        display_frame,
+                        corners,
+                        score
+                    )
+
+
+        except Exception:
+
+            # detector nie może zatrzymać kamery
+
+            pass
+
+
+
+        # pokazujemy zawsze obraz z kamery
 
         self.camera_widget.set_frame(
-            frame
+            display_frame
         )
-
-
-
-        # FPS
+                # FPS
 
         self.frame_count += 1
-
 
         now = time.time()
 
 
         if now - self.last_time >= 1:
 
+
             fps = self.frame_count
 
 
             self.frame_count = 0
+
 
             self.last_time = now
 
@@ -364,6 +411,11 @@ class MainWindow(QMainWindow):
             "🔴 Kamera zatrzymana"
         )
 
+
+
+# =====================================================
+# START PROGRAMU
+# =====================================================
 
 
 def main():

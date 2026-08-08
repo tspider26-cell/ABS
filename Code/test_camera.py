@@ -1,17 +1,20 @@
 import cv2
 
-cam_id = 0
+print("Sprawdzanie kamer...")
 
-cap = cv2.VideoCapture(cam_id)
+for i in range(5):
+    cap = cv2.VideoCapture(i)
 
-while True:
-    ret, frame = cap.read()
+    if cap.isOpened():
+        ret, frame = cap.read()
 
-    if ret:
-        cv2.imshow("ABS Camera Test", frame)
+        if ret:
+            print(f"Kamera {i}: DZIALA")
+        else:
+            print(f"Kamera {i}: otwarta, ale brak obrazu")
 
-    if cv2.waitKey(1) == 27:
-        break
+        cap.release()
+    else:
+        print(f"Kamera {i}: brak")
 
-cap.release()
-cv2.destroyAllWindows()
+print("Gotowe")

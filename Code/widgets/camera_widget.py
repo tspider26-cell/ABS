@@ -47,6 +47,9 @@ class CameraWidget(QLabel):
 
         self._last_frame = frame
 
+        if frame is None:
+            return
+
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
         height, width, channels = rgb.shape
