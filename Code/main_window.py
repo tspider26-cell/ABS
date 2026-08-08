@@ -31,8 +31,8 @@ from widgets.camera_widget import CameraWidget
 from vision.card_detector import CardDetector
 
 
-# AutoCapture wyłączony na czas testów
-AUTO_CAPTURE_ENABLED = False
+# AutoCapture test
+AUTO_CAPTURE_ENABLED = True
 
 
 
@@ -68,6 +68,10 @@ class MainWindow(QMainWindow):
         # Detector
 
         self.card_detector = CardDetector()
+
+        # Auto Capture state
+
+        self.capture_done = False
 
 
 
@@ -345,9 +349,34 @@ class MainWindow(QMainWindow):
                 if corners is not None:
 
                     display_frame = self.card_detector.draw_result(
-                        display_frame,
+                      display_frame,
                         corners,
-                        score
+                      score
+                    )
+
+
+                if AUTO_CAPTURE_ENABLED and not self.capture_done:
+
+                   card_image = self.card_detector.get_card_image(
+                        frame,
+                        corners
+                    )
+
+
+                if card_image is not None:
+
+                   saved = self.card_detector.save_card(
+                       card_image,
+                     "last_card.jpg"
+                    )
+
+
+                if saved:
+
+                    self.capture_done = True
+
+                    self.status.showMessage(
+                      "🟢 Karta zapisana: last_card.jpg"
                     )
 
 

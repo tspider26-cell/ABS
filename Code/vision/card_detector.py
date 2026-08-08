@@ -203,8 +203,9 @@ class CardDetector:
 
 
 
-            if len(approx) != 4:
-                  continue
+            if len(approx) < 4 or len(approx) > 6:
+                 print("ODRZUCONO - BOKI:", len(approx))
+                 continue
 
 
 
@@ -220,8 +221,8 @@ class CardDetector:
 
             # proporcja karty Pokemon
 
-            if ratio < 1.05 or ratio > 1.90:
-
+            if ratio < 1.10 or ratio > 2.00:
+                print("ODRZUCONO - PROPORCJA:", ratio)
                 continue
 
 
