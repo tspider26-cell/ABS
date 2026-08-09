@@ -1,0 +1,8 @@
+{
+    "id": "my_first_card",
+    "references": [
+        {
+            "image": "database/cards\\my_first_card\\images\\ref_01.jpg"
+        }
+    ]
+}
