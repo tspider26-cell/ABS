@@ -1,12 +1,12 @@
 # ============================================================
 # Artysta Break Studio
-# Main Window v2.2
-# Camera + Detector + Stable Auto Capture
+# Main Window v3.0
+# ROI Card Scanner
 # ============================================================
 
 
-import time
 import sys
+import time
 import cv2
 
 
@@ -14,6 +14,7 @@ from PySide6.QtCore import Qt, QTimer
 
 from PySide6.QtWidgets import (
     QApplication,
+    QLabel,
     QComboBox,
     QGroupBox,
     QHBoxLayout,
@@ -23,7 +24,6 @@ from PySide6.QtWidgets import (
     QStatusBar,
     QVBoxLayout,
     QWidget,
-    QLabel,
 )
 
 
@@ -32,9 +32,7 @@ from theme import DARK_THEME
 from camera_manager import CameraManager
 from widgets.camera_widget import CameraWidget
 
-from vision.card_detector import CardDetector
-
-
+from vision.card_detector_roi import ROICardDetector
 
 # ============================================================
 # USTAWIENIA SKANERA
@@ -44,607 +42,386 @@ from vision.card_detector import CardDetector
 AUTO_CAPTURE_ENABLED = True
 
 
-# czas stabilizacji karty przed zapisem
+# czas stabilizacji karty
 
-CAPTURE_DELAY = 2.0
+CAPTURE_DELAY = 3.0
 
 
-
-# Rozmiar ramki skanowania karty
+# rozmiar zielonej ramki
 
 SCAN_WIDTH = 650
 SCAN_HEIGHT = 850
 
 
-
-
 class MainWindow(QMainWindow):
-
 
     def __init__(self):
 
         super().__init__()
 
+        self.setWindowTitle("Artysta Break Studio")
 
+        self.resize(1400, 900)
 
-        self.setWindowTitle(
-            "Artysta Break Studio"
-        )
+        self.setStyleSheet(DARK_THEME)
 
-
-
-        self.resize(
-            1400,
-            900
-        )
-
-
-
-        self.setStyleSheet(
-            DARK_THEME
-        )
-
-
-
-        # Kamera
+        # ====================================================
+        # KAMERA
+        # ====================================================
 
         self.camera_manager = CameraManager()
 
+        # ====================================================
+        # NOWY DETEKTOR ROI
+        # ====================================================
 
+        self.roi_detector = ROICardDetector()
 
-        # Detector
-
-        self.card_detector = CardDetector()
-
-
-
-        # Auto Capture state
+        self.roi_ready = False
 
         self.capture_done = False
 
+        # czas wykrycia
+
         self.card_detected_time = None
 
-
+        # ====================================================
+        # TIMER KAMERY
+        # ====================================================
 
         self.camera_timer = QTimer()
 
-        self.camera_timer.timeout.connect(
-            self.update_camera
-        )
-
-
+        self.camera_timer.timeout.connect(self.update_camera)
 
         self.last_time = time.time()
 
         self.frame_count = 0
-
-
 
         self.create_menu()
 
         self.create_ui()
 
         self.load_cameras()
-            # --------------------------------------------------
-    # MENU
-    # --------------------------------------------------
+        # ========================================================
 
+    # MENU
+    # ========================================================
 
     def create_menu(self):
 
-        self.menuBar().addMenu(
-            "Plik"
-        )
+        self.menuBar().addMenu("Plik")
 
-        self.menuBar().addMenu(
-            "Kamera"
-        )
+        self.menuBar().addMenu("Kamera")
 
-        self.menuBar().addMenu(
-            "Narzędzia"
-        )
+        self.menuBar().addMenu("Narzędzia")
 
-        self.menuBar().addMenu(
-            "Widok"
-        )
+        self.menuBar().addMenu("Widok")
 
-        self.menuBar().addMenu(
-            "Pomoc"
-        )
+        self.menuBar().addMenu("Pomoc")
 
-
-
-    # --------------------------------------------------
+    # ========================================================
     # UI
-    # --------------------------------------------------
-
+    # ========================================================
 
     def create_ui(self):
 
         central = QWidget()
 
+        self.setCentralWidget(central)
 
-        self.setCentralWidget(
-            central
-        )
-
-
-        layout = QVBoxLayout(
-            central
-        )
-
-
+        layout = QVBoxLayout(central)
 
         toolbar = QHBoxLayout()
 
-
-
-        toolbar.addWidget(
-            QLabel("Kamera:")
-        )
-
-
+        toolbar.addWidget(QLabel("Kamera:"))
 
         self.camera_combo = QComboBox()
 
+        toolbar.addWidget(self.camera_combo)
 
+        self.start_button = QPushButton("▶ Start")
 
-        toolbar.addWidget(
-            self.camera_combo
-        )
+        self.stop_button = QPushButton("■ Stop")
 
+        toolbar.addWidget(self.start_button)
 
-
-        self.start_button = QPushButton(
-            "▶ Start"
-        )
-
-
-        self.stop_button = QPushButton(
-            "■ Stop"
-        )
-
-
-
-        toolbar.addWidget(
-            self.start_button
-        )
-
-
-        toolbar.addWidget(
-            self.stop_button
-        )
-
+        toolbar.addWidget(self.stop_button)
 
         toolbar.addStretch()
 
+        self.fps_label = QLabel("FPS: 0")
 
+        toolbar.addWidget(self.fps_label)
 
-        self.fps_label = QLabel(
-            "FPS: 0"
-        )
-
-
-        toolbar.addWidget(
-            self.fps_label
-        )
-
-
-
-        layout.addLayout(
-            toolbar
-        )
-
-
+        layout.addLayout(toolbar)
 
         self.camera_widget = CameraWidget()
 
+        layout.addWidget(self.camera_widget)
 
+        splitter = QSplitter(Qt.Horizontal)
 
-        layout.addWidget(
-            self.camera_widget
-        )
+        splitter.addWidget(QGroupBox("Historia sesji"))
 
+        splitter.addWidget(QGroupBox("Rozpoznana karta"))
 
+        splitter.setSizes([350, 900])
 
-        splitter = QSplitter(
-            Qt.Horizontal
-        )
-
-
-        splitter.addWidget(
-            QGroupBox(
-                "Historia sesji"
-            )
-        )
-
-
-
-        splitter.addWidget(
-            QGroupBox(
-                "Rozpoznana karta"
-            )
-        )
-
-
-
-        splitter.setSizes(
-            [350,900]
-        )
-
-
-
-        layout.addWidget(
-            splitter
-        )
-
-
+        layout.addWidget(splitter)
 
         self.status = QStatusBar()
 
+        self.status.showMessage("🟢 GOTOWY")
 
+        self.setStatusBar(self.status)
 
-        self.status.showMessage(
-            "🟢 GOTOWY"
-        )
+        self.start_button.clicked.connect(self.start_camera)
 
+        self.stop_button.clicked.connect(self.stop_camera)
 
-        self.setStatusBar(
-            self.status
-        )
-
-
-
-        self.start_button.clicked.connect(
-            self.start_camera
-        )
-
-
-        self.stop_button.clicked.connect(
-            self.stop_camera
-        )
-            # --------------------------------------------------
+    # ========================================================
     # KAMERY
-    # --------------------------------------------------
-
+    # ========================================================
 
     def load_cameras(self):
 
         self.camera_combo.clear()
 
-
         cameras = self.camera_manager.available_cameras()
-
 
         if not cameras:
 
-            self.camera_combo.addItem(
-                "Brak wykrytej kamery"
-            )
+            self.camera_combo.addItem("Brak wykrytej kamery")
 
-            self.start_button.setEnabled(
-                False
-            )
+            self.start_button.setEnabled(False)
 
             return
 
-
-
         for camera in cameras:
 
-            self.camera_combo.addItem(
-                f"Kamera {camera}",
-                camera
-            )
+            self.camera_combo.addItem(f"Kamera {camera}", camera)
 
-
-
-    # --------------------------------------------------
+    # ========================================================
     # START KAMERY
-    # --------------------------------------------------
-
+    # ========================================================
 
     def start_camera(self):
 
         index = self.camera_combo.currentData()
 
-
         if index is None:
 
             return
 
-
-
-        success = self.camera_manager.open(
-            index
-        )
-
-
+        success = self.camera_manager.open(index)
 
         if not success:
 
-            self.status.showMessage(
-                f"🔴 Nie udało się uruchomić kamery {index}"
-            )
+            self.status.showMessage(f"🔴 Nie udało się uruchomić kamery {index}")
 
             return
 
+        self.camera_timer.start(30)
 
+        self.status.showMessage("🟢 Kamera uruchomiona")
+        # ========================================================
 
-        self.camera_timer.start(
-            30
-        )
-
-
-        self.status.showMessage(
-            "🟢 Kamera uruchomiona"
-        )
-
-
-
-    # --------------------------------------------------
-    # GŁÓWNY SKANER
-    # --------------------------------------------------
-
+    # GŁÓWNY SKANER ROI
+    # ========================================================
 
     def update_camera(self):
 
         frame = self.camera_manager.read()
 
-
-
         if frame is None:
 
             return
 
-
-
         display_frame = frame.copy()
 
-
-
-        # automatyczne wyśrodkowanie ramki
-
+        # ====================================================
+        # WYZNACZENIE RAMKI SKANOWANIA
+        # ====================================================
 
         frame_height, frame_width = frame.shape[:2]
-
 
         w = SCAN_WIDTH
 
         h = SCAN_HEIGHT
 
-
-
         x = (frame_width - w) // 2
 
         y = (frame_height - h) // 2
 
-
-
-        cv2.rectangle(
-            display_frame,
-            (x, y),
-            (x + w, y + h),
-            (0, 255, 0),
-            3
-        )
-
-
+        cv2.rectangle(display_frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
 
         try:
 
+            roi = frame[y : y + h, x : x + w]
 
-            roi = frame[
-                y:y+h,
-                x:x+w
-            ]
+            # =================================================
+            # PIERWSZE URUCHOMIENIE
+            # ZAPIS PUSTEGO ROI
+            # =================================================
 
+            if not self.roi_ready:
 
+                self.roi_detector.set_reference(roi)
 
-            result = self.card_detector.detect(
-                roi
-            )
+                self.roi_ready = True
 
+                print("ROI PUSTE ZAPISANE")
 
+            # =================================================
+            # SPRAWDZENIE KARTY
+            # =================================================
 
-            if result is not None:
+            card_present = self.roi_detector.check_card(roi)
 
+            print("ROI KARTA:", card_present)
 
-                warped, corners, score = result
+            if card_present:
 
+                cv2.putText(
+                    display_frame,
+                    "CARD DETECTED",
+                    (30, 60),
+                    cv2.FONT_HERSHEY_SIMPLEX,
+                    1.5,
+                    (0, 255, 0),
+                    3,
+                )
 
+                if AUTO_CAPTURE_ENABLED:
 
-                if corners is not None:
+                    if self.card_detected_time is None:
 
+                        self.card_detected_time = time.time()
 
-                    cv2.putText(
-                        display_frame,
-                        f"CARD FOUND {int(score)}%",
-                        (30,60),
-                        cv2.FONT_HERSHEY_SIMPLEX,
-                        1.5,
-                        (0,255,0),
-                        3
-                    )
-                                        
+                    elapsed = time.time() - self.card_detected_time
 
-                    # stabilizacja przed zapisem
+                    print("STABILIZACJA:", round(elapsed, 2))
 
-                    if AUTO_CAPTURE_ENABLED:
-                        print("AUTO CAPTURE WESZLO")
-                        print("AUTO CAPTURE AKTYWNE")
+                    if elapsed >= CAPTURE_DELAY:
 
+                        if not self.capture_done:
 
-                        if self.card_detected_time is None:
+                            self.capture_done = True
 
-                            self.card_detected_time = time.time()
+                            self.save_card_image(roi)
 
+                            print("KARTA ZAPISANA")
 
-
-                        elapsed = time.time() - self.card_detected_time
-                        print("CZEKAM:", elapsed)
-                        
-
-                        if elapsed >= CAPTURE_DELAY:
-                            
-
-
-                            # przesunięcie ROI -> pełny obraz
-
-                            print("CORNERS ROI:", corners)
-
-                            x2, y2, w2, h2 = cv2.boundingRect(
-                            corners.astype("int32")
-                            )
-
-                            card_image = roi[
-                            y2:y2+h2,
-                            x2:x2+w2
-                            ]
-
-                            print("POBRANO OBRAZ KARTY:", card_image is not None)
-
-
-
-                            if card_image is not None:
-
-
-                                saved = self.card_detector.save_card(
-                                    card_image,
-                                    "last_card.jpg"
-                                )
-                                print("ZAPIS WYNIK:", saved)
-
-
-
-                                if saved:
-
-
-                                    self.capture_done = True
-
-
-
-                                    self.status.showMessage(
-                                        "🟢 Karta zapisana: last_card.jpg"
-                                    )
-
-
+                            self.reset_scanner()
 
             else:
 
-                # karta zniknęła - reset licznika
-
                 self.card_detected_time = None
-
-
 
         except Exception as e:
 
-            print(
-                "BŁĄD SKANERA:",
-                e
-            )
+            print("BŁĄD SKANERA:", e)
 
+        # pokaz obrazu kamery
 
-
-        # pokazujemy obraz kamery
-
-
-        self.camera_widget.set_frame(
-            display_frame
-        )
-
-
+        self.camera_widget.set_frame(display_frame)
 
         # FPS
 
-
         self.frame_count += 1
-
 
         now = time.time()
 
-
-
         if now - self.last_time >= 1:
-
 
             fps = self.frame_count
 
-
             self.frame_count = 0
-
 
             self.last_time = now
 
+            self.fps_label.setText(f"FPS: {fps}")
 
-
-            self.fps_label.setText(
-                f"FPS: {fps}"
-            )
-                # --------------------------------------------------
+    # ========================================================
     # STOP KAMERY
-    # --------------------------------------------------
-
+    # ========================================================
 
     def stop_camera(self):
 
-
         self.camera_timer.stop()
-
-
 
         self.camera_manager.close()
 
+        self.status.showMessage("🔴 Kamera zatrzymana")
+
+    # ========================================================
+    # ZAPIS OBRAZU KARTY
+    # ========================================================
+
+    def save_card_image(self, roi):
+
+        if roi is None:
+
+            return False
+
+        image = self.roi_detector.get_card_image(roi)
+
+        if image is None:
+
+            return False
+
+        filename = r"C:\ABS\Code\scans\last_card.jpg"
+
+        result = cv2.imwrite(filename, image)
+
+        print("ZAPIS KARTY:", filename, result)
+
+        return result
+
+    # ========================================================
+    # RESET SKANERA
+    # ========================================================
+
+    def reset_scanner(self):
+
+        self.card_detected_time = None
+
+        self.capture_done = False
+
+        self.roi_detector.reset()
+
+        print("SKANER ZRESETOWANY")
+
+    # ========================================================
+    # ZAMKNIĘCIE OKNA
+    # ========================================================
+
+    def closeEvent(self, event):
+
+        try:
+
+            self.camera_timer.stop()
+
+            self.camera_manager.close()
+
+        except Exception as e:
+
+            print("BŁĄD ZAMYKANIA:", e)
+
+        event.accept()
 
 
-        self.camera_widget.clear_preview()
-
-
-
-        self.fps_label.setText(
-            "FPS: 0"
-        )
-
-
-
-        self.status.showMessage(
-            "🔴 Kamera zatrzymana"
-        )
-
-
-
-# =====================================================
-# START PROGRAMU
-# =====================================================
+# ============================================================
+# START APLIKACJI
+# ============================================================
 
 
 def main():
 
-
-    app = QApplication(
-        sys.argv
-    )
-
-
+    app = QApplication(sys.argv)
 
     window = MainWindow()
 
-
     window.show()
 
-
-
-    sys.exit(
-        app.exec()
-    )
-
-
-
-if __name__ == "__main__":
-
-
-    main()
-
-
-
+    sys.exit(app.exec())
