@@ -1,0 +1,10 @@
+{
+    "id": "my_first_card",
+    "image": "database/images\\my_first_card.jpg",
+    "features": {
+        "width": 650,
+        "height": 850,
+        "hash": "347ef42e90957a8d55511772b251d7c0",
+        "orb_points": 699
+    }
+}
