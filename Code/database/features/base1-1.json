@@ -1,6 +1,6 @@
 {
     "id": "base1-1",
-    "image": "database/images/base1-1.png",
+    "image": "database/images\\base1-1.png",
     "features": {
         "width": 600,
         "height": 825,

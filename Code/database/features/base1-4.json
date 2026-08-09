@@ -1,0 +1,10 @@
+{
+    "id": "base1-4",
+    "image": "database/images\\base1-4.png",
+    "features": {
+        "width": 600,
+        "height": 825,
+        "hash": "276fe70ad6a7615a8e8392df12506242",
+        "orb_points": 1000
+    }
+}
