@@ -1,0 +1,15 @@
+{
+    "id": "base1-1",
+    "game": "pokemon",
+    "name": "Alakazam",
+    "set": "Base Set",
+    "number": "1",
+    "language": "en",
+    "rarity": "Rare Holo",
+    "image": "database/images/base1-1.png",
+    "features": {
+        "hash": null,
+        "orb": null,
+        "embedding": null
+    }
+}
