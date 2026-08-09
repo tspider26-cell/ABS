@@ -1,7 +1,7 @@
 # ============================================================
 # Artysta Break Studio
-# Main Window v3.0
-# ROI Card Scanner
+# Main Window v3.1
+# ROI Card Scanner + Live Recognition
 # ============================================================
 
 
@@ -34,6 +34,8 @@ from widgets.camera_widget import CameraWidget
 
 from vision.card_detector_roi import ROICardDetector
 
+from services.recognition_service import RecognitionService
+
 # ============================================================
 # USTAWIENIA SKANERA
 # ============================================================
@@ -42,15 +44,16 @@ from vision.card_detector_roi import ROICardDetector
 AUTO_CAPTURE_ENABLED = True
 
 
-# czas stabilizacji karty
-
 CAPTURE_DELAY = 3.0
 
 
-# rozmiar zielonej ramki
-
 SCAN_WIDTH = 650
 SCAN_HEIGHT = 850
+
+
+# ============================================================
+# MAIN WINDOW
+# ============================================================
 
 
 class MainWindow(QMainWindow):
@@ -72,16 +75,20 @@ class MainWindow(QMainWindow):
         self.camera_manager = CameraManager()
 
         # ====================================================
-        # NOWY DETEKTOR ROI
+        # DETEKTOR ROI
         # ====================================================
 
         self.roi_detector = ROICardDetector()
 
+        # ====================================================
+        # RECOGNITION ENGINE
+        # ====================================================
+
+        self.recognition_service = RecognitionService()
+
         self.roi_ready = False
 
         self.capture_done = False
-
-        # czas wykrycia
 
         self.card_detected_time = None
 
@@ -102,8 +109,8 @@ class MainWindow(QMainWindow):
         self.create_ui()
 
         self.load_cameras()
-        # ========================================================
 
+    # ========================================================
     # MENU
     # ========================================================
 
@@ -200,8 +207,8 @@ class MainWindow(QMainWindow):
         for camera in cameras:
 
             self.camera_combo.addItem(f"Kamera {camera}", camera)
+        # ========================================================
 
-    # ========================================================
     # START KAMERY
     # ========================================================
 
@@ -224,8 +231,8 @@ class MainWindow(QMainWindow):
         self.camera_timer.start(30)
 
         self.status.showMessage("🟢 Kamera uruchomiona")
-        # ========================================================
 
+    # ========================================================
     # GŁÓWNY SKANER ROI
     # ========================================================
 
@@ -238,10 +245,6 @@ class MainWindow(QMainWindow):
             return
 
         display_frame = frame.copy()
-
-        # ====================================================
-        # WYZNACZENIE RAMKI SKANOWANIA
-        # ====================================================
 
         frame_height, frame_width = frame.shape[:2]
 
@@ -259,11 +262,6 @@ class MainWindow(QMainWindow):
 
             roi = frame[y : y + h, x : x + w]
 
-            # =================================================
-            # PIERWSZE URUCHOMIENIE
-            # ZAPIS PUSTEGO ROI
-            # =================================================
-
             if not self.roi_ready:
 
                 self.roi_detector.set_reference(roi)
@@ -271,10 +269,6 @@ class MainWindow(QMainWindow):
                 self.roi_ready = True
 
                 print("ROI PUSTE ZAPISANE")
-
-            # =================================================
-            # SPRAWDZENIE KARTY
-            # =================================================
 
             card_present = self.roi_detector.check_card(roi)
 
@@ -322,11 +316,7 @@ class MainWindow(QMainWindow):
 
             print("BŁĄD SKANERA:", e)
 
-        # pokaz obrazu kamery
-
         self.camera_widget.set_frame(display_frame)
-
-        # FPS
 
         self.frame_count += 1
 
@@ -355,7 +345,7 @@ class MainWindow(QMainWindow):
         self.status.showMessage("🔴 Kamera zatrzymana")
 
     # ========================================================
-    # ZAPIS OBRAZU KARTY
+    # ZAPIS + ROZPOZNANIE KARTY
     # ========================================================
 
     def save_card_image(self, roi):
@@ -375,6 +365,18 @@ class MainWindow(QMainWindow):
         result = cv2.imwrite(filename, image)
 
         print("ZAPIS KARTY:", filename, result)
+
+        if result:
+
+            recognition = self.recognition_service.recognize_card(filename)
+
+            print("\n======================")
+
+            print("ROZPOZNANIE KARTY:")
+
+            print(recognition)
+
+            print("======================\n")
 
         return result
 
@@ -425,3 +427,8 @@ def main():
     window.show()
 
     sys.exit(app.exec())
+
+
+if __name__ == "__main__":
+
+    main()
