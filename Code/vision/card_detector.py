@@ -1,17 +1,18 @@
 # ============================================================
-# CARD DETECTOR v1.7.1 HYBRID
-# Full Card Boundary + Fallback Detection
-#
+# CARD DETECTOR v1.8
+# Stable Card Scanner
 # Pokemon / Magic / Lorcana / Marvel / TCG
 # ============================================================
 
 
 import cv2
 import numpy as np
+import os
 
 
 
 class CardDetector:
+    print("CARD DETECTOR v1.8 START")
 
 
     def __init__(self):
@@ -19,19 +20,20 @@ class CardDetector:
         self.last_card = None
         self.last_score = 0
 
-
-        # zakres proporcji różnych kart
-
+        # proporcje kart
         self.min_ratio = 1.15
         self.max_ratio = 1.70
 
 
 
-    # --------------------------------------------------------
-    # GŁÓWNA FUNKCJA DETEKCJI
-    # --------------------------------------------------------
+    # ========================================================
+    # GŁÓWNA DETEKCJA
+    # ========================================================
 
-    def detect(self, frame):
+    def detect(
+            self,
+            frame
+    ):
 
 
         if frame is None:
@@ -50,13 +52,9 @@ class CardDetector:
         )
 
 
-
-        # poprawa kontrastu
-
         gray = cv2.equalizeHist(
             gray
         )
-
 
 
         blur = cv2.GaussianBlur(
@@ -66,15 +64,11 @@ class CardDetector:
         )
 
 
-
-        # pierwsza metoda
-
         edges = cv2.Canny(
             blur,
             40,
             120
         )
-
 
 
         kernel = np.ones(
@@ -90,7 +84,6 @@ class CardDetector:
         )
 
 
-
         contours, _ = cv2.findContours(
             edges,
             cv2.RETR_EXTERNAL,
@@ -98,53 +91,47 @@ class CardDetector:
         )
 
 
-        card = self.find_best_contour(
-         contours,
-          frame.shape
-)
-
-        print("KONTURY:", len(contours), "WYNIK:", card is not None)
+        corners = self.find_best_contour(
+            contours,
+            frame.shape
+        )
 
 
+        print(
+            "KONTURY:",
+            len(contours),
+            "WYNIK:",
+            corners is not None
+        )
 
 
-        if card is None:
+        if corners is None:
 
-         print("BRAK KARTY - kontury:", len(contours))
+            return original, None, 0
 
-         return original, None, 0
 
+
+        area = cv2.contourArea(
+            corners.astype("float32")
+        )
 
 
         score = self.calculate_score(
-            cv2.contourArea(card),
+            area,
             frame.shape[1],
             frame.shape[0]
         )
 
 
-
-        self.last_card = card
+        self.last_card = corners
         self.last_score = score
 
 
 
-        return original, card, score
-
-        # --------------------------------------------------------
-    # SZUKANIE NAJLEPSZEGO KONTURU
-    # --------------------------------------------------------
-
-        # --------------------------------------------------------
-    # SZUKANIE NAJLEPSZEGO KONTURU KARTY v1.7.2
-    # --------------------------------------------------------
-
-    
-    
-        # --------------------------------------------------------
-    # FIND BEST CARD CONTOUR v1.7.3
-    # PRIORYTET: PRAWDZIWA KARTA
-    # --------------------------------------------------------
+        return original, corners, score
+        # ========================================================
+    # SZUKANIE NAJLEPSZEGO KONTURU KARTY
+    # ========================================================
 
     def find_best_contour(
             self,
@@ -164,10 +151,6 @@ class CardDetector:
 
 
         for contour in contours:
-            print(
-          "AREA:",
-            int(cv2.contourArea(contour))
-        )
 
 
             area = cv2.contourArea(
@@ -175,7 +158,11 @@ class CardDetector:
             )
 
 
-            # odrzucamy śmieci
+            print(
+                "AREA:",
+                int(area)
+            )
+
 
             if area < frame_area * 0.02:
 
@@ -197,15 +184,14 @@ class CardDetector:
 
             approx = cv2.approxPolyDP(
                 contour,
-                0.015 * perimeter,
+                0.03 * perimeter,
                 True
             )
 
 
+            if len(approx) < 4 or len(approx) > 8:
 
-            if len(approx) < 4 or len(approx) > 6:
-                 print("ODRZUCONO - BOKI:", len(approx))
-                 continue
+                continue
 
 
 
@@ -214,20 +200,21 @@ class CardDetector:
             )
 
 
+            if w == 0:
 
-            ratio = h / w if w else 0
-
-
-
-            # proporcja karty Pokemon
-
-            if ratio < 1.10 or ratio > 2.00:
-                print("ODRZUCONO - PROPORCJA:", ratio)
                 continue
 
 
 
-            # karta nie może być za mała
+            ratio = h / w
+
+
+
+            if ratio < 1.10 or ratio > 2.00:
+
+                continue
+
+
 
             if h < height * 0.12:
 
@@ -235,30 +222,24 @@ class CardDetector:
 
 
 
-            # środek karty
-
-            cx = x + w/2
-            cy = y + h/2
+            cx = x + w / 2
+            cy = y + h / 2
 
 
 
             distance = (
-                abs(cx-width/2)
+                abs(cx - width/2)
                 +
-                abs(cy-height/2)
+                abs(cy - height/2)
             )
 
 
 
             center_score = max(
                 0,
-                100 - distance/8
+                100 - distance / 8
             )
 
-
-
-            # preferujemy większą kartę,
-            # ale nie ogromny obiekt
 
             size_score = (
                 area / frame_area
@@ -276,14 +257,31 @@ class CardDetector:
 
             if score > best_score:
 
+
                 best_score = score
 
-                best = approx
+
+                rect = cv2.minAreaRect(
+                    contour
+                )
+
+
+                box = cv2.boxPoints(
+                    rect
+                )
+
+
+                best = box.astype(
+                    "float32"
+                )
 
 
 
         return best
-    
+        # ========================================================
+    # RYSOWANIE WYNIKU
+    # ========================================================
+
     def draw_result(
             self,
             frame,
@@ -300,6 +298,8 @@ class CardDetector:
 
         points = corners.reshape(
             (-1,2)
+        ).astype(
+            "int32"
         )
 
 
@@ -316,7 +316,7 @@ class CardDetector:
 
         cv2.putText(
             frame,
-            f"CARD FOUND {score}%",
+            f"CARD FOUND {int(score)}%",
             (30,60),
             cv2.FONT_HERSHEY_SIMPLEX,
             1.5,
@@ -330,19 +330,26 @@ class CardDetector:
 
 
 
-    # --------------------------------------------------------
-    # KOREKCJA PERSPEKTYWY
-    # --------------------------------------------------------
+    # ========================================================
+    # POBIERANIE OBRAZU KARTY
+    # ========================================================
 
-    def correct_perspective(
+    def get_card_image(
             self,
-            image,
+            frame,
             corners
     ):
 
 
+        if corners is None:
+
+            return None
+
+
+
         pts = corners.reshape(
-            4,2
+            4,
+            2
         ).astype(
             "float32"
         )
@@ -361,24 +368,16 @@ class CardDetector:
         )
 
 
-        rect[0] = pts[np.argmin(s)]
-        rect[2] = pts[np.argmax(s)]
+        # poprawna kolejność narożników
 
-
-
-        diff = np.diff(
-            pts,
-            axis=1
-        )
-
-
-        rect[1] = pts[np.argmin(diff)]
-        rect[3] = pts[np.argmax(diff)]
+        rect[0] = pts[2]   # lewy góra
+        rect[1] = pts[3]   # prawy góra
+        rect[2] = pts[0]   # prawy dół
+        rect[3] = pts[1]   # lewy dół
 
 
 
         width = 630
-
         height = 880
 
 
@@ -403,7 +402,7 @@ class CardDetector:
 
 
         warped = cv2.warpPerspective(
-            image,
+            frame,
             matrix,
             (width,height)
         )
@@ -411,36 +410,9 @@ class CardDetector:
 
 
         return warped
-
-
-
-    # --------------------------------------------------------
-    # POBIERANIE SAMEJ KARTY
-    # --------------------------------------------------------
-
-    def get_card_image(
-            self,
-            frame,
-            corners
-    ):
-
-
-        if corners is None:
-
-            return None
-
-
-
-        return self.correct_perspective(
-            frame,
-            corners
-        )
-
-
-
-    # --------------------------------------------------------
-    # ZAPIS
-    # --------------------------------------------------------
+        # ========================================================
+    # ZAPIS KARTY
+    # ========================================================
 
     def save_card(
             self,
@@ -455,16 +427,35 @@ class CardDetector:
 
 
 
-        return cv2.imwrite(
-            filename,
-            image
+        save_folder = r"C:\ABS\Code\scans"
+
+
+
+        os.makedirs(
+            save_folder,
+            exist_ok=True
         )
 
 
 
-    # --------------------------------------------------------
-    # OCENA
-    # --------------------------------------------------------
+        save_path = os.path.join(
+            save_folder,
+            filename
+        )
+        result = cv2.imwrite(
+          save_path,
+          image
+          )
+
+        print("ZAPIS PLIK:", save_path)
+        print("ISTNIEJE:", os.path.exists(save_path))
+
+        return result
+
+        
+    # ========================================================
+    # OCENA WYKRYCIA
+    # ========================================================
 
     def calculate_score(
             self,
@@ -489,6 +480,7 @@ class CardDetector:
         )
 
 
+
         if score < 50:
 
             score = 50
@@ -496,3 +488,4 @@ class CardDetector:
 
 
         return score
+    
