@@ -3,6 +3,15 @@
     "references": [
         {
             "image": "database/cards\\my_first_card\\images\\ref_01.jpg"
+        },
+        {
+            "image": "database/cards\\my_first_card\\images\\ref_02.jpg"
+        },
+        {
+            "image": "database/cards\\my_first_card\\images\\ref_03.jpg"
+        },
+        {
+            "image": "database/cards\\my_first_card\\images\\ref_04.jpg"
         }
     ]
 }
