@@ -2,6 +2,8 @@ from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel
 
 from PySide6.QtCore import Qt
 
+import os
+
 
 class RecognitionPanel(QWidget):
 
@@ -19,9 +21,17 @@ class RecognitionPanel(QWidget):
 
         self.card_label.setAlignment(Qt.AlignCenter)
 
-        self.score_label = QLabel("Score: -")
+        self.score_label = QLabel("Pewność: -")
 
         self.score_label.setAlignment(Qt.AlignCenter)
+
+        self.reference_label = QLabel("Wzorzec: -")
+
+        self.reference_label.setAlignment(Qt.AlignCenter)
+
+        self.references_label = QLabel("Referencje: -")
+
+        self.references_label.setAlignment(Qt.AlignCenter)
 
         self.layout.addWidget(self.title)
 
@@ -29,13 +39,21 @@ class RecognitionPanel(QWidget):
 
         self.layout.addWidget(self.score_label)
 
+        self.layout.addWidget(self.reference_label)
+
+        self.layout.addWidget(self.references_label)
+
     def show_result(self, result):
 
         if not result:
 
             self.card_label.setText("Brak wyniku")
 
-            self.score_label.setText("Score: -")
+            self.score_label.setText("Pewność: -")
+
+            self.reference_label.setText("Wzorzec: -")
+
+            self.references_label.setText("Referencje: -")
 
             return
 
@@ -43,6 +61,18 @@ class RecognitionPanel(QWidget):
 
         score = result.get("score", 0)
 
+        reference = result.get("reference", result.get("best_reference", "-"))
+
+        reference_count = result.get("reference_count", "-")
+
+        if reference != "-":
+
+            reference = os.path.basename(reference)
+
         self.card_label.setText(f"Karta:\n{card}")
 
-        self.score_label.setText(f"Score: {score}%")
+        self.score_label.setText(f"Pewność: {score}%")
+
+        self.reference_label.setText(f"Najlepszy wzorzec:\n{reference}")
+
+        self.references_label.setText(f"Referencje: {reference_count}")

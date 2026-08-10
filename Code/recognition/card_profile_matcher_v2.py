@@ -11,39 +11,41 @@ class CardProfileMatcherV2:
         self.database = database
         self.matcher = FeatureMatcherV21()
 
+
     def load_profiles(self):
 
         profiles = []
 
         if not os.path.exists(self.database):
-
             return profiles
 
         for card_id in os.listdir(self.database):
 
-            profile_path = os.path.join(self.database, card_id, "profile.json")
+            profile_path = os.path.join(
+                self.database,
+                card_id,
+                "profile.json"
+            )
 
             if not os.path.isfile(profile_path):
-
                 continue
 
             with open(profile_path, "r", encoding="utf-8") as file:
-
                 profiles.append(json.load(file))
 
         return profiles
 
+
     def normalize_score(self, score):
 
         if score <= 0:
-
             return 0
 
-        if score >= 8000:
-
+        if score >= 100:
             return 100
 
-        return int((score / 8000) * 100)
+        return int(score)
+
 
     def recognize(self, image_path):
 
@@ -60,16 +62,23 @@ class CardProfileMatcherV2:
 
             for reference in profile["references"]:
 
-                score = self.matcher.compare(image_path, reference["image"])
+                score = self.matcher.compare(
+                    image_path,
+                    reference["image"]
+                )
 
                 reference_results.append(
-                    {"reference": reference["image"], "score": int(score)}
+                    {
+                        "reference": reference["image"],
+                        "score": int(score)
+                    }
                 )
 
                 if score > best_score:
 
                     best_score = score
                     best_reference = reference["image"]
+
 
             results.append(
                 {
@@ -81,6 +90,10 @@ class CardProfileMatcherV2:
                 }
             )
 
-        results.sort(key=lambda item: item["score"], reverse=True)
+
+        results.sort(
+            key=lambda item: item["score"],
+            reverse=True
+        )
 
         return results
