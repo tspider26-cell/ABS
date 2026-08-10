@@ -1,80 +1,105 @@
 import os
 import json
-import shutil
 import hashlib
+import cv2
 
 
 class CardProfileService:
+
+    MAX_REFERENCES = 10
 
     def __init__(self, database="database/cards"):
 
         self.database = database
 
-        os.makedirs(self.database, exist_ok=True)
+    def get_card_path(self, card_id):
 
-    def file_hash(self, path):
+        return os.path.join(self.database, card_id)
 
-        with open(path, "rb") as f:
+    def get_profile_path(self, card_id):
 
-            return hashlib.md5(f.read()).hexdigest()
+        return os.path.join(self.get_card_path(card_id), "profile.json")
 
     def load_profile(self, card_id):
 
-        profile_file = os.path.join(self.database, card_id, "profile.json")
+        path = self.get_profile_path(card_id)
 
-        if not os.path.isfile(profile_file):
+        if not os.path.exists(path):
 
-            return None
+            return {"id": card_id, "references": []}
 
-        with open(profile_file, "r", encoding="utf-8") as f:
+        with open(path, "r", encoding="utf-8") as file:
 
-            return json.load(f)
+            return json.load(file)
 
-    def save_profile(self, card_id, profile):
+    def save_profile(self, profile):
 
-        folder = os.path.join(self.database, card_id)
+        path = self.get_profile_path(profile["id"])
 
-        with open(os.path.join(folder, "profile.json"), "w", encoding="utf-8") as f:
+        os.makedirs(os.path.dirname(path), exist_ok=True)
 
-            json.dump(profile, f, indent=4)
+        with open(path, "w", encoding="utf-8") as file:
 
-    def capture_reference(self, card_id, source_image):
+            json.dump(profile, file, indent=4, ensure_ascii=False)
+
+    def image_hash(self, image_path):
+
+        with open(image_path, "rb") as file:
+
+            return hashlib.md5(file.read()).hexdigest()
+
+    def capture_reference(self, card_id, image_path):
+
+        return self.add_reference(card_id, image_path)
+
+    def add_reference(self, card_id, image_path):
 
         profile = self.load_profile(card_id)
 
-        if profile is None:
+        references = profile["references"]
 
-            raise Exception("Profil karty nie istnieje")
+        if len(references) >= self.MAX_REFERENCES:
 
-        new_hash = self.file_hash(source_image)
+            return {
+                "status": "limit_reached",
+                "message": "Osiągnięto maksymalną liczbę referencji",
+                "total": len(references),
+            }
 
-        for ref in profile["references"]:
+        new_hash = self.image_hash(image_path)
 
-            if os.path.exists(ref["image"]):
+        for ref in references:
 
-                if self.file_hash(ref["image"]) == new_hash:
+            if self.image_hash(ref["image"]) == new_hash:
 
-                    return {
-                        "status": "duplicate",
-                        "message": "Ta referencja już istnieje",
-                    }
+                return {
+                    "status": "duplicate",
+                    "message": "Ta referencja już istnieje",
+                    "image": ref["image"],
+                }
 
-        folder = os.path.join(self.database, card_id, "images")
+        images_dir = os.path.join(self.get_card_path(card_id), "images")
 
-        number = len(profile["references"]) + 1
+        os.makedirs(images_dir, exist_ok=True)
+
+        number = len(references) + 1
 
         filename = f"ref_{number:02d}.jpg"
 
-        target = os.path.join(folder, filename)
+        destination = os.path.join(images_dir, filename)
 
-        shutil.copy(source_image, target)
+        image = cv2.imread(image_path)
 
-        profile["references"].append({"image": target})
+        if image is None:
 
-        self.save_profile(card_id, profile)
+            return {"status": "error", "message": "Nie można odczytać obrazu"}
 
-        return {
-            "status": "added",
-            "reference": target,
-            "total": len(profile["references"]),
-        }
+        cv2.imwrite(destination, image)
+
+        references.append({"image": destination})
+
+        profile["references"] = references
+
+        self.save_profile(profile)
+
+        return {"status": "added", "reference": destination, "total": len(references)}

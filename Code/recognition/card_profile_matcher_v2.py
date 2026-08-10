@@ -9,7 +9,6 @@ class CardProfileMatcherV2:
     def __init__(self, database="database/cards"):
 
         self.database = database
-
         self.matcher = FeatureMatcherV21()
 
     def load_profiles(self):
@@ -28,25 +27,23 @@ class CardProfileMatcherV2:
 
                 continue
 
-            with open(profile_path, "r", encoding="utf-8") as f:
+            with open(profile_path, "r", encoding="utf-8") as file:
 
-                profiles.append(json.load(f))
+                profiles.append(json.load(file))
 
         return profiles
 
     def normalize_score(self, score):
 
-        # skala profilu 0-100
-
         if score <= 0:
 
             return 0
 
-        if score >= 5000:
+        if score >= 8000:
 
             return 100
 
-        return int(score / 50)
+        return int((score / 8000) * 100)
 
     def recognize(self, image_path):
 
@@ -57,34 +54,33 @@ class CardProfileMatcherV2:
         for profile in profiles:
 
             best_score = 0
-
             best_reference = None
 
-            references_results = []
+            reference_results = []
 
-            for ref in profile["references"]:
+            for reference in profile["references"]:
 
-                score = self.matcher.compare(image_path, ref["image"])
+                score = self.matcher.compare(image_path, reference["image"])
 
-                references_results.append(
-                    {"reference": ref["image"], "score": int(score)}
+                reference_results.append(
+                    {"reference": reference["image"], "score": int(score)}
                 )
 
                 if score > best_score:
 
                     best_score = score
-
-                    best_reference = ref["image"]
+                    best_reference = reference["image"]
 
             results.append(
                 {
                     "card": profile["id"],
                     "score": self.normalize_score(best_score),
                     "best_reference": best_reference,
-                    "references": references_results,
+                    "reference_count": len(profile["references"]),
+                    "references": reference_results,
                 }
             )
 
-        results.sort(key=lambda x: x["score"], reverse=True)
+        results.sort(key=lambda item: item["score"], reverse=True)
 
         return results

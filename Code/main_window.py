@@ -30,6 +30,7 @@ from PySide6.QtWidgets import (
 from theme import DARK_THEME
 
 from camera_manager import CameraManager
+from widgets.recognition_panel import RecognitionPanel
 from widgets.camera_widget import CameraWidget
 
 from vision.card_detector_roi import ROICardDetector
@@ -170,7 +171,9 @@ class MainWindow(QMainWindow):
 
         splitter.addWidget(QGroupBox("Historia sesji"))
 
-        splitter.addWidget(QGroupBox("Rozpoznana karta"))
+        self.recognition_panel = RecognitionPanel()
+
+        splitter.addWidget(self.recognition_panel)
 
         splitter.setSizes([350, 900])
 
@@ -378,6 +381,7 @@ class MainWindow(QMainWindow):
 
             print("======================\n")
 
+            self.recognition_panel.show_result(recognition)
         return result
 
     # ========================================================
