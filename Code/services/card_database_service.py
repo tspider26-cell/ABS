@@ -1,120 +1,43 @@
-# ============================================================
-# Pokémon TCG Database Service
-# Pobieranie informacji i obrazów kart
-# ============================================================
+# ABS Card Database Service v1.0
 
-import os
-import requests
+import json
+from pathlib import Path
 
 
 class CardDatabaseService:
 
-    def __init__(self):
+    def __init__(self, database_path="database/cards.json"):
 
-        self.base_url = "https://api.pokemontcg.io/v2/cards"
+        self.database_path = Path(database_path)
 
-    # ========================================================
-    # WYSZUKIWANIE KARTY
-    # ========================================================
+        self.cards = self.load()
 
-    def search_card(self, name):
 
-        try:
+    def load(self):
 
-            params = {"q": f"name {name}"}
+        if not self.database_path.exists():
 
-            response = requests.get(self.base_url, params=params, timeout=30)
+            return []
 
-            print("API URL:", response.url)
-            print("API STATUS:", response.status_code)
+        with open(
+            self.database_path,
+            "r",
+            encoding="utf-8"
+        ) as file:
 
-            if response.status_code != 200:
+            return json.load(file)
 
-                print("BŁĄD API:", response.text)
 
-                return None
+    def find(self, metadata):
 
-            data = response.json()
+        for card in self.cards:
 
-            cards = data.get("data", [])
+            if (
+                card.get("family") == metadata.get("family")
+                and card.get("number") == metadata.get("number")
+            ):
 
-            if not cards:
+                return card
 
-                print("NIE ZNALEZIONO:", name)
 
-                return None
-
-            return cards[0]
-
-        except requests.exceptions.Timeout:
-
-            print("API TIMEOUT - brak odpowiedzi serwera")
-
-            return None
-
-        except Exception as e:
-
-            print("BŁĄD POŁĄCZENIA:", e)
-
-            return None
-
-    # ========================================================
-    # DANE KARTY
-    # ========================================================
-
-    def get_card_info(self, card):
-
-        if card is None:
-
-            return None
-
-        return {
-            "id": card.get("id", ""),
-            "name": card.get("name", ""),
-            "set": card.get("set", {}).get("name", ""),
-            "number": card.get("number", ""),
-            "rarity": card.get("rarity", ""),
-            "image": card.get("images", {}).get("large", ""),
-        }
-
-    # ========================================================
-    # POBIERANIE OBRAZU
-    # ========================================================
-
-    def download_card_image(self, image_url, filename):
-
-        try:
-
-            if not image_url:
-
-                print("BRAK OBRAZU")
-
-                return None
-
-            folder = "cards/images"
-
-            os.makedirs(folder, exist_ok=True)
-
-            path = os.path.join(folder, filename)
-
-            response = requests.get(image_url, timeout=30)
-
-            if response.status_code != 200:
-
-                print("BŁĄD OBRAZU:", response.status_code)
-
-                return None
-
-            with open(path, "wb") as file:
-
-                file.write(response.content)
-
-            print("ZAPISANO:", path)
-
-            return path
-
-        except Exception as e:
-
-            print("BŁĄD POBIERANIA:", e)
-
-            return None
+        return None

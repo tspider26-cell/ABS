@@ -193,11 +193,15 @@ class CardDetector:
         s = pts.sum(axis=1)
 
         # poprawna kolejność narożników
+        # sortowanie niezależne od obrotu karty
 
-        rect[0] = pts[2]  # lewy góra
-        rect[1] = pts[3]  # prawy góra
-        rect[2] = pts[0]  # prawy dół
-        rect[3] = pts[1]  # lewy dół
+        s = pts.sum(axis=1)
+        diff = np.diff(pts, axis=1)
+
+        rect[0] = pts[np.argmin(s)]      # lewy góra
+        rect[2] = pts[np.argmax(s)]      # prawy dół
+        rect[1] = pts[np.argmin(diff)]   # prawy góra
+        rect[3] = pts[np.argmax(diff)]   # lewy dół
 
         width = 630
         height = 880

@@ -130,11 +130,111 @@ class ROICardDetector:
 
             return None
 
-        # kopiujemy aktualny obszar skanowania
+        # Szukamy właściwej krawędzi karty wewnątrz ROI
+        # i wycinamy tylko kartę zamiast całego pola skanera.
 
-        card = roi.copy()
+        gray = cv2.cvtColor(roi, cv2.COLOR_BGR2GRAY)
 
-        return card
+        blur = cv2.GaussianBlur(
+            gray,
+            (5, 5),
+            0
+        )
+
+        edges = cv2.Canny(
+            blur,
+            50,
+            150
+        )
+
+        contours, _ = cv2.findContours(
+            edges,
+            cv2.RETR_EXTERNAL,
+            cv2.CHAIN_APPROX_SIMPLE
+        )
+
+        best = None
+        best_area = 0
+
+        for contour in contours:
+
+            area = cv2.contourArea(contour)
+
+            if area < 5000:
+                continue
+
+            perimeter = cv2.arcLength(
+                contour,
+                True
+            )
+
+            approx = cv2.approxPolyDP(
+                contour,
+                0.03 * perimeter,
+                True
+            )
+
+            if len(approx) != 4:
+                continue
+
+            if area > best_area:
+
+                best_area = area
+                best = approx
+
+        if best is None:
+            return roi.copy()
+
+
+        pts = best.reshape(4, 2).astype("float32")
+
+        # kolejność narożników
+        s = pts.sum(axis=1)
+        diff = np.diff(pts, axis=1)
+
+        rect = np.zeros(
+            (4, 2),
+            dtype="float32"
+        )
+
+        rect[0] = pts[np.argmin(s)]
+        rect[2] = pts[np.argmax(s)]
+        rect[1] = pts[np.argmin(diff)]
+        rect[3] = pts[np.argmax(diff)]
+
+        width = 630
+        height = 880
+
+        dst = np.array(
+            [
+                [0, 0],
+                [width - 1, 0],
+                [width - 1, height - 1],
+                [0, height - 1]
+            ],
+            dtype="float32"
+        )
+
+        matrix = cv2.getPerspectiveTransform(
+            rect,
+            dst
+        )
+
+        card = cv2.warpPerspective(
+            roi,
+            matrix,
+            (width, height)
+        )
+
+        # delikatne czarne obramowanie
+        result = np.zeros(
+            (height + 80, width + 80, 3),
+            dtype=np.uint8
+        )
+
+        result[40:40 + height, 40:40 + width] = card
+
+        return result
 
     # ========================================================
     # RESET PO ZAPISIE

@@ -1,16 +1,30 @@
-from recognition.feature_extractor import FeatureExtractor
-from recognition.card_identifier import CardIdentifier
-
-extractor = FeatureExtractor()
+from services.card_identifier import CardIdentifier
 
 
-features = extractor.extract("database/images/base1-1.png")
+metadata = {
+
+    "family": "Pokemon",
+    "number": "035/088",
+    "set": "WL035"
+
+}
 
 
-identifier = CardIdentifier()
+service = CardIdentifier()
+
+result = service.identify(
+    metadata
+)
 
 
-result = identifier.identify(features)
+print("=" * 40)
+print("ABS CARD IDENTIFIER v1.0")
+print("=" * 40)
 
+print()
 
 print(result)
+
+print()
+
+print("=" * 40)
