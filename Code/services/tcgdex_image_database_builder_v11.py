@@ -4,6 +4,7 @@ import json
 import os
 import time
 from pathlib import Path
+from config.settings import IMAGE_DATABASE
 
 import requests
 
@@ -11,7 +12,7 @@ import requests
 class TCGdexImageDatabaseBuilderV11:
     API_BASE = "https://api.tcgdex.net/v2"
     MASTER_DATABASE = Path("database/master_cards.json")
-    IMAGE_DIR = Path("database/images/tcgdex")
+    IMAGE_DIR = IMAGE_DATABASE
     INDEX_FILE = Path("database/image_index.json")
     LOG_FILE = Path("database/image_builder_log.json")
 
@@ -69,20 +70,12 @@ class TCGdexImageDatabaseBuilderV11:
         image_path = self.IMAGE_DIR / f"{tcgdex_id}.png"
 
         if image_path.exists() and image_path.stat().st_size > 0:
-            return {
-                "status": "skipped",
-                "id": tcgdex_id,
-                "file": str(image_path)
-            }
+            return {"status": "skipped", "id": tcgdex_id, "file": str(image_path)}
 
         image_url, error = self.get_card_image_url(tcgdex_id)
 
         if error:
-            return {
-                "status": "failed",
-                "id": tcgdex_id,
-                "error": error
-            }
+            return {"status": "failed", "id": tcgdex_id, "error": error}
 
         try:
             response = requests.get(image_url, timeout=self.timeout)
@@ -91,7 +84,7 @@ class TCGdexImageDatabaseBuilderV11:
                 return {
                     "status": "failed",
                     "id": tcgdex_id,
-                    "error": f"image_http_{response.status_code}"
+                    "error": f"image_http_{response.status_code}",
                 }
 
             content_type = response.headers.get("Content-Type", "")
@@ -102,7 +95,7 @@ class TCGdexImageDatabaseBuilderV11:
                 return {
                     "status": "failed",
                     "id": tcgdex_id,
-                    "error": "invalid_image_response"
+                    "error": "invalid_image_response",
                 }
 
             with image_path.open("wb") as f:
@@ -112,27 +105,23 @@ class TCGdexImageDatabaseBuilderV11:
                 "status": "downloaded",
                 "id": tcgdex_id,
                 "file": str(image_path),
-                "bytes": len(response.content)
+                "bytes": len(response.content),
             }
 
         except requests.RequestException as exc:
-            return {
-                "status": "failed",
-                "id": tcgdex_id,
-                "error": str(exc)
-            }
+            return {"status": "failed", "id": tcgdex_id, "error": str(exc)}
 
     def build(self):
         cards = self.load_cards()
         index = self.load_index()
 
-        batch = cards[:self.batch_size]
+        batch = cards[: self.batch_size]
 
         stats = {
             "total_requested": len(batch),
             "downloaded": 0,
             "skipped": 0,
-            "failed": 0
+            "failed": 0,
         }
 
         failures = []
@@ -150,10 +139,7 @@ class TCGdexImageDatabaseBuilderV11:
 
             if not tcgdex_id:
                 stats["failed"] += 1
-                failures.append({
-                    "position": position,
-                    "error": "missing_card_id"
-                })
+                failures.append({"position": position, "error": "missing_card_id"})
                 print(f"[{position}/{len(batch)}] FAILED: missing id")
                 continue
 
@@ -173,15 +159,12 @@ class TCGdexImageDatabaseBuilderV11:
                 "name": card.get("name"),
                 "set": card.get("set", {}),
                 "number": card.get("number"),
-                "source": "tcgdex"
+                "source": "tcgdex",
             }
 
             processed.append(tcgdex_id)
 
-            print(
-                f"[{position}/{len(batch)}] "
-                f"{tcgdex_id}: {status.upper()}"
-            )
+            print(f"[{position}/{len(batch)}] " f"{tcgdex_id}: {status.upper()}")
 
             if self.delay:
                 time.sleep(self.delay)
@@ -192,7 +175,7 @@ class TCGdexImageDatabaseBuilderV11:
             "master_total": len(cards),
             "processed_ids": processed,
             "stats": stats,
-            "failures": failures
+            "failures": failures,
         }
 
         self.save_json(self.INDEX_FILE, index)

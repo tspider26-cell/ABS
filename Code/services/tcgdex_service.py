@@ -1,5 +1,6 @@
 import os
 import requests
+from config.settings import IMAGE_DATABASE
 
 
 class TCGdexService:
@@ -61,7 +62,7 @@ class TCGdexService:
 
                 image_url += "/high.png"
 
-            folder = "database/images"
+            folder = IMAGE_DATABASE
 
             os.makedirs(folder, exist_ok=True)
 

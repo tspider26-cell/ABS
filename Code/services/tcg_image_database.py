@@ -1,12 +1,13 @@
 import os
 import requests
+from config.settings import IMAGE_DATABASE
 
 
 class TCGImageDatabase:
 
     def __init__(self):
 
-        self.folder = "database/images"
+        self.folder = IMAGE_DATABASE
 
     def download_card_image(self, card_id, image_url):
 
