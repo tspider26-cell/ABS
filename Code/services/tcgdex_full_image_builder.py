@@ -1,9 +1,10 @@
 import json
 import time
 from pathlib import Path
-from config.settings import IMAGE_DATABASE
 
 import requests
+
+from config.settings import IMAGE_DATABASE
 
 
 class TCGdexFullImageBuilder:
@@ -11,14 +12,17 @@ class TCGdexFullImageBuilder:
     API = "https://api.tcgdex.net/v2"
 
     MASTER = Path("database/master_cards.json")
-    ("database/images/tcgdex")
+
     IMAGE_DIR = IMAGE_DATABASE
+
     LOG = Path("database/full_image_builder_log.json")
     MISSING = Path("database/missing_images.json")
     INDEX = Path("database/image_index.json")
+    PROGRESS = Path("database/image_builder_progress.json")
 
-    def __init__(self, limit=500, delay=0.15):
+    def __init__(self, start=0, limit=500, delay=0.25):
 
+        self.start = start
         self.limit = limit
         self.delay = delay
 
@@ -27,6 +31,7 @@ class TCGdexFullImageBuilder:
     def load_json(self, path):
 
         if not path.exists():
+
             return {}
 
         with open(path, "r", encoding="utf-8") as f:
@@ -43,19 +48,27 @@ class TCGdexFullImageBuilder:
 
         url = f"{self.API}/en/cards/{card_id}"
 
-        r = requests.get(url, timeout=30)
+        try:
 
-        if r.status_code != 200:
+            r = requests.get(url, timeout=30)
+
+            if r.status_code != 200:
+
+                return None
+
+            data = r.json()
+
+            image = data.get("image")
+
+            if not image:
+
+                return None
+
+            return image + "/high.png"
+
+        except Exception:
+
             return None
-
-        data = r.json()
-
-        image = data.get("image")
-
-        if not image:
-            return None
-
-        return image + "/high.png"
 
     def download(self, card):
 
@@ -95,19 +108,27 @@ class TCGdexFullImageBuilder:
 
         cards = self.load_json(self.MASTER)
 
-        if self.limit:
-
-            cards = cards[: self.limit]
+        cards = cards[self.start : self.start + self.limit]
 
         index = self.load_json(self.INDEX)
 
+        progress = {"start": self.start, "limit": self.limit, "processed": 0}
+
         missing = []
 
-        stats = {"total": len(cards), "downloaded": 0, "skipped": 0, "missing": 0}
+        stats = {
+            "start": self.start,
+            "total": len(cards),
+            "downloaded": 0,
+            "skipped": 0,
+            "missing": 0,
+        }
 
         print("=" * 40)
-        print("ABS TCGDEX FULL IMAGE BUILDER v1.0")
+        print("ABS TCGDEX FULL IMAGE BUILDER v1.2")
         print("=" * 40)
+
+        print("START:", self.start)
 
         print("CARDS:", len(cards))
 
@@ -137,6 +158,10 @@ class TCGdexFullImageBuilder:
                 "number": card.get("number"),
                 "image": card["id"] + ".png",
             }
+
+            progress["processed"] = i
+
+            self.save_json(self.PROGRESS, progress)
 
             time.sleep(self.delay)
 

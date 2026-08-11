@@ -1,1002 +1,1402 @@
 {
-  "miscp-001": {
-    "image": "miscp-001.png",
-    "name": "Ancient Mew",
-    "set": {
-      "id": "miscp",
-      "name": "Miscellaneous Promos"
-    },
-    "number": "001",
-    "source": "tcgdex"
-  },
-  "base1-1": {
-    "image": "base1-1.png",
-    "name": "Alakazam",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "1",
-    "source": "tcgdex"
-  },
-  "base1-2": {
-    "image": "base1-2.png",
-    "name": "Blastoise",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "2",
-    "source": "tcgdex"
-  },
-  "base1-3": {
-    "image": "base1-3.png",
-    "name": "Chansey",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "3",
-    "source": "tcgdex"
-  },
-  "base1-4": {
-    "image": "base1-4.png",
-    "name": "Charizard",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "4",
-    "source": "tcgdex"
-  },
-  "base1-5": {
-    "image": "base1-5.png",
-    "name": "Clefairy",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "5",
-    "source": "tcgdex"
-  },
-  "base1-6": {
-    "image": "base1-6.png",
-    "name": "Gyarados",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "6",
-    "source": "tcgdex"
-  },
-  "base1-7": {
-    "image": "base1-7.png",
-    "name": "Hitmonchan",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "7",
-    "source": "tcgdex"
-  },
-  "base1-8": {
-    "image": "base1-8.png",
-    "name": "Machamp",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "8",
-    "source": "tcgdex"
-  },
-  "base1-9": {
-    "image": "base1-9.png",
-    "name": "Magneton",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "9",
-    "source": "tcgdex"
-  },
-  "base1-10": {
-    "image": "base1-10.png",
-    "name": "Mewtwo",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "10",
-    "source": "tcgdex"
-  },
-  "base1-11": {
-    "image": "base1-11.png",
-    "name": "Nidoking",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "11",
-    "source": "tcgdex"
-  },
-  "base1-12": {
-    "image": "base1-12.png",
-    "name": "Ninetales",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "12",
-    "source": "tcgdex"
-  },
-  "base1-13": {
-    "image": "base1-13.png",
-    "name": "Poliwrath",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "13",
-    "source": "tcgdex"
-  },
-  "base1-14": {
-    "image": "base1-14.png",
-    "name": "Raichu",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "14",
-    "source": "tcgdex"
-  },
-  "base1-15": {
-    "image": "base1-15.png",
-    "name": "Venusaur",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "15",
-    "source": "tcgdex"
-  },
-  "base1-16": {
-    "image": "base1-16.png",
-    "name": "Zapdos",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "16",
-    "source": "tcgdex"
-  },
-  "base1-17": {
-    "image": "base1-17.png",
-    "name": "Beedrill",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "17",
-    "source": "tcgdex"
-  },
-  "base1-18": {
-    "image": "base1-18.png",
-    "name": "Dragonair",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "18",
-    "source": "tcgdex"
-  },
-  "base1-19": {
-    "image": "base1-19.png",
-    "name": "Dugtrio",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "19",
-    "source": "tcgdex"
-  },
-  "base1-20": {
-    "image": "base1-20.png",
-    "name": "Electabuzz",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "20",
-    "source": "tcgdex"
-  },
-  "base1-21": {
-    "image": "base1-21.png",
-    "name": "Electrode",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "21",
-    "source": "tcgdex"
-  },
-  "base1-22": {
-    "image": "base1-22.png",
-    "name": "Pidgeotto",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "22",
-    "source": "tcgdex"
-  },
-  "base1-23": {
-    "image": "base1-23.png",
-    "name": "Arcanine",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "23",
-    "source": "tcgdex"
-  },
-  "base1-24": {
-    "image": "base1-24.png",
-    "name": "Charmeleon",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "24",
-    "source": "tcgdex"
-  },
-  "base1-25": {
-    "image": "base1-25.png",
-    "name": "Dewgong",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "25",
-    "source": "tcgdex"
-  },
-  "base1-26": {
-    "image": "base1-26.png",
-    "name": "Dratini",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "26",
-    "source": "tcgdex"
-  },
-  "base1-27": {
-    "image": "base1-27.png",
-    "name": "Farfetch'd",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "27",
-    "source": "tcgdex"
-  },
-  "base1-28": {
-    "image": "base1-28.png",
-    "name": "Growlithe",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "28",
-    "source": "tcgdex"
-  },
-  "base1-29": {
-    "image": "base1-29.png",
-    "name": "Haunter",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "29",
-    "source": "tcgdex"
-  },
-  "base1-30": {
-    "image": "base1-30.png",
-    "name": "Ivysaur",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "30",
-    "source": "tcgdex"
-  },
-  "base1-31": {
-    "image": "base1-31.png",
-    "name": "Jynx",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "31",
-    "source": "tcgdex"
-  },
-  "base1-32": {
-    "image": "base1-32.png",
-    "name": "Kadabra",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "32",
-    "source": "tcgdex"
-  },
-  "base1-33": {
-    "image": "base1-33.png",
-    "name": "Kakuna",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "33",
-    "source": "tcgdex"
-  },
-  "base1-34": {
-    "image": "base1-34.png",
-    "name": "Machoke",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "34",
-    "source": "tcgdex"
-  },
-  "base1-35": {
-    "image": "base1-35.png",
-    "name": "Magikarp",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "35",
-    "source": "tcgdex"
-  },
-  "base1-36": {
-    "image": "base1-36.png",
-    "name": "Magmar",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "36",
-    "source": "tcgdex"
-  },
-  "base1-37": {
-    "image": "base1-37.png",
-    "name": "Nidorino",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "37",
-    "source": "tcgdex"
-  },
-  "base1-38": {
-    "image": "base1-38.png",
-    "name": "Poliwhirl",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "38",
-    "source": "tcgdex"
-  },
-  "base1-39": {
-    "image": "base1-39.png",
-    "name": "Porygon",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "39",
-    "source": "tcgdex"
-  },
-  "base1-40": {
-    "image": "base1-40.png",
-    "name": "Raticate",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "40",
-    "source": "tcgdex"
-  },
-  "base1-41": {
-    "image": "base1-41.png",
-    "name": "Seel",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "41",
-    "source": "tcgdex"
-  },
-  "base1-42": {
-    "image": "base1-42.png",
-    "name": "Wartortle",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "42",
-    "source": "tcgdex"
-  },
-  "base1-43": {
-    "image": "base1-43.png",
-    "name": "Abra",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "43",
-    "source": "tcgdex"
-  },
-  "base1-44": {
-    "image": "base1-44.png",
-    "name": "Bulbasaur",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "44",
-    "source": "tcgdex"
-  },
-  "base1-45": {
-    "image": "base1-45.png",
-    "name": "Caterpie",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "45",
-    "source": "tcgdex"
-  },
-  "base1-46": {
-    "image": "base1-46.png",
-    "name": "Charmander",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "46",
-    "source": "tcgdex"
-  },
-  "base1-47": {
-    "image": "base1-47.png",
-    "name": "Diglett",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "47",
-    "source": "tcgdex"
-  },
-  "base1-48": {
-    "image": "base1-48.png",
-    "name": "Doduo",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "48",
-    "source": "tcgdex"
-  },
-  "base1-49": {
-    "image": "base1-49.png",
-    "name": "Drowzee",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "49",
-    "source": "tcgdex"
-  },
-  "base1-50": {
-    "image": "base1-50.png",
-    "name": "Gastly",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "50",
-    "source": "tcgdex"
-  },
-  "base1-51": {
-    "image": "base1-51.png",
-    "name": "Koffing",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "51",
-    "source": "tcgdex"
-  },
-  "base1-52": {
-    "image": "base1-52.png",
-    "name": "Machop",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "52",
-    "source": "tcgdex"
-  },
-  "base1-53": {
-    "image": "base1-53.png",
-    "name": "Magnemite",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "53",
-    "source": "tcgdex"
-  },
-  "base1-54": {
-    "image": "base1-54.png",
-    "name": "Metapod",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "54",
-    "source": "tcgdex"
-  },
-  "base1-55": {
-    "image": "base1-55.png",
-    "name": "Nidoran♂",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "55",
-    "source": "tcgdex"
-  },
-  "base1-56": {
-    "image": "base1-56.png",
-    "name": "Onix",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "56",
-    "source": "tcgdex"
-  },
-  "base1-57": {
-    "image": "base1-57.png",
-    "name": "Pidgey",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "57",
-    "source": "tcgdex"
-  },
-  "base1-58": {
-    "image": "base1-58.png",
-    "name": "Pikachu",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "58",
-    "source": "tcgdex"
-  },
-  "base1-59": {
-    "image": "base1-59.png",
-    "name": "Poliwag",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "59",
-    "source": "tcgdex"
-  },
-  "base1-60": {
-    "image": "base1-60.png",
-    "name": "Ponyta",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "60",
-    "source": "tcgdex"
-  },
-  "base1-61": {
-    "image": "base1-61.png",
-    "name": "Rattata",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "61",
-    "source": "tcgdex"
-  },
-  "base1-62": {
-    "image": "base1-62.png",
-    "name": "Sandshrew",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "62",
-    "source": "tcgdex"
-  },
-  "base1-63": {
-    "image": "base1-63.png",
-    "name": "Squirtle",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "63",
-    "source": "tcgdex"
-  },
-  "base1-64": {
-    "image": "base1-64.png",
-    "name": "Starmie",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "64",
-    "source": "tcgdex"
-  },
-  "base1-65": {
-    "image": "base1-65.png",
-    "name": "Staryu",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "65",
-    "source": "tcgdex"
-  },
-  "base1-66": {
-    "image": "base1-66.png",
-    "name": "Tangela",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "66",
-    "source": "tcgdex"
-  },
-  "base1-67": {
-    "image": "base1-67.png",
-    "name": "Voltorb",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "67",
-    "source": "tcgdex"
-  },
-  "base1-68": {
-    "image": "base1-68.png",
-    "name": "Vulpix",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "68",
-    "source": "tcgdex"
-  },
-  "base1-69": {
-    "image": "base1-69.png",
-    "name": "Weedle",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "69",
-    "source": "tcgdex"
-  },
-  "base1-70": {
-    "image": "base1-70.png",
-    "name": "Clefairy Doll",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "70",
-    "source": "tcgdex"
-  },
-  "base1-71": {
-    "image": "base1-71.png",
-    "name": "Computer Search",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "71",
-    "source": "tcgdex"
-  },
-  "base1-72": {
-    "image": "base1-72.png",
-    "name": "Devolution Spray",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "72",
-    "source": "tcgdex"
-  },
-  "base1-73": {
-    "image": "base1-73.png",
-    "name": "Impostor Professor Oak",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "73",
-    "source": "tcgdex"
-  },
-  "base1-74": {
-    "image": "base1-74.png",
-    "name": "Item Finder",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "74",
-    "source": "tcgdex"
-  },
-  "base1-75": {
-    "image": "base1-75.png",
-    "name": "Lass",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "75",
-    "source": "tcgdex"
-  },
-  "base1-76": {
-    "image": "base1-76.png",
-    "name": "Pokémon Breeder",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "76",
-    "source": "tcgdex"
-  },
-  "base1-77": {
-    "image": "base1-77.png",
-    "name": "Pokémon Trader",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "77",
-    "source": "tcgdex"
-  },
-  "base1-78": {
-    "image": "base1-78.png",
-    "name": "Scoop Up",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "78",
-    "source": "tcgdex"
-  },
-  "base1-79": {
-    "image": "base1-79.png",
-    "name": "Super Energy Removal",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "79",
-    "source": "tcgdex"
-  },
-  "base1-80": {
-    "image": "base1-80.png",
-    "name": "Defender",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "80",
-    "source": "tcgdex"
-  },
-  "base1-81": {
-    "image": "base1-81.png",
-    "name": "Energy Retrieval",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "81",
-    "source": "tcgdex"
-  },
-  "base1-82": {
-    "image": "base1-82.png",
-    "name": "Full Heal",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "82",
-    "source": "tcgdex"
-  },
-  "base1-83": {
-    "image": "base1-83.png",
-    "name": "Maintenance",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "83",
-    "source": "tcgdex"
-  },
-  "base1-84": {
-    "image": "base1-84.png",
-    "name": "PlusPower",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "84",
-    "source": "tcgdex"
-  },
-  "base1-85": {
-    "image": "base1-85.png",
-    "name": "Pokémon Center",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "85",
-    "source": "tcgdex"
-  },
-  "base1-86": {
-    "image": "base1-86.png",
-    "name": "Pokémon Flute",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "86",
-    "source": "tcgdex"
-  },
-  "base1-87": {
-    "image": "base1-87.png",
-    "name": "Pokédex",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "87",
-    "source": "tcgdex"
-  },
-  "base1-88": {
-    "image": "base1-88.png",
-    "name": "Professor Oak",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "88",
-    "source": "tcgdex"
-  },
-  "base1-89": {
-    "image": "base1-89.png",
-    "name": "Revive",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "89",
-    "source": "tcgdex"
-  },
-  "base1-90": {
-    "image": "base1-90.png",
-    "name": "Super Potion",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "90",
-    "source": "tcgdex"
-  },
-  "base1-91": {
-    "image": "base1-91.png",
-    "name": "Bill",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "91",
-    "source": "tcgdex"
-  },
-  "base1-92": {
-    "image": "base1-92.png",
-    "name": "Energy Removal",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "92",
-    "source": "tcgdex"
-  },
-  "base1-93": {
-    "image": "base1-93.png",
-    "name": "Gust of Wind",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "93",
-    "source": "tcgdex"
-  },
-  "base1-94": {
-    "image": "base1-94.png",
-    "name": "Potion",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "94",
-    "source": "tcgdex"
-  },
-  "base1-95": {
-    "image": "base1-95.png",
-    "name": "Switch",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "95",
-    "source": "tcgdex"
-  },
-  "base1-96": {
-    "image": "base1-96.png",
-    "name": "Double Colorless Energy",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "96",
-    "source": "tcgdex"
-  },
-  "base1-97": {
-    "image": "base1-97.png",
-    "name": "Fighting Energy",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "97",
-    "source": "tcgdex"
-  },
-  "base1-98": {
-    "image": "base1-98.png",
-    "name": "Fire Energy",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "98",
-    "source": "tcgdex"
-  },
-  "base1-99": {
-    "image": "base1-99.png",
-    "name": "Grass Energy",
-    "set": {
-      "id": "base1",
-      "name": "Base Set"
-    },
-    "number": "99",
-    "source": "tcgdex"
-  }
+    "miscp-001": {
+        "name": "Ancient Mew",
+        "set": {
+            "id": "miscp",
+            "name": "Miscellaneous Promos"
+        },
+        "number": "001",
+        "image": "miscp-001.png"
+    },
+    "base1-1": {
+        "name": "Alakazam",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "1",
+        "image": "base1-1.png"
+    },
+    "base1-2": {
+        "name": "Blastoise",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "2",
+        "image": "base1-2.png"
+    },
+    "base1-3": {
+        "name": "Chansey",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "3",
+        "image": "base1-3.png"
+    },
+    "base1-4": {
+        "name": "Charizard",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "4",
+        "image": "base1-4.png"
+    },
+    "base1-5": {
+        "name": "Clefairy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "5",
+        "image": "base1-5.png"
+    },
+    "base1-6": {
+        "name": "Gyarados",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "6",
+        "image": "base1-6.png"
+    },
+    "base1-7": {
+        "name": "Hitmonchan",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "7",
+        "image": "base1-7.png"
+    },
+    "base1-8": {
+        "name": "Machamp",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "8",
+        "image": "base1-8.png"
+    },
+    "base1-9": {
+        "name": "Magneton",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "9",
+        "image": "base1-9.png"
+    },
+    "base1-10": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "10",
+        "image": "base1-10.png"
+    },
+    "base1-11": {
+        "name": "Nidoking",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "11",
+        "image": "base1-11.png"
+    },
+    "base1-12": {
+        "name": "Ninetales",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "12",
+        "image": "base1-12.png"
+    },
+    "base1-13": {
+        "name": "Poliwrath",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "13",
+        "image": "base1-13.png"
+    },
+    "base1-14": {
+        "name": "Raichu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "14",
+        "image": "base1-14.png"
+    },
+    "base1-15": {
+        "name": "Venusaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "15",
+        "image": "base1-15.png"
+    },
+    "base1-16": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "16",
+        "image": "base1-16.png"
+    },
+    "base1-17": {
+        "name": "Beedrill",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "17",
+        "image": "base1-17.png"
+    },
+    "base1-18": {
+        "name": "Dragonair",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "18",
+        "image": "base1-18.png"
+    },
+    "base1-19": {
+        "name": "Dugtrio",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "19",
+        "image": "base1-19.png"
+    },
+    "base1-20": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "20",
+        "image": "base1-20.png"
+    },
+    "base1-21": {
+        "name": "Electrode",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "21",
+        "image": "base1-21.png"
+    },
+    "base1-22": {
+        "name": "Pidgeotto",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "22",
+        "image": "base1-22.png"
+    },
+    "base1-23": {
+        "name": "Arcanine",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "23",
+        "image": "base1-23.png"
+    },
+    "base1-24": {
+        "name": "Charmeleon",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "24",
+        "image": "base1-24.png"
+    },
+    "base1-25": {
+        "name": "Dewgong",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "25",
+        "image": "base1-25.png"
+    },
+    "base1-26": {
+        "name": "Dratini",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "26",
+        "image": "base1-26.png"
+    },
+    "base1-27": {
+        "name": "Farfetch'd",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "27",
+        "image": "base1-27.png"
+    },
+    "base1-28": {
+        "name": "Growlithe",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "28",
+        "image": "base1-28.png"
+    },
+    "base1-29": {
+        "name": "Haunter",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "29",
+        "image": "base1-29.png"
+    },
+    "base1-30": {
+        "name": "Ivysaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "30",
+        "image": "base1-30.png"
+    },
+    "base1-31": {
+        "name": "Jynx",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "31",
+        "image": "base1-31.png"
+    },
+    "base1-32": {
+        "name": "Kadabra",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "32",
+        "image": "base1-32.png"
+    },
+    "base1-33": {
+        "name": "Kakuna",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "33",
+        "image": "base1-33.png"
+    },
+    "base1-34": {
+        "name": "Machoke",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "34",
+        "image": "base1-34.png"
+    },
+    "base1-35": {
+        "name": "Magikarp",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "35",
+        "image": "base1-35.png"
+    },
+    "base1-36": {
+        "name": "Magmar",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "36",
+        "image": "base1-36.png"
+    },
+    "base1-37": {
+        "name": "Nidorino",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "37",
+        "image": "base1-37.png"
+    },
+    "base1-38": {
+        "name": "Poliwhirl",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "38",
+        "image": "base1-38.png"
+    },
+    "base1-39": {
+        "name": "Porygon",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "39",
+        "image": "base1-39.png"
+    },
+    "base1-40": {
+        "name": "Raticate",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "40",
+        "image": "base1-40.png"
+    },
+    "base1-41": {
+        "name": "Seel",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "41",
+        "image": "base1-41.png"
+    },
+    "base1-42": {
+        "name": "Wartortle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "42",
+        "image": "base1-42.png"
+    },
+    "base1-43": {
+        "name": "Abra",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "43",
+        "image": "base1-43.png"
+    },
+    "base1-44": {
+        "name": "Bulbasaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "44",
+        "image": "base1-44.png"
+    },
+    "base1-45": {
+        "name": "Caterpie",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "45",
+        "image": "base1-45.png"
+    },
+    "base1-46": {
+        "name": "Charmander",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "46",
+        "image": "base1-46.png"
+    },
+    "base1-47": {
+        "name": "Diglett",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "47",
+        "image": "base1-47.png"
+    },
+    "base1-48": {
+        "name": "Doduo",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "48",
+        "image": "base1-48.png"
+    },
+    "base1-49": {
+        "name": "Drowzee",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "49",
+        "image": "base1-49.png"
+    },
+    "base1-50": {
+        "image": "base1-50.png",
+        "name": "Gastly",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "50",
+        "source": "tcgdex"
+    },
+    "base1-51": {
+        "image": "base1-51.png",
+        "name": "Koffing",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "51",
+        "source": "tcgdex"
+    },
+    "base1-52": {
+        "image": "base1-52.png",
+        "name": "Machop",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "52",
+        "source": "tcgdex"
+    },
+    "base1-53": {
+        "image": "base1-53.png",
+        "name": "Magnemite",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "53",
+        "source": "tcgdex"
+    },
+    "base1-54": {
+        "image": "base1-54.png",
+        "name": "Metapod",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "54",
+        "source": "tcgdex"
+    },
+    "base1-55": {
+        "image": "base1-55.png",
+        "name": "Nidoran♂",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "55",
+        "source": "tcgdex"
+    },
+    "base1-56": {
+        "image": "base1-56.png",
+        "name": "Onix",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "56",
+        "source": "tcgdex"
+    },
+    "base1-57": {
+        "image": "base1-57.png",
+        "name": "Pidgey",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "57",
+        "source": "tcgdex"
+    },
+    "base1-58": {
+        "image": "base1-58.png",
+        "name": "Pikachu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "58",
+        "source": "tcgdex"
+    },
+    "base1-59": {
+        "image": "base1-59.png",
+        "name": "Poliwag",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "59",
+        "source": "tcgdex"
+    },
+    "base1-60": {
+        "image": "base1-60.png",
+        "name": "Ponyta",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "60",
+        "source": "tcgdex"
+    },
+    "base1-61": {
+        "image": "base1-61.png",
+        "name": "Rattata",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "61",
+        "source": "tcgdex"
+    },
+    "base1-62": {
+        "image": "base1-62.png",
+        "name": "Sandshrew",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "62",
+        "source": "tcgdex"
+    },
+    "base1-63": {
+        "image": "base1-63.png",
+        "name": "Squirtle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "63",
+        "source": "tcgdex"
+    },
+    "base1-64": {
+        "image": "base1-64.png",
+        "name": "Starmie",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "64",
+        "source": "tcgdex"
+    },
+    "base1-65": {
+        "image": "base1-65.png",
+        "name": "Staryu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "65",
+        "source": "tcgdex"
+    },
+    "base1-66": {
+        "image": "base1-66.png",
+        "name": "Tangela",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "66",
+        "source": "tcgdex"
+    },
+    "base1-67": {
+        "image": "base1-67.png",
+        "name": "Voltorb",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "67",
+        "source": "tcgdex"
+    },
+    "base1-68": {
+        "image": "base1-68.png",
+        "name": "Vulpix",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "68",
+        "source": "tcgdex"
+    },
+    "base1-69": {
+        "image": "base1-69.png",
+        "name": "Weedle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "69",
+        "source": "tcgdex"
+    },
+    "base1-70": {
+        "image": "base1-70.png",
+        "name": "Clefairy Doll",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "70",
+        "source": "tcgdex"
+    },
+    "base1-71": {
+        "image": "base1-71.png",
+        "name": "Computer Search",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "71",
+        "source": "tcgdex"
+    },
+    "base1-72": {
+        "image": "base1-72.png",
+        "name": "Devolution Spray",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "72",
+        "source": "tcgdex"
+    },
+    "base1-73": {
+        "image": "base1-73.png",
+        "name": "Impostor Professor Oak",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "73",
+        "source": "tcgdex"
+    },
+    "base1-74": {
+        "image": "base1-74.png",
+        "name": "Item Finder",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "74",
+        "source": "tcgdex"
+    },
+    "base1-75": {
+        "image": "base1-75.png",
+        "name": "Lass",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "75",
+        "source": "tcgdex"
+    },
+    "base1-76": {
+        "image": "base1-76.png",
+        "name": "Pokémon Breeder",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "76",
+        "source": "tcgdex"
+    },
+    "base1-77": {
+        "image": "base1-77.png",
+        "name": "Pokémon Trader",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "77",
+        "source": "tcgdex"
+    },
+    "base1-78": {
+        "image": "base1-78.png",
+        "name": "Scoop Up",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "78",
+        "source": "tcgdex"
+    },
+    "base1-79": {
+        "image": "base1-79.png",
+        "name": "Super Energy Removal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "79",
+        "source": "tcgdex"
+    },
+    "base1-80": {
+        "image": "base1-80.png",
+        "name": "Defender",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "80",
+        "source": "tcgdex"
+    },
+    "base1-81": {
+        "image": "base1-81.png",
+        "name": "Energy Retrieval",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "81",
+        "source": "tcgdex"
+    },
+    "base1-82": {
+        "image": "base1-82.png",
+        "name": "Full Heal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "82",
+        "source": "tcgdex"
+    },
+    "base1-83": {
+        "image": "base1-83.png",
+        "name": "Maintenance",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "83",
+        "source": "tcgdex"
+    },
+    "base1-84": {
+        "image": "base1-84.png",
+        "name": "PlusPower",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "84",
+        "source": "tcgdex"
+    },
+    "base1-85": {
+        "image": "base1-85.png",
+        "name": "Pokémon Center",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "85",
+        "source": "tcgdex"
+    },
+    "base1-86": {
+        "image": "base1-86.png",
+        "name": "Pokémon Flute",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "86",
+        "source": "tcgdex"
+    },
+    "base1-87": {
+        "image": "base1-87.png",
+        "name": "Pokédex",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "87",
+        "source": "tcgdex"
+    },
+    "base1-88": {
+        "image": "base1-88.png",
+        "name": "Professor Oak",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "88",
+        "source": "tcgdex"
+    },
+    "base1-89": {
+        "image": "base1-89.png",
+        "name": "Revive",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "89",
+        "source": "tcgdex"
+    },
+    "base1-90": {
+        "image": "base1-90.png",
+        "name": "Super Potion",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "90",
+        "source": "tcgdex"
+    },
+    "base1-91": {
+        "image": "base1-91.png",
+        "name": "Bill",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "91",
+        "source": "tcgdex"
+    },
+    "base1-92": {
+        "image": "base1-92.png",
+        "name": "Energy Removal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "92",
+        "source": "tcgdex"
+    },
+    "base1-93": {
+        "image": "base1-93.png",
+        "name": "Gust of Wind",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "93",
+        "source": "tcgdex"
+    },
+    "base1-94": {
+        "image": "base1-94.png",
+        "name": "Potion",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "94",
+        "source": "tcgdex"
+    },
+    "base1-95": {
+        "image": "base1-95.png",
+        "name": "Switch",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "95",
+        "source": "tcgdex"
+    },
+    "base1-96": {
+        "image": "base1-96.png",
+        "name": "Double Colorless Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "96",
+        "source": "tcgdex"
+    },
+    "base1-97": {
+        "image": "base1-97.png",
+        "name": "Fighting Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "97",
+        "source": "tcgdex"
+    },
+    "base1-98": {
+        "image": "base1-98.png",
+        "name": "Fire Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "98",
+        "source": "tcgdex"
+    },
+    "base1-99": {
+        "image": "base1-99.png",
+        "name": "Grass Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "99",
+        "source": "tcgdex"
+    },
+    "base3-47": {
+        "name": "Geodude",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "47",
+        "image": "base3-47.png"
+    },
+    "base3-48": {
+        "name": "Grimer",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "48",
+        "image": "base3-48.png"
+    },
+    "base3-49": {
+        "name": "Horsea",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "49",
+        "image": "base3-49.png"
+    },
+    "base3-50": {
+        "name": "Kabuto",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "50",
+        "image": "base3-50.png"
+    },
+    "base3-51": {
+        "name": "Krabby",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "51",
+        "image": "base3-51.png"
+    },
+    "base3-52": {
+        "name": "Omanyte",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "52",
+        "image": "base3-52.png"
+    },
+    "base3-53": {
+        "name": "Psyduck",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "53",
+        "image": "base3-53.png"
+    },
+    "base3-54": {
+        "name": "Shellder",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "54",
+        "image": "base3-54.png"
+    },
+    "base3-55": {
+        "name": "Slowpoke",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "55",
+        "image": "base3-55.png"
+    },
+    "base3-56": {
+        "name": "Tentacool",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "56",
+        "image": "base3-56.png"
+    },
+    "base3-57": {
+        "name": "Zubat",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "57",
+        "image": "base3-57.png"
+    },
+    "base3-58": {
+        "name": "Mr. Fuji",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "58",
+        "image": "base3-58.png"
+    },
+    "base3-59": {
+        "name": "Energy Search",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "59",
+        "image": "base3-59.png"
+    },
+    "base3-60": {
+        "name": "Gambler",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "60",
+        "image": "base3-60.png"
+    },
+    "base3-61": {
+        "name": "Recycle",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "61",
+        "image": "base3-61.png"
+    },
+    "base3-62": {
+        "name": "Mysterious Fossil",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "62",
+        "image": "base3-62.png"
+    },
+    "base4-1": {
+        "name": "Alakazam",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "1",
+        "image": "base4-1.png"
+    },
+    "base4-2": {
+        "name": "Blastoise",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "2",
+        "image": "base4-2.png"
+    },
+    "base4-3": {
+        "name": "Chansey",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "3",
+        "image": "base4-3.png"
+    },
+    "base4-4": {
+        "name": "Charizard",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "4",
+        "image": "base4-4.png"
+    },
+    "base4-5": {
+        "name": "Clefable",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "5",
+        "image": "base4-5.png"
+    },
+    "base4-6": {
+        "name": "Clefairy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "6",
+        "image": "base4-6.png"
+    },
+    "base4-7": {
+        "name": "Gyarados",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "7",
+        "image": "base4-7.png"
+    },
+    "base4-8": {
+        "name": "Hitmonchan",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "8",
+        "image": "base4-8.png"
+    },
+    "base4-9": {
+        "name": "Magneton",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "9",
+        "image": "base4-9.png"
+    },
+    "base4-10": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "10",
+        "image": "base4-10.png"
+    },
+    "base4-11": {
+        "name": "Nidoking",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "11",
+        "image": "base4-11.png"
+    },
+    "base4-12": {
+        "name": "Nidoqueen",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "12",
+        "image": "base4-12.png"
+    },
+    "base4-13": {
+        "name": "Ninetales",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "13",
+        "image": "base4-13.png"
+    },
+    "base4-14": {
+        "name": "Pidgeot",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "14",
+        "image": "base4-14.png"
+    },
+    "base4-15": {
+        "name": "Poliwrath",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "15",
+        "image": "base4-15.png"
+    },
+    "base4-16": {
+        "name": "Raichu",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "16",
+        "image": "base4-16.png"
+    },
+    "base4-17": {
+        "name": "Scyther",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "17",
+        "image": "base4-17.png"
+    },
+    "base4-18": {
+        "name": "Venusaur",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "18",
+        "image": "base4-18.png"
+    },
+    "base4-19": {
+        "name": "Wigglytuff",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "19",
+        "image": "base4-19.png"
+    },
+    "base4-20": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "20",
+        "image": "base4-20.png"
+    },
+    "base4-21": {
+        "name": "Beedrill",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "21",
+        "image": "base4-21.png"
+    },
+    "base4-22": {
+        "name": "Dragonair",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "22",
+        "image": "base4-22.png"
+    },
+    "base4-23": {
+        "name": "Dugtrio",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "23",
+        "image": "base4-23.png"
+    },
+    "base4-24": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "24",
+        "image": "base4-24.png"
+    },
+    "base4-25": {
+        "name": "Electrode",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "25",
+        "image": "base4-25.png"
+    },
+    "base4-26": {
+        "name": "Kangaskhan",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "26",
+        "image": "base4-26.png"
+    },
+    "base4-27": {
+        "name": "Mr. Mime",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "27",
+        "image": "base4-27.png"
+    },
+    "base4-28": {
+        "name": "Pidgeotto",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "28",
+        "image": "base4-28.png"
+    },
+    "base4-29": {
+        "name": "Pinsir",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "29",
+        "image": "base4-29.png"
+    },
+    "base4-30": {
+        "name": "Snorlax",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "30",
+        "image": "base4-30.png"
+    },
+    "base4-31": {
+        "name": "Venomoth",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "31",
+        "image": "base4-31.png"
+    },
+    "base4-32": {
+        "name": "Victreebel",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "32",
+        "image": "base4-32.png"
+    },
+    "base4-33": {
+        "name": "Arcanine",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "33",
+        "image": "base4-33.png"
+    },
+    "base4-34": {
+        "name": "Butterfree",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "34",
+        "image": "base4-34.png"
+    }
 }
