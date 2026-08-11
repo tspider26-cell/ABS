@@ -5,7 +5,7 @@ print("ABS FULL IMAGE BUILDER TEST")
 print("=" * 40)
 
 
-builder = TCGdexFullImageBuilder(start=266, limit=50)
+builder = TCGdexFullImageBuilder(start=316, limit=500)
 
 
 builder.build()
