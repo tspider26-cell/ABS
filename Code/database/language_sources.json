@@ -1,0 +1,27 @@
+{
+    "EN": {
+        "source": "ptcg_database/data_en",
+        "cards": 20110,
+        "status": "ready"
+    },
+    "JP": {
+        "source": "ptcg_database/data_jp",
+        "cards": 21925,
+        "status": "ready_for_builder"
+    },
+    "ZH-TW": {
+        "source": "ptcg_database/data_tc",
+        "cards": 12079,
+        "status": "image_builder_ready"
+    },
+    "POCKET": {
+        "source": "ptcg_database/data_pocket",
+        "cards": 1689,
+        "status": "ready_for_builder"
+    },
+    "KR": {
+        "source": null,
+        "cards": 0,
+        "status": "search_required"
+    }
+}

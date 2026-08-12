@@ -6,7 +6,7 @@ MASTER = Path("database/master_cards.json")
 
 SOURCE = Path(r"D:\ABS_DATA\pokemon_images\tcgdex")
 
-TARGET = Path(r"D:\ABS_TEST_STORAGE")
+TARGET = Path(r"D:\ABS_DATA")
 
 
 LIMIT = 816

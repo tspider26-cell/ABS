@@ -57,9 +57,9 @@ class TCGdexFullImageBuilder:
 
             return {}
 
-    def save_json(self, path, data):
+        def save_json(self, path, data):
 
-        path.parent.mkdir(parents=True, exist_ok=True)
+            path.parent.mkdir(parents=True, exist_ok=True)
 
         try:
 
@@ -74,6 +74,7 @@ class TCGdexFullImageBuilder:
     # ---------------------------------------------------------
     # SAFE FOLDER NAME
     # ---------------------------------------------------------
+
     def safe_name(self, value):
 
         if value is None:
@@ -81,16 +82,9 @@ class TCGdexFullImageBuilder:
 
         value = str(value).strip()
 
-        # Windows forbidden characters
         value = re.sub(r'[<>:"/\\|?*]', "_", value)
 
-        # Spaces become underscores
-        value = re.sub(r"\s+", "_", value)
-
-        # Multiple underscores -> one underscore
-        value = re.sub(r"_+", "_", value)
-
-        value = value.strip("_.")
+        value = value.rstrip(". ")
 
         if not value:
             return "Unknown"
@@ -346,9 +340,7 @@ class TCGdexFullImageBuilder:
                     "workers": self.workers,
                 }
 
-                if completed % 10 == 0 or completed == len(selected_cards):
-
-                    self.save_json(self.PROGRESS, progress)
+                self.save_json(self.PROGRESS, progress)
 
         # ---------------------------------------------------------
         # FINAL SAVE

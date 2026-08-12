@@ -1,0 +1,7346 @@
+{
+    "base1-1": {
+        "name": "Alakazam",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "1",
+        "image": "base1_Base_Set/base1-1.png"
+    },
+    "base1-10": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "10",
+        "image": "base1_Base_Set/base1-10.png"
+    },
+    "base1-100": {
+        "name": "Lightning Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "100",
+        "image": "base1_Base_Set/base1-100.png"
+    },
+    "base1-101": {
+        "name": "Psychic Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "101",
+        "image": "base1_Base_Set/base1-101.png"
+    },
+    "base1-102": {
+        "name": "Water Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "102",
+        "image": "base1_Base_Set/base1-102.png"
+    },
+    "base1-11": {
+        "name": "Nidoking",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "11",
+        "image": "base1_Base_Set/base1-11.png"
+    },
+    "base1-12": {
+        "name": "Ninetales",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "12",
+        "image": "base1_Base_Set/base1-12.png"
+    },
+    "base1-13": {
+        "name": "Poliwrath",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "13",
+        "image": "base1_Base_Set/base1-13.png"
+    },
+    "base1-14": {
+        "name": "Raichu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "14",
+        "image": "base1_Base_Set/base1-14.png"
+    },
+    "base1-15": {
+        "name": "Venusaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "15",
+        "image": "base1_Base_Set/base1-15.png"
+    },
+    "base1-16": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "16",
+        "image": "base1_Base_Set/base1-16.png"
+    },
+    "base1-17": {
+        "name": "Beedrill",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "17",
+        "image": "base1_Base_Set/base1-17.png"
+    },
+    "base1-18": {
+        "name": "Dragonair",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "18",
+        "image": "base1_Base_Set/base1-18.png"
+    },
+    "base1-19": {
+        "name": "Dugtrio",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "19",
+        "image": "base1_Base_Set/base1-19.png"
+    },
+    "base1-2": {
+        "name": "Blastoise",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "2",
+        "image": "base1_Base_Set/base1-2.png"
+    },
+    "base1-20": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "20",
+        "image": "base1_Base_Set/base1-20.png"
+    },
+    "base1-21": {
+        "name": "Electrode",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "21",
+        "image": "base1_Base_Set/base1-21.png"
+    },
+    "base1-22": {
+        "name": "Pidgeotto",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "22",
+        "image": "base1_Base_Set/base1-22.png"
+    },
+    "base1-23": {
+        "name": "Arcanine",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "23",
+        "image": "base1_Base_Set/base1-23.png"
+    },
+    "base1-24": {
+        "name": "Charmeleon",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "24",
+        "image": "base1_Base_Set/base1-24.png"
+    },
+    "base1-25": {
+        "name": "Dewgong",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "25",
+        "image": "base1_Base_Set/base1-25.png"
+    },
+    "base1-26": {
+        "name": "Dratini",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "26",
+        "image": "base1_Base_Set/base1-26.png"
+    },
+    "base1-27": {
+        "name": "Farfetch'd",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "27",
+        "image": "base1_Base_Set/base1-27.png"
+    },
+    "base1-28": {
+        "name": "Growlithe",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "28",
+        "image": "base1_Base_Set/base1-28.png"
+    },
+    "base1-29": {
+        "name": "Haunter",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "29",
+        "image": "base1_Base_Set/base1-29.png"
+    },
+    "base1-3": {
+        "name": "Chansey",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "3",
+        "image": "base1_Base_Set/base1-3.png"
+    },
+    "base1-30": {
+        "name": "Ivysaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "30",
+        "image": "base1_Base_Set/base1-30.png"
+    },
+    "base1-31": {
+        "name": "Jynx",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "31",
+        "image": "base1_Base_Set/base1-31.png"
+    },
+    "base1-32": {
+        "name": "Kadabra",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "32",
+        "image": "base1_Base_Set/base1-32.png"
+    },
+    "base1-33": {
+        "name": "Kakuna",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "33",
+        "image": "base1_Base_Set/base1-33.png"
+    },
+    "base1-34": {
+        "name": "Machoke",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "34",
+        "image": "base1_Base_Set/base1-34.png"
+    },
+    "base1-35": {
+        "name": "Magikarp",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "35",
+        "image": "base1_Base_Set/base1-35.png"
+    },
+    "base1-36": {
+        "name": "Magmar",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "36",
+        "image": "base1_Base_Set/base1-36.png"
+    },
+    "base1-37": {
+        "name": "Nidorino",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "37",
+        "image": "base1_Base_Set/base1-37.png"
+    },
+    "base1-38": {
+        "name": "Poliwhirl",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "38",
+        "image": "base1_Base_Set/base1-38.png"
+    },
+    "base1-39": {
+        "name": "Porygon",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "39",
+        "image": "base1_Base_Set/base1-39.png"
+    },
+    "base1-4": {
+        "name": "Charizard",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "4",
+        "image": "base1_Base_Set/base1-4.png"
+    },
+    "base1-40": {
+        "name": "Raticate",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "40",
+        "image": "base1_Base_Set/base1-40.png"
+    },
+    "base1-41": {
+        "name": "Seel",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "41",
+        "image": "base1_Base_Set/base1-41.png"
+    },
+    "base1-42": {
+        "name": "Wartortle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "42",
+        "image": "base1_Base_Set/base1-42.png"
+    },
+    "base1-43": {
+        "name": "Abra",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "43",
+        "image": "base1_Base_Set/base1-43.png"
+    },
+    "base1-44": {
+        "name": "Bulbasaur",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "44",
+        "image": "base1_Base_Set/base1-44.png"
+    },
+    "base1-45": {
+        "name": "Caterpie",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "45",
+        "image": "base1_Base_Set/base1-45.png"
+    },
+    "base1-46": {
+        "name": "Charmander",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "46",
+        "image": "base1_Base_Set/base1-46.png"
+    },
+    "base1-47": {
+        "name": "Diglett",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "47",
+        "image": "base1_Base_Set/base1-47.png"
+    },
+    "base1-48": {
+        "name": "Doduo",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "48",
+        "image": "base1_Base_Set/base1-48.png"
+    },
+    "base1-49": {
+        "name": "Drowzee",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "49",
+        "image": "base1_Base_Set/base1-49.png"
+    },
+    "base1-5": {
+        "name": "Clefairy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "5",
+        "image": "base1_Base_Set/base1-5.png"
+    },
+    "base1-50": {
+        "name": "Gastly",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "50",
+        "image": "base1_Base_Set/base1-50.png"
+    },
+    "base1-51": {
+        "name": "Koffing",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "51",
+        "image": "base1_Base_Set/base1-51.png"
+    },
+    "base1-52": {
+        "name": "Machop",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "52",
+        "image": "base1_Base_Set/base1-52.png"
+    },
+    "base1-53": {
+        "name": "Magnemite",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "53",
+        "image": "base1_Base_Set/base1-53.png"
+    },
+    "base1-54": {
+        "name": "Metapod",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "54",
+        "image": "base1_Base_Set/base1-54.png"
+    },
+    "base1-55": {
+        "name": "Nidoran♂",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "55",
+        "image": "base1_Base_Set/base1-55.png"
+    },
+    "base1-56": {
+        "name": "Onix",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "56",
+        "image": "base1_Base_Set/base1-56.png"
+    },
+    "base1-57": {
+        "name": "Pidgey",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "57",
+        "image": "base1_Base_Set/base1-57.png"
+    },
+    "base1-58": {
+        "name": "Pikachu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "58",
+        "image": "base1_Base_Set/base1-58.png"
+    },
+    "base1-59": {
+        "name": "Poliwag",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "59",
+        "image": "base1_Base_Set/base1-59.png"
+    },
+    "base1-6": {
+        "name": "Gyarados",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "6",
+        "image": "base1_Base_Set/base1-6.png"
+    },
+    "base1-60": {
+        "name": "Ponyta",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "60",
+        "image": "base1_Base_Set/base1-60.png"
+    },
+    "base1-61": {
+        "name": "Rattata",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "61",
+        "image": "base1_Base_Set/base1-61.png"
+    },
+    "base1-62": {
+        "name": "Sandshrew",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "62",
+        "image": "base1_Base_Set/base1-62.png"
+    },
+    "base1-63": {
+        "name": "Squirtle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "63",
+        "image": "base1_Base_Set/base1-63.png"
+    },
+    "base1-64": {
+        "name": "Starmie",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "64",
+        "image": "base1_Base_Set/base1-64.png"
+    },
+    "base1-65": {
+        "name": "Staryu",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "65",
+        "image": "base1_Base_Set/base1-65.png"
+    },
+    "base1-66": {
+        "name": "Tangela",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "66",
+        "image": "base1_Base_Set/base1-66.png"
+    },
+    "base1-67": {
+        "name": "Voltorb",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "67",
+        "image": "base1_Base_Set/base1-67.png"
+    },
+    "base1-68": {
+        "name": "Vulpix",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "68",
+        "image": "base1_Base_Set/base1-68.png"
+    },
+    "base1-69": {
+        "name": "Weedle",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "69",
+        "image": "base1_Base_Set/base1-69.png"
+    },
+    "base1-7": {
+        "name": "Hitmonchan",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "7",
+        "image": "base1_Base_Set/base1-7.png"
+    },
+    "base1-70": {
+        "name": "Clefairy Doll",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "70",
+        "image": "base1_Base_Set/base1-70.png"
+    },
+    "base1-71": {
+        "name": "Computer Search",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "71",
+        "image": "base1_Base_Set/base1-71.png"
+    },
+    "base1-72": {
+        "name": "Devolution Spray",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "72",
+        "image": "base1_Base_Set/base1-72.png"
+    },
+    "base1-73": {
+        "name": "Impostor Professor Oak",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "73",
+        "image": "base1_Base_Set/base1-73.png"
+    },
+    "base1-74": {
+        "name": "Item Finder",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "74",
+        "image": "base1_Base_Set/base1-74.png"
+    },
+    "base1-75": {
+        "name": "Lass",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "75",
+        "image": "base1_Base_Set/base1-75.png"
+    },
+    "base1-76": {
+        "name": "Pokémon Breeder",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "76",
+        "image": "base1_Base_Set/base1-76.png"
+    },
+    "base1-77": {
+        "name": "Pokémon Trader",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "77",
+        "image": "base1_Base_Set/base1-77.png"
+    },
+    "base1-78": {
+        "name": "Scoop Up",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "78",
+        "image": "base1_Base_Set/base1-78.png"
+    },
+    "base1-79": {
+        "name": "Super Energy Removal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "79",
+        "image": "base1_Base_Set/base1-79.png"
+    },
+    "base1-8": {
+        "name": "Machamp",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "8",
+        "image": "base1_Base_Set/base1-8.png"
+    },
+    "base1-80": {
+        "name": "Defender",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "80",
+        "image": "base1_Base_Set/base1-80.png"
+    },
+    "base1-81": {
+        "name": "Energy Retrieval",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "81",
+        "image": "base1_Base_Set/base1-81.png"
+    },
+    "base1-82": {
+        "name": "Full Heal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "82",
+        "image": "base1_Base_Set/base1-82.png"
+    },
+    "base1-83": {
+        "name": "Maintenance",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "83",
+        "image": "base1_Base_Set/base1-83.png"
+    },
+    "base1-84": {
+        "name": "PlusPower",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "84",
+        "image": "base1_Base_Set/base1-84.png"
+    },
+    "base1-85": {
+        "name": "Pokémon Center",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "85",
+        "image": "base1_Base_Set/base1-85.png"
+    },
+    "base1-86": {
+        "name": "Pokémon Flute",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "86",
+        "image": "base1_Base_Set/base1-86.png"
+    },
+    "base1-87": {
+        "name": "Pokédex",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "87",
+        "image": "base1_Base_Set/base1-87.png"
+    },
+    "base1-88": {
+        "name": "Professor Oak",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "88",
+        "image": "base1_Base_Set/base1-88.png"
+    },
+    "base1-89": {
+        "name": "Revive",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "89",
+        "image": "base1_Base_Set/base1-89.png"
+    },
+    "base1-9": {
+        "name": "Magneton",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "9",
+        "image": "base1_Base_Set/base1-9.png"
+    },
+    "base1-90": {
+        "name": "Super Potion",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "90",
+        "image": "base1_Base_Set/base1-90.png"
+    },
+    "base1-91": {
+        "name": "Bill",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "91",
+        "image": "base1_Base_Set/base1-91.png"
+    },
+    "base1-92": {
+        "name": "Energy Removal",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "92",
+        "image": "base1_Base_Set/base1-92.png"
+    },
+    "base1-93": {
+        "name": "Gust of Wind",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "93",
+        "image": "base1_Base_Set/base1-93.png"
+    },
+    "base1-94": {
+        "name": "Potion",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "94",
+        "image": "base1_Base_Set/base1-94.png"
+    },
+    "base1-95": {
+        "name": "Switch",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "95",
+        "image": "base1_Base_Set/base1-95.png"
+    },
+    "base1-96": {
+        "name": "Double Colorless Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "96",
+        "image": "base1_Base_Set/base1-96.png"
+    },
+    "base1-97": {
+        "name": "Fighting Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "97",
+        "image": "base1_Base_Set/base1-97.png"
+    },
+    "base1-98": {
+        "name": "Fire Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "98",
+        "image": "base1_Base_Set/base1-98.png"
+    },
+    "base1-99": {
+        "name": "Grass Energy",
+        "set": {
+            "id": "base1",
+            "name": "Base Set"
+        },
+        "number": "99",
+        "image": "base1_Base_Set/base1-99.png"
+    },
+    "base2-1": {
+        "name": "Clefable",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "1",
+        "image": "base2_Jungle/base2-1.png"
+    },
+    "base2-10": {
+        "name": "Scyther",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "10",
+        "image": "base2_Jungle/base2-10.png"
+    },
+    "base2-11": {
+        "name": "Snorlax",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "11",
+        "image": "base2_Jungle/base2-11.png"
+    },
+    "base2-12": {
+        "name": "Vaporeon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "12",
+        "image": "base2_Jungle/base2-12.png"
+    },
+    "base2-13": {
+        "name": "Venomoth",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "13",
+        "image": "base2_Jungle/base2-13.png"
+    },
+    "base2-14": {
+        "name": "Victreebel",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "14",
+        "image": "base2_Jungle/base2-14.png"
+    },
+    "base2-15": {
+        "name": "Vileplume",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "15",
+        "image": "base2_Jungle/base2-15.png"
+    },
+    "base2-16": {
+        "name": "Wigglytuff",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "16",
+        "image": "base2_Jungle/base2-16.png"
+    },
+    "base2-17": {
+        "name": "Clefable",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "17",
+        "image": "base2_Jungle/base2-17.png"
+    },
+    "base2-18": {
+        "name": "Electrode",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "18",
+        "image": "base2_Jungle/base2-18.png"
+    },
+    "base2-19": {
+        "name": "Flareon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "19",
+        "image": "base2_Jungle/base2-19.png"
+    },
+    "base2-2": {
+        "name": "Electrode",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "2",
+        "image": "base2_Jungle/base2-2.png"
+    },
+    "base2-20": {
+        "name": "Jolteon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "20",
+        "image": "base2_Jungle/base2-20.png"
+    },
+    "base2-21": {
+        "name": "Kangaskhan",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "21",
+        "image": "base2_Jungle/base2-21.png"
+    },
+    "base2-22": {
+        "name": "Mr. Mime",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "22",
+        "image": "base2_Jungle/base2-22.png"
+    },
+    "base2-23": {
+        "name": "Nidoqueen",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "23",
+        "image": "base2_Jungle/base2-23.png"
+    },
+    "base2-24": {
+        "name": "Pidgeot",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "24",
+        "image": "base2_Jungle/base2-24.png"
+    },
+    "base2-25": {
+        "name": "Pinsir",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "25",
+        "image": "base2_Jungle/base2-25.png"
+    },
+    "base2-26": {
+        "name": "Scyther",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "26",
+        "image": "base2_Jungle/base2-26.png"
+    },
+    "base2-27": {
+        "name": "Snorlax",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "27",
+        "image": "base2_Jungle/base2-27.png"
+    },
+    "base2-28": {
+        "name": "Vaporeon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "28",
+        "image": "base2_Jungle/base2-28.png"
+    },
+    "base2-29": {
+        "name": "Venomoth",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "29",
+        "image": "base2_Jungle/base2-29.png"
+    },
+    "base2-3": {
+        "name": "Flareon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "3",
+        "image": "base2_Jungle/base2-3.png"
+    },
+    "base2-30": {
+        "name": "Victreebel",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "30",
+        "image": "base2_Jungle/base2-30.png"
+    },
+    "base2-31": {
+        "name": "Vileplume",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "31",
+        "image": "base2_Jungle/base2-31.png"
+    },
+    "base2-32": {
+        "name": "Wigglytuff",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "32",
+        "image": "base2_Jungle/base2-32.png"
+    },
+    "base2-33": {
+        "name": "Butterfree",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "33",
+        "image": "base2_Jungle/base2-33.png"
+    },
+    "base2-34": {
+        "name": "Dodrio",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "34",
+        "image": "base2_Jungle/base2-34.png"
+    },
+    "base2-35": {
+        "name": "Exeggutor",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "35",
+        "image": "base2_Jungle/base2-35.png"
+    },
+    "base2-36": {
+        "name": "Fearow",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "36",
+        "image": "base2_Jungle/base2-36.png"
+    },
+    "base2-37": {
+        "name": "Gloom",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "37",
+        "image": "base2_Jungle/base2-37.png"
+    },
+    "base2-38": {
+        "name": "Lickitung",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "38",
+        "image": "base2_Jungle/base2-38.png"
+    },
+    "base2-39": {
+        "name": "Marowak",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "39",
+        "image": "base2_Jungle/base2-39.png"
+    },
+    "base2-4": {
+        "name": "Jolteon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "4",
+        "image": "base2_Jungle/base2-4.png"
+    },
+    "base2-40": {
+        "name": "Nidorina",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "40",
+        "image": "base2_Jungle/base2-40.png"
+    },
+    "base2-41": {
+        "name": "Parasect",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "41",
+        "image": "base2_Jungle/base2-41.png"
+    },
+    "base2-42": {
+        "name": "Persian",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "42",
+        "image": "base2_Jungle/base2-42.png"
+    },
+    "base2-43": {
+        "name": "Primeape",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "43",
+        "image": "base2_Jungle/base2-43.png"
+    },
+    "base2-44": {
+        "name": "Rapidash",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "44",
+        "image": "base2_Jungle/base2-44.png"
+    },
+    "base2-45": {
+        "name": "Rhydon",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "45",
+        "image": "base2_Jungle/base2-45.png"
+    },
+    "base2-46": {
+        "name": "Seaking",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "46",
+        "image": "base2_Jungle/base2-46.png"
+    },
+    "base2-47": {
+        "name": "Tauros",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "47",
+        "image": "base2_Jungle/base2-47.png"
+    },
+    "base2-48": {
+        "name": "Weepinbell",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "48",
+        "image": "base2_Jungle/base2-48.png"
+    },
+    "base2-49": {
+        "name": "Bellsprout",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "49",
+        "image": "base2_Jungle/base2-49.png"
+    },
+    "base2-5": {
+        "name": "Kangaskhan",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "5",
+        "image": "base2_Jungle/base2-5.png"
+    },
+    "base2-50": {
+        "name": "Cubone",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "50",
+        "image": "base2_Jungle/base2-50.png"
+    },
+    "base2-51": {
+        "name": "Eevee",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "51",
+        "image": "base2_Jungle/base2-51.png"
+    },
+    "base2-52": {
+        "name": "Exeggcute",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "52",
+        "image": "base2_Jungle/base2-52.png"
+    },
+    "base2-53": {
+        "name": "Goldeen",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "53",
+        "image": "base2_Jungle/base2-53.png"
+    },
+    "base2-54": {
+        "name": "Jigglypuff",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "54",
+        "image": "base2_Jungle/base2-54.png"
+    },
+    "base2-55": {
+        "name": "Mankey",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "55",
+        "image": "base2_Jungle/base2-55.png"
+    },
+    "base2-56": {
+        "name": "Meowth",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "56",
+        "image": "base2_Jungle/base2-56.png"
+    },
+    "base2-57": {
+        "name": "Nidoran♀",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "57",
+        "image": "base2_Jungle/base2-57.png"
+    },
+    "base2-58": {
+        "name": "Oddish",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "58",
+        "image": "base2_Jungle/base2-58.png"
+    },
+    "base2-59": {
+        "name": "Paras",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "59",
+        "image": "base2_Jungle/base2-59.png"
+    },
+    "base2-6": {
+        "name": "Mr. Mime",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "6",
+        "image": "base2_Jungle/base2-6.png"
+    },
+    "base2-60": {
+        "name": "Pikachu",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "60",
+        "image": "base2_Jungle/base2-60.png"
+    },
+    "base2-61": {
+        "name": "Rhyhorn",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "61",
+        "image": "base2_Jungle/base2-61.png"
+    },
+    "base2-62": {
+        "name": "Spearow",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "62",
+        "image": "base2_Jungle/base2-62.png"
+    },
+    "base2-63": {
+        "name": "Venonat",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "63",
+        "image": "base2_Jungle/base2-63.png"
+    },
+    "base2-64": {
+        "name": "Poké Ball",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "64",
+        "image": "base2_Jungle/base2-64.png"
+    },
+    "base2-7": {
+        "name": "Nidoqueen",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "7",
+        "image": "base2_Jungle/base2-7.png"
+    },
+    "base2-8": {
+        "name": "Pidgeot",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "8",
+        "image": "base2_Jungle/base2-8.png"
+    },
+    "base2-9": {
+        "name": "Pinsir",
+        "set": {
+            "id": "base2",
+            "name": "Jungle"
+        },
+        "number": "9",
+        "image": "base2_Jungle/base2-9.png"
+    },
+    "base3-1": {
+        "name": "Aerodactyl",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "1",
+        "image": "base3_Fossil/base3-1.png"
+    },
+    "base3-10": {
+        "name": "Lapras",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "10",
+        "image": "base3_Fossil/base3-10.png"
+    },
+    "base3-11": {
+        "name": "Magneton",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "11",
+        "image": "base3_Fossil/base3-11.png"
+    },
+    "base3-12": {
+        "name": "Moltres",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "12",
+        "image": "base3_Fossil/base3-12.png"
+    },
+    "base3-13": {
+        "name": "Muk",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "13",
+        "image": "base3_Fossil/base3-13.png"
+    },
+    "base3-14": {
+        "name": "Raichu",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "14",
+        "image": "base3_Fossil/base3-14.png"
+    },
+    "base3-15": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "15",
+        "image": "base3_Fossil/base3-15.png"
+    },
+    "base3-16": {
+        "name": "Aerodactyl",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "16",
+        "image": "base3_Fossil/base3-16.png"
+    },
+    "base3-17": {
+        "name": "Articuno",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "17",
+        "image": "base3_Fossil/base3-17.png"
+    },
+    "base3-18": {
+        "name": "Ditto",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "18",
+        "image": "base3_Fossil/base3-18.png"
+    },
+    "base3-19": {
+        "name": "Dragonite",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "19",
+        "image": "base3_Fossil/base3-19.png"
+    },
+    "base3-2": {
+        "name": "Articuno",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "2",
+        "image": "base3_Fossil/base3-2.png"
+    },
+    "base3-20": {
+        "name": "Gengar",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "20",
+        "image": "base3_Fossil/base3-20.png"
+    },
+    "base3-21": {
+        "name": "Haunter",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "21",
+        "image": "base3_Fossil/base3-21.png"
+    },
+    "base3-22": {
+        "name": "Hitmonlee",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "22",
+        "image": "base3_Fossil/base3-22.png"
+    },
+    "base3-23": {
+        "name": "Hypno",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "23",
+        "image": "base3_Fossil/base3-23.png"
+    },
+    "base3-24": {
+        "name": "Kabutops",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "24",
+        "image": "base3_Fossil/base3-24.png"
+    },
+    "base3-25": {
+        "name": "Lapras",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "25",
+        "image": "base3_Fossil/base3-25.png"
+    },
+    "base3-26": {
+        "name": "Magneton",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "26",
+        "image": "base3_Fossil/base3-26.png"
+    },
+    "base3-27": {
+        "name": "Moltres",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "27",
+        "image": "base3_Fossil/base3-27.png"
+    },
+    "base3-28": {
+        "name": "Muk",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "28",
+        "image": "base3_Fossil/base3-28.png"
+    },
+    "base3-29": {
+        "name": "Raichu",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "29",
+        "image": "base3_Fossil/base3-29.png"
+    },
+    "base3-3": {
+        "name": "Ditto",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "3",
+        "image": "base3_Fossil/base3-3.png"
+    },
+    "base3-30": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "30",
+        "image": "base3_Fossil/base3-30.png"
+    },
+    "base3-31": {
+        "name": "Arbok",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "31",
+        "image": "base3_Fossil/base3-31.png"
+    },
+    "base3-32": {
+        "name": "Cloyster",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "32",
+        "image": "base3_Fossil/base3-32.png"
+    },
+    "base3-33": {
+        "name": "Gastly",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "33",
+        "image": "base3_Fossil/base3-33.png"
+    },
+    "base3-34": {
+        "name": "Golbat",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "34",
+        "image": "base3_Fossil/base3-34.png"
+    },
+    "base3-35": {
+        "name": "Golduck",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "35",
+        "image": "base3_Fossil/base3-35.png"
+    },
+    "base3-36": {
+        "name": "Golem",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "36",
+        "image": "base3_Fossil/base3-36.png"
+    },
+    "base3-37": {
+        "name": "Graveler",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "37",
+        "image": "base3_Fossil/base3-37.png"
+    },
+    "base3-38": {
+        "name": "Kingler",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "38",
+        "image": "base3_Fossil/base3-38.png"
+    },
+    "base3-39": {
+        "name": "Magmar",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "39",
+        "image": "base3_Fossil/base3-39.png"
+    },
+    "base3-4": {
+        "name": "Dragonite",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "4",
+        "image": "base3_Fossil/base3-4.png"
+    },
+    "base3-40": {
+        "name": "Omastar",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "40",
+        "image": "base3_Fossil/base3-40.png"
+    },
+    "base3-41": {
+        "name": "Sandslash",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "41",
+        "image": "base3_Fossil/base3-41.png"
+    },
+    "base3-42": {
+        "name": "Seadra",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "42",
+        "image": "base3_Fossil/base3-42.png"
+    },
+    "base3-43": {
+        "name": "Slowbro",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "43",
+        "image": "base3_Fossil/base3-43.png"
+    },
+    "base3-44": {
+        "name": "Tentacruel",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "44",
+        "image": "base3_Fossil/base3-44.png"
+    },
+    "base3-45": {
+        "name": "Weezing",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "45",
+        "image": "base3_Fossil/base3-45.png"
+    },
+    "base3-46": {
+        "name": "Ekans",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "46",
+        "image": "base3_Fossil/base3-46.png"
+    },
+    "base3-47": {
+        "name": "Geodude",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "47",
+        "image": "base3_Fossil/base3-47.png"
+    },
+    "base3-48": {
+        "name": "Grimer",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "48",
+        "image": "base3_Fossil/base3-48.png"
+    },
+    "base3-49": {
+        "name": "Horsea",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "49",
+        "image": "base3_Fossil/base3-49.png"
+    },
+    "base3-5": {
+        "name": "Gengar",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "5",
+        "image": "base3_Fossil/base3-5.png"
+    },
+    "base3-50": {
+        "name": "Kabuto",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "50",
+        "image": "base3_Fossil/base3-50.png"
+    },
+    "base3-51": {
+        "name": "Krabby",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "51",
+        "image": "base3_Fossil/base3-51.png"
+    },
+    "base3-52": {
+        "name": "Omanyte",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "52",
+        "image": "base3_Fossil/base3-52.png"
+    },
+    "base3-53": {
+        "name": "Psyduck",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "53",
+        "image": "base3_Fossil/base3-53.png"
+    },
+    "base3-54": {
+        "name": "Shellder",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "54",
+        "image": "base3_Fossil/base3-54.png"
+    },
+    "base3-55": {
+        "name": "Slowpoke",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "55",
+        "image": "base3_Fossil/base3-55.png"
+    },
+    "base3-56": {
+        "name": "Tentacool",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "56",
+        "image": "base3_Fossil/base3-56.png"
+    },
+    "base3-57": {
+        "name": "Zubat",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "57",
+        "image": "base3_Fossil/base3-57.png"
+    },
+    "base3-58": {
+        "name": "Mr. Fuji",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "58",
+        "image": "base3_Fossil/base3-58.png"
+    },
+    "base3-59": {
+        "name": "Energy Search",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "59",
+        "image": "base3_Fossil/base3-59.png"
+    },
+    "base3-6": {
+        "name": "Haunter",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "6",
+        "image": "base3_Fossil/base3-6.png"
+    },
+    "base3-60": {
+        "name": "Gambler",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "60",
+        "image": "base3_Fossil/base3-60.png"
+    },
+    "base3-61": {
+        "name": "Recycle",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "61",
+        "image": "base3_Fossil/base3-61.png"
+    },
+    "base3-62": {
+        "name": "Mysterious Fossil",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "62",
+        "image": "base3_Fossil/base3-62.png"
+    },
+    "base3-7": {
+        "name": "Hitmonlee",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "7",
+        "image": "base3_Fossil/base3-7.png"
+    },
+    "base3-8": {
+        "name": "Hypno",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "8",
+        "image": "base3_Fossil/base3-8.png"
+    },
+    "base3-9": {
+        "name": "Kabutops",
+        "set": {
+            "id": "base3",
+            "name": "Fossil"
+        },
+        "number": "9",
+        "image": "base3_Fossil/base3-9.png"
+    },
+    "base4-1": {
+        "name": "Alakazam",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "1",
+        "image": "base4_Base_Set_2/base4-1.png"
+    },
+    "base4-10": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "10",
+        "image": "base4_Base_Set_2/base4-10.png"
+    },
+    "base4-100": {
+        "name": "Weedle",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "100",
+        "image": "base4_Base_Set_2/base4-100.png"
+    },
+    "base4-101": {
+        "name": "Computer Search",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "101",
+        "image": "base4_Base_Set_2/base4-101.png"
+    },
+    "base4-102": {
+        "name": "Impostor Professor Oak",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "102",
+        "image": "base4_Base_Set_2/base4-102.png"
+    },
+    "base4-103": {
+        "name": "Item Finder",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "103",
+        "image": "base4_Base_Set_2/base4-103.png"
+    },
+    "base4-104": {
+        "name": "Lass",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "104",
+        "image": "base4_Base_Set_2/base4-104.png"
+    },
+    "base4-105": {
+        "name": "Pokémon Breeder",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "105",
+        "image": "base4_Base_Set_2/base4-105.png"
+    },
+    "base4-106": {
+        "name": "Pokémon Trader",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "106",
+        "image": "base4_Base_Set_2/base4-106.png"
+    },
+    "base4-107": {
+        "name": "Scoop Up",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "107",
+        "image": "base4_Base_Set_2/base4-107.png"
+    },
+    "base4-108": {
+        "name": "Super Energy Removal",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "108",
+        "image": "base4_Base_Set_2/base4-108.png"
+    },
+    "base4-109": {
+        "name": "Defender",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "109",
+        "image": "base4_Base_Set_2/base4-109.png"
+    },
+    "base4-11": {
+        "name": "Nidoking",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "11",
+        "image": "base4_Base_Set_2/base4-11.png"
+    },
+    "base4-110": {
+        "name": "Energy Retrieval",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "110",
+        "image": "base4_Base_Set_2/base4-110.png"
+    },
+    "base4-111": {
+        "name": "Full Heal",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "111",
+        "image": "base4_Base_Set_2/base4-111.png"
+    },
+    "base4-112": {
+        "name": "Maintenance",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "112",
+        "image": "base4_Base_Set_2/base4-112.png"
+    },
+    "base4-113": {
+        "name": "PlusPower",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "113",
+        "image": "base4_Base_Set_2/base4-113.png"
+    },
+    "base4-114": {
+        "name": "Pokémon Center",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "114",
+        "image": "base4_Base_Set_2/base4-114.png"
+    },
+    "base4-115": {
+        "name": "Pokédex",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "115",
+        "image": "base4_Base_Set_2/base4-115.png"
+    },
+    "base4-116": {
+        "name": "Professor Oak",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "116",
+        "image": "base4_Base_Set_2/base4-116.png"
+    },
+    "base4-117": {
+        "name": "Super Potion",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "117",
+        "image": "base4_Base_Set_2/base4-117.png"
+    },
+    "base4-118": {
+        "name": "Bill",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "118",
+        "image": "base4_Base_Set_2/base4-118.png"
+    },
+    "base4-119": {
+        "name": "Energy Removal",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "119",
+        "image": "base4_Base_Set_2/base4-119.png"
+    },
+    "base4-12": {
+        "name": "Nidoqueen",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "12",
+        "image": "base4_Base_Set_2/base4-12.png"
+    },
+    "base4-120": {
+        "name": "Gust of Wind",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "120",
+        "image": "base4_Base_Set_2/base4-120.png"
+    },
+    "base4-121": {
+        "name": "Poké Ball",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "121",
+        "image": "base4_Base_Set_2/base4-121.png"
+    },
+    "base4-122": {
+        "name": "Potion",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "122",
+        "image": "base4_Base_Set_2/base4-122.png"
+    },
+    "base4-123": {
+        "name": "Switch",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "123",
+        "image": "base4_Base_Set_2/base4-123.png"
+    },
+    "base4-124": {
+        "name": "Double Colorless Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "124",
+        "image": "base4_Base_Set_2/base4-124.png"
+    },
+    "base4-125": {
+        "name": "Fighting Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "125",
+        "image": "base4_Base_Set_2/base4-125.png"
+    },
+    "base4-126": {
+        "name": "Fire Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "126",
+        "image": "base4_Base_Set_2/base4-126.png"
+    },
+    "base4-127": {
+        "name": "Grass Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "127",
+        "image": "base4_Base_Set_2/base4-127.png"
+    },
+    "base4-128": {
+        "name": "Lightning Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "128",
+        "image": "base4_Base_Set_2/base4-128.png"
+    },
+    "base4-129": {
+        "name": "Psychic Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "129",
+        "image": "base4_Base_Set_2/base4-129.png"
+    },
+    "base4-13": {
+        "name": "Ninetales",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "13",
+        "image": "base4_Base_Set_2/base4-13.png"
+    },
+    "base4-130": {
+        "name": "Water Energy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "130",
+        "image": "base4_Base_Set_2/base4-130.png"
+    },
+    "base4-14": {
+        "name": "Pidgeot",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "14",
+        "image": "base4_Base_Set_2/base4-14.png"
+    },
+    "base4-15": {
+        "name": "Poliwrath",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "15",
+        "image": "base4_Base_Set_2/base4-15.png"
+    },
+    "base4-16": {
+        "name": "Raichu",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "16",
+        "image": "base4_Base_Set_2/base4-16.png"
+    },
+    "base4-17": {
+        "name": "Scyther",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "17",
+        "image": "base4_Base_Set_2/base4-17.png"
+    },
+    "base4-18": {
+        "name": "Venusaur",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "18",
+        "image": "base4_Base_Set_2/base4-18.png"
+    },
+    "base4-19": {
+        "name": "Wigglytuff",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "19",
+        "image": "base4_Base_Set_2/base4-19.png"
+    },
+    "base4-2": {
+        "name": "Blastoise",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "2",
+        "image": "base4_Base_Set_2/base4-2.png"
+    },
+    "base4-20": {
+        "name": "Zapdos",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "20",
+        "image": "base4_Base_Set_2/base4-20.png"
+    },
+    "base4-21": {
+        "name": "Beedrill",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "21",
+        "image": "base4_Base_Set_2/base4-21.png"
+    },
+    "base4-22": {
+        "name": "Dragonair",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "22",
+        "image": "base4_Base_Set_2/base4-22.png"
+    },
+    "base4-23": {
+        "name": "Dugtrio",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "23",
+        "image": "base4_Base_Set_2/base4-23.png"
+    },
+    "base4-24": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "24",
+        "image": "base4_Base_Set_2/base4-24.png"
+    },
+    "base4-25": {
+        "name": "Electrode",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "25",
+        "image": "base4_Base_Set_2/base4-25.png"
+    },
+    "base4-26": {
+        "name": "Kangaskhan",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "26",
+        "image": "base4_Base_Set_2/base4-26.png"
+    },
+    "base4-27": {
+        "name": "Mr. Mime",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "27",
+        "image": "base4_Base_Set_2/base4-27.png"
+    },
+    "base4-28": {
+        "name": "Pidgeotto",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "28",
+        "image": "base4_Base_Set_2/base4-28.png"
+    },
+    "base4-29": {
+        "name": "Pinsir",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "29",
+        "image": "base4_Base_Set_2/base4-29.png"
+    },
+    "base4-3": {
+        "name": "Chansey",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "3",
+        "image": "base4_Base_Set_2/base4-3.png"
+    },
+    "base4-30": {
+        "name": "Snorlax",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "30",
+        "image": "base4_Base_Set_2/base4-30.png"
+    },
+    "base4-31": {
+        "name": "Venomoth",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "31",
+        "image": "base4_Base_Set_2/base4-31.png"
+    },
+    "base4-32": {
+        "name": "Victreebel",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "32",
+        "image": "base4_Base_Set_2/base4-32.png"
+    },
+    "base4-33": {
+        "name": "Arcanine",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "33",
+        "image": "base4_Base_Set_2/base4-33.png"
+    },
+    "base4-34": {
+        "name": "Butterfree",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "34",
+        "image": "base4_Base_Set_2/base4-34.png"
+    },
+    "base4-35": {
+        "name": "Charmeleon",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "35",
+        "image": "base4_Base_Set_2/base4-35.png"
+    },
+    "base4-36": {
+        "name": "Dewgong",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "36",
+        "image": "base4_Base_Set_2/base4-36.png"
+    },
+    "base4-37": {
+        "name": "Dodrio",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "37",
+        "image": "base4_Base_Set_2/base4-37.png"
+    },
+    "base4-38": {
+        "name": "Dratini",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "38",
+        "image": "base4_Base_Set_2/base4-38.png"
+    },
+    "base4-39": {
+        "name": "Exeggutor",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "39",
+        "image": "base4_Base_Set_2/base4-39.png"
+    },
+    "base4-4": {
+        "name": "Charizard",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "4",
+        "image": "base4_Base_Set_2/base4-4.png"
+    },
+    "base4-40": {
+        "name": "Farfetch'd",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "40",
+        "image": "base4_Base_Set_2/base4-40.png"
+    },
+    "base4-41": {
+        "name": "Fearow",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "41",
+        "image": "base4_Base_Set_2/base4-41.png"
+    },
+    "base4-42": {
+        "name": "Growlithe",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "42",
+        "image": "base4_Base_Set_2/base4-42.png"
+    },
+    "base4-43": {
+        "name": "Haunter",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "43",
+        "image": "base4_Base_Set_2/base4-43.png"
+    },
+    "base4-44": {
+        "name": "Ivysaur",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "44",
+        "image": "base4_Base_Set_2/base4-44.png"
+    },
+    "base4-45": {
+        "name": "Jynx",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "45",
+        "image": "base4_Base_Set_2/base4-45.png"
+    },
+    "base4-46": {
+        "name": "Kadabra",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "46",
+        "image": "base4_Base_Set_2/base4-46.png"
+    },
+    "base4-47": {
+        "name": "Kakuna",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "47",
+        "image": "base4_Base_Set_2/base4-47.png"
+    },
+    "base4-48": {
+        "name": "Lickitung",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "48",
+        "image": "base4_Base_Set_2/base4-48.png"
+    },
+    "base4-49": {
+        "name": "Machoke",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "49",
+        "image": "base4_Base_Set_2/base4-49.png"
+    },
+    "base4-5": {
+        "name": "Clefable",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "5",
+        "image": "base4_Base_Set_2/base4-5.png"
+    },
+    "base4-50": {
+        "name": "Magikarp",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "50",
+        "image": "base4_Base_Set_2/base4-50.png"
+    },
+    "base4-51": {
+        "name": "Magmar",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "51",
+        "image": "base4_Base_Set_2/base4-51.png"
+    },
+    "base4-52": {
+        "name": "Marowak",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "52",
+        "image": "base4_Base_Set_2/base4-52.png"
+    },
+    "base4-53": {
+        "name": "Nidorina",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "53",
+        "image": "base4_Base_Set_2/base4-53.png"
+    },
+    "base4-54": {
+        "name": "Nidorino",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "54",
+        "image": "base4_Base_Set_2/base4-54.png"
+    },
+    "base4-55": {
+        "name": "Parasect",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "55",
+        "image": "base4_Base_Set_2/base4-55.png"
+    },
+    "base4-56": {
+        "name": "Persian",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "56",
+        "image": "base4_Base_Set_2/base4-56.png"
+    },
+    "base4-57": {
+        "name": "Poliwhirl",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "57",
+        "image": "base4_Base_Set_2/base4-57.png"
+    },
+    "base4-58": {
+        "name": "Raticate",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "58",
+        "image": "base4_Base_Set_2/base4-58.png"
+    },
+    "base4-59": {
+        "name": "Rhydon",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "59",
+        "image": "base4_Base_Set_2/base4-59.png"
+    },
+    "base4-6": {
+        "name": "Clefairy",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "6",
+        "image": "base4_Base_Set_2/base4-6.png"
+    },
+    "base4-60": {
+        "name": "Seaking",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "60",
+        "image": "base4_Base_Set_2/base4-60.png"
+    },
+    "base4-61": {
+        "name": "Seel",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "61",
+        "image": "base4_Base_Set_2/base4-61.png"
+    },
+    "base4-62": {
+        "name": "Tauros",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "62",
+        "image": "base4_Base_Set_2/base4-62.png"
+    },
+    "base4-63": {
+        "name": "Wartortle",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "63",
+        "image": "base4_Base_Set_2/base4-63.png"
+    },
+    "base4-64": {
+        "name": "Weepinbell",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "64",
+        "image": "base4_Base_Set_2/base4-64.png"
+    },
+    "base4-65": {
+        "name": "Abra",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "65",
+        "image": "base4_Base_Set_2/base4-65.png"
+    },
+    "base4-66": {
+        "name": "Bellsprout",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "66",
+        "image": "base4_Base_Set_2/base4-66.png"
+    },
+    "base4-67": {
+        "name": "Bulbasaur",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "67",
+        "image": "base4_Base_Set_2/base4-67.png"
+    },
+    "base4-68": {
+        "name": "Caterpie",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "68",
+        "image": "base4_Base_Set_2/base4-68.png"
+    },
+    "base4-69": {
+        "name": "Charmander",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "69",
+        "image": "base4_Base_Set_2/base4-69.png"
+    },
+    "base4-7": {
+        "name": "Gyarados",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "7",
+        "image": "base4_Base_Set_2/base4-7.png"
+    },
+    "base4-70": {
+        "name": "Cubone",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "70",
+        "image": "base4_Base_Set_2/base4-70.png"
+    },
+    "base4-71": {
+        "name": "Diglett",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "71",
+        "image": "base4_Base_Set_2/base4-71.png"
+    },
+    "base4-72": {
+        "name": "Doduo",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "72",
+        "image": "base4_Base_Set_2/base4-72.png"
+    },
+    "base4-73": {
+        "name": "Drowzee",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "73",
+        "image": "base4_Base_Set_2/base4-73.png"
+    },
+    "base4-74": {
+        "name": "Exeggcute",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "74",
+        "image": "base4_Base_Set_2/base4-74.png"
+    },
+    "base4-75": {
+        "name": "Gastly",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "75",
+        "image": "base4_Base_Set_2/base4-75.png"
+    },
+    "base4-76": {
+        "name": "Goldeen",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "76",
+        "image": "base4_Base_Set_2/base4-76.png"
+    },
+    "base4-77": {
+        "name": "Jigglypuff",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "77",
+        "image": "base4_Base_Set_2/base4-77.png"
+    },
+    "base4-78": {
+        "name": "Machop",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "78",
+        "image": "base4_Base_Set_2/base4-78.png"
+    },
+    "base4-79": {
+        "name": "Magnemite",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "79",
+        "image": "base4_Base_Set_2/base4-79.png"
+    },
+    "base4-8": {
+        "name": "Hitmonchan",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "8",
+        "image": "base4_Base_Set_2/base4-8.png"
+    },
+    "base4-80": {
+        "name": "Meowth",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "80",
+        "image": "base4_Base_Set_2/base4-80.png"
+    },
+    "base4-81": {
+        "name": "Metapod",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "81",
+        "image": "base4_Base_Set_2/base4-81.png"
+    },
+    "base4-82": {
+        "name": "Nidoran♀",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "82",
+        "image": "base4_Base_Set_2/base4-82.png"
+    },
+    "base4-83": {
+        "name": "Nidoran♂",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "83",
+        "image": "base4_Base_Set_2/base4-83.png"
+    },
+    "base4-84": {
+        "name": "Onix",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "84",
+        "image": "base4_Base_Set_2/base4-84.png"
+    },
+    "base4-85": {
+        "name": "Paras",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "85",
+        "image": "base4_Base_Set_2/base4-85.png"
+    },
+    "base4-86": {
+        "name": "Pidgey",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "86",
+        "image": "base4_Base_Set_2/base4-86.png"
+    },
+    "base4-87": {
+        "name": "Pikachu",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "87",
+        "image": "base4_Base_Set_2/base4-87.png"
+    },
+    "base4-88": {
+        "name": "Poliwag",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "88",
+        "image": "base4_Base_Set_2/base4-88.png"
+    },
+    "base4-89": {
+        "name": "Rattata",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "89",
+        "image": "base4_Base_Set_2/base4-89.png"
+    },
+    "base4-9": {
+        "name": "Magneton",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "9",
+        "image": "base4_Base_Set_2/base4-9.png"
+    },
+    "base4-90": {
+        "name": "Rhyhorn",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "90",
+        "image": "base4_Base_Set_2/base4-90.png"
+    },
+    "base4-91": {
+        "name": "Sandshrew",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "91",
+        "image": "base4_Base_Set_2/base4-91.png"
+    },
+    "base4-92": {
+        "name": "Spearow",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "92",
+        "image": "base4_Base_Set_2/base4-92.png"
+    },
+    "base4-93": {
+        "name": "Squirtle",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "93",
+        "image": "base4_Base_Set_2/base4-93.png"
+    },
+    "base4-94": {
+        "name": "Starmie",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "94",
+        "image": "base4_Base_Set_2/base4-94.png"
+    },
+    "base4-95": {
+        "name": "Staryu",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "95",
+        "image": "base4_Base_Set_2/base4-95.png"
+    },
+    "base4-96": {
+        "name": "Tangela",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "96",
+        "image": "base4_Base_Set_2/base4-96.png"
+    },
+    "base4-97": {
+        "name": "Venonat",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "97",
+        "image": "base4_Base_Set_2/base4-97.png"
+    },
+    "base4-98": {
+        "name": "Voltorb",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "98",
+        "image": "base4_Base_Set_2/base4-98.png"
+    },
+    "base4-99": {
+        "name": "Vulpix",
+        "set": {
+            "id": "base4",
+            "name": "Base Set 2"
+        },
+        "number": "99",
+        "image": "base4_Base_Set_2/base4-99.png"
+    },
+    "base5-1": {
+        "name": "Dark Alakazam",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "1",
+        "image": "base5_Team_Rocket/base5-1.png"
+    },
+    "base5-10": {
+        "name": "Dark Machamp",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "10",
+        "image": "base5_Team_Rocket/base5-10.png"
+    },
+    "base5-11": {
+        "name": "Dark Magneton",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "11",
+        "image": "base5_Team_Rocket/base5-11.png"
+    },
+    "base5-12": {
+        "name": "Dark Slowbro",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "12",
+        "image": "base5_Team_Rocket/base5-12.png"
+    },
+    "base5-13": {
+        "name": "Dark Vileplume",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "13",
+        "image": "base5_Team_Rocket/base5-13.png"
+    },
+    "base5-14": {
+        "name": "Dark Weezing",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "14",
+        "image": "base5_Team_Rocket/base5-14.png"
+    },
+    "base5-15": {
+        "name": "Here Comes Team Rocket!",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "15",
+        "image": "base5_Team_Rocket/base5-15.png"
+    },
+    "base5-16": {
+        "name": "Rocket's Sneak Attack",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "16",
+        "image": "base5_Team_Rocket/base5-16.png"
+    },
+    "base5-17": {
+        "name": "Rainbow Energy",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "17",
+        "image": "base5_Team_Rocket/base5-17.png"
+    },
+    "base5-18": {
+        "name": "Dark Alakazam",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "18",
+        "image": "base5_Team_Rocket/base5-18.png"
+    },
+    "base5-19": {
+        "name": "Dark Arbok",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "19",
+        "image": "base5_Team_Rocket/base5-19.png"
+    },
+    "base5-2": {
+        "name": "Dark Arbok",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "2",
+        "image": "base5_Team_Rocket/base5-2.png"
+    },
+    "base5-20": {
+        "name": "Dark Blastoise",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "20",
+        "image": "base5_Team_Rocket/base5-20.png"
+    },
+    "base5-21": {
+        "name": "Dark Charizard",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "21",
+        "image": "base5_Team_Rocket/base5-21.png"
+    },
+    "base5-22": {
+        "name": "Dark Dragonite",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "22",
+        "image": "base5_Team_Rocket/base5-22.png"
+    },
+    "base5-23": {
+        "name": "Dark Dugtrio",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "23",
+        "image": "base5_Team_Rocket/base5-23.png"
+    },
+    "base5-24": {
+        "name": "Dark Golbat",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "24",
+        "image": "base5_Team_Rocket/base5-24.png"
+    },
+    "base5-25": {
+        "name": "Dark Gyarados",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "25",
+        "image": "base5_Team_Rocket/base5-25.png"
+    },
+    "base5-26": {
+        "name": "Dark Hypno",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "26",
+        "image": "base5_Team_Rocket/base5-26.png"
+    },
+    "base5-27": {
+        "name": "Dark Machamp",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "27",
+        "image": "base5_Team_Rocket/base5-27.png"
+    },
+    "base5-28": {
+        "name": "Dark Magneton",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "28",
+        "image": "base5_Team_Rocket/base5-28.png"
+    },
+    "base5-29": {
+        "name": "Dark Slowbro",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "29",
+        "image": "base5_Team_Rocket/base5-29.png"
+    },
+    "base5-3": {
+        "name": "Dark Blastoise",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "3",
+        "image": "base5_Team_Rocket/base5-3.png"
+    },
+    "base5-30": {
+        "name": "Dark Vileplume",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "30",
+        "image": "base5_Team_Rocket/base5-30.png"
+    },
+    "base5-31": {
+        "name": "Dark Weezing",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "31",
+        "image": "base5_Team_Rocket/base5-31.png"
+    },
+    "base5-32": {
+        "name": "Dark Charmeleon",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "32",
+        "image": "base5_Team_Rocket/base5-32.png"
+    },
+    "base5-33": {
+        "name": "Dark Dragonair",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "33",
+        "image": "base5_Team_Rocket/base5-33.png"
+    },
+    "base5-34": {
+        "name": "Dark Electrode",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "34",
+        "image": "base5_Team_Rocket/base5-34.png"
+    },
+    "base5-35": {
+        "name": "Dark Flareon",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "35",
+        "image": "base5_Team_Rocket/base5-35.png"
+    },
+    "base5-36": {
+        "name": "Dark Gloom",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "36",
+        "image": "base5_Team_Rocket/base5-36.png"
+    },
+    "base5-37": {
+        "name": "Dark Golduck",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "37",
+        "image": "base5_Team_Rocket/base5-37.png"
+    },
+    "base5-38": {
+        "name": "Dark Jolteon",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "38",
+        "image": "base5_Team_Rocket/base5-38.png"
+    },
+    "base5-39": {
+        "name": "Dark Kadabra",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "39",
+        "image": "base5_Team_Rocket/base5-39.png"
+    },
+    "base5-4": {
+        "name": "Dark Charizard",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "4",
+        "image": "base5_Team_Rocket/base5-4.png"
+    },
+    "base5-40": {
+        "name": "Dark Machoke",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "40",
+        "image": "base5_Team_Rocket/base5-40.png"
+    },
+    "base5-41": {
+        "name": "Dark Muk",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "41",
+        "image": "base5_Team_Rocket/base5-41.png"
+    },
+    "base5-42": {
+        "name": "Dark Persian",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "42",
+        "image": "base5_Team_Rocket/base5-42.png"
+    },
+    "base5-43": {
+        "name": "Dark Primeape",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "43",
+        "image": "base5_Team_Rocket/base5-43.png"
+    },
+    "base5-44": {
+        "name": "Dark Rapidash",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "44",
+        "image": "base5_Team_Rocket/base5-44.png"
+    },
+    "base5-45": {
+        "name": "Dark Vaporeon",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "45",
+        "image": "base5_Team_Rocket/base5-45.png"
+    },
+    "base5-46": {
+        "name": "Dark Wartortle",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "46",
+        "image": "base5_Team_Rocket/base5-46.png"
+    },
+    "base5-47": {
+        "name": "Magikarp",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "47",
+        "image": "base5_Team_Rocket/base5-47.png"
+    },
+    "base5-48": {
+        "name": "Porygon",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "48",
+        "image": "base5_Team_Rocket/base5-48.png"
+    },
+    "base5-49": {
+        "name": "Abra",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "49",
+        "image": "base5_Team_Rocket/base5-49.png"
+    },
+    "base5-5": {
+        "name": "Dark Dragonite",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "5",
+        "image": "base5_Team_Rocket/base5-5.png"
+    },
+    "base5-50": {
+        "name": "Charmander",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "50",
+        "image": "base5_Team_Rocket/base5-50.png"
+    },
+    "base5-51": {
+        "name": "Dark Raticate",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "51",
+        "image": "base5_Team_Rocket/base5-51.png"
+    },
+    "base5-52": {
+        "name": "Diglett",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "52",
+        "image": "base5_Team_Rocket/base5-52.png"
+    },
+    "base5-53": {
+        "name": "Dratini",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "53",
+        "image": "base5_Team_Rocket/base5-53.png"
+    },
+    "base5-54": {
+        "name": "Drowzee",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "54",
+        "image": "base5_Team_Rocket/base5-54.png"
+    },
+    "base5-55": {
+        "name": "Eevee",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "55",
+        "image": "base5_Team_Rocket/base5-55.png"
+    },
+    "base5-56": {
+        "name": "Ekans",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "56",
+        "image": "base5_Team_Rocket/base5-56.png"
+    },
+    "base5-57": {
+        "name": "Grimer",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "57",
+        "image": "base5_Team_Rocket/base5-57.png"
+    },
+    "base5-58": {
+        "name": "Koffing",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "58",
+        "image": "base5_Team_Rocket/base5-58.png"
+    },
+    "base5-59": {
+        "name": "Machop",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "59",
+        "image": "base5_Team_Rocket/base5-59.png"
+    },
+    "base5-6": {
+        "name": "Dark Dugtrio",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "6",
+        "image": "base5_Team_Rocket/base5-6.png"
+    },
+    "base5-60": {
+        "name": "Magnemite",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "60",
+        "image": "base5_Team_Rocket/base5-60.png"
+    },
+    "base5-61": {
+        "name": "Mankey",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "61",
+        "image": "base5_Team_Rocket/base5-61.png"
+    },
+    "base5-62": {
+        "name": "Meowth",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "62",
+        "image": "base5_Team_Rocket/base5-62.png"
+    },
+    "base5-63": {
+        "name": "Oddish",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "63",
+        "image": "base5_Team_Rocket/base5-63.png"
+    },
+    "base5-64": {
+        "name": "Ponyta",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "64",
+        "image": "base5_Team_Rocket/base5-64.png"
+    },
+    "base5-65": {
+        "name": "Psyduck",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "65",
+        "image": "base5_Team_Rocket/base5-65.png"
+    },
+    "base5-66": {
+        "name": "Rattata",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "66",
+        "image": "base5_Team_Rocket/base5-66.png"
+    },
+    "base5-67": {
+        "name": "Slowpoke",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "67",
+        "image": "base5_Team_Rocket/base5-67.png"
+    },
+    "base5-68": {
+        "name": "Squirtle",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "68",
+        "image": "base5_Team_Rocket/base5-68.png"
+    },
+    "base5-69": {
+        "name": "Voltorb",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "69",
+        "image": "base5_Team_Rocket/base5-69.png"
+    },
+    "base5-7": {
+        "name": "Dark Golbat",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "7",
+        "image": "base5_Team_Rocket/base5-7.png"
+    },
+    "base5-70": {
+        "name": "Zubat",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "70",
+        "image": "base5_Team_Rocket/base5-70.png"
+    },
+    "base5-71": {
+        "name": "Here Comes Team Rocket!",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "71",
+        "image": "base5_Team_Rocket/base5-71.png"
+    },
+    "base5-72": {
+        "name": "Rocket's Sneak Attack",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "72",
+        "image": "base5_Team_Rocket/base5-72.png"
+    },
+    "base5-73": {
+        "name": "The Boss's Way",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "73",
+        "image": "base5_Team_Rocket/base5-73.png"
+    },
+    "base5-74": {
+        "name": "Challenge!",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "74",
+        "image": "base5_Team_Rocket/base5-74.png"
+    },
+    "base5-75": {
+        "name": "Digger",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "75",
+        "image": "base5_Team_Rocket/base5-75.png"
+    },
+    "base5-76": {
+        "name": "Imposter Oak's Revenge",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "76",
+        "image": "base5_Team_Rocket/base5-76.png"
+    },
+    "base5-77": {
+        "name": "Nightly Garbage Run",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "77",
+        "image": "base5_Team_Rocket/base5-77.png"
+    },
+    "base5-78": {
+        "name": "Goop Gas Attack",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "78",
+        "image": "base5_Team_Rocket/base5-78.png"
+    },
+    "base5-79": {
+        "name": "Sleep!",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "79",
+        "image": "base5_Team_Rocket/base5-79.png"
+    },
+    "base5-8": {
+        "name": "Dark Gyarados",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "8",
+        "image": "base5_Team_Rocket/base5-8.png"
+    },
+    "base5-80": {
+        "name": "Rainbow Energy",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "80",
+        "image": "base5_Team_Rocket/base5-80.png"
+    },
+    "base5-81": {
+        "name": "Full Heal Energy",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "81",
+        "image": "base5_Team_Rocket/base5-81.png"
+    },
+    "base5-82": {
+        "name": "Potion Energy",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "82",
+        "image": "base5_Team_Rocket/base5-82.png"
+    },
+    "base5-83": {
+        "name": "Dark Raichu",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "83",
+        "image": "base5_Team_Rocket/base5-83.png"
+    },
+    "base5-9": {
+        "name": "Dark Hypno",
+        "set": {
+            "id": "base5",
+            "name": "Team Rocket"
+        },
+        "number": "9",
+        "image": "base5_Team_Rocket/base5-9.png"
+    },
+    "basep-1": {
+        "name": "Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "1",
+        "image": "basep_Wizards_Black_Star_Promos/basep-1.png"
+    },
+    "basep-10": {
+        "name": "Meowth",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "10",
+        "image": "basep_Wizards_Black_Star_Promos/basep-10.png"
+    },
+    "basep-11": {
+        "name": "Eevee",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "11",
+        "image": "basep_Wizards_Black_Star_Promos/basep-11.png"
+    },
+    "basep-12": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "12",
+        "image": "basep_Wizards_Black_Star_Promos/basep-12.png"
+    },
+    "basep-13": {
+        "name": "Venusaur",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "13",
+        "image": "basep_Wizards_Black_Star_Promos/basep-13.png"
+    },
+    "basep-14": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "14",
+        "image": "basep_Wizards_Black_Star_Promos/basep-14.png"
+    },
+    "basep-15": {
+        "name": "Cool Porygon",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "15",
+        "image": "basep_Wizards_Black_Star_Promos/basep-15.png"
+    },
+    "basep-16": {
+        "name": "Computer Error",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "16",
+        "image": "basep_Wizards_Black_Star_Promos/basep-16.png"
+    },
+    "basep-17": {
+        "name": "Dark Persian",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "17",
+        "image": "basep_Wizards_Black_Star_Promos/basep-17.png"
+    },
+    "basep-18": {
+        "name": "Team Rocket's Meowth",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "18",
+        "image": "basep_Wizards_Black_Star_Promos/basep-18.png"
+    },
+    "basep-19": {
+        "name": "Sabrina's Abra",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "19",
+        "image": "basep_Wizards_Black_Star_Promos/basep-19.png"
+    },
+    "basep-2": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "2",
+        "image": "basep_Wizards_Black_Star_Promos/basep-2.png"
+    },
+    "basep-20": {
+        "name": "Psyduck",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "20",
+        "image": "basep_Wizards_Black_Star_Promos/basep-20.png"
+    },
+    "basep-21": {
+        "name": "Moltres",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "21",
+        "image": "basep_Wizards_Black_Star_Promos/basep-21.png"
+    },
+    "basep-22": {
+        "name": "Articuno",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "22",
+        "image": "basep_Wizards_Black_Star_Promos/basep-22.png"
+    },
+    "basep-23": {
+        "name": "Zapdos",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "23",
+        "image": "basep_Wizards_Black_Star_Promos/basep-23.png"
+    },
+    "basep-24": {
+        "name": "___________'s Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "24",
+        "image": "basep_Wizards_Black_Star_Promos/basep-24.png"
+    },
+    "basep-25": {
+        "name": "Flying Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "25",
+        "image": "basep_Wizards_Black_Star_Promos/basep-25.png"
+    },
+    "basep-26": {
+        "name": "Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "26",
+        "image": "basep_Wizards_Black_Star_Promos/basep-26.png"
+    },
+    "basep-27": {
+        "name": "Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "27",
+        "image": "basep_Wizards_Black_Star_Promos/basep-27.png"
+    },
+    "basep-28": {
+        "name": "Surfing Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "28",
+        "image": "basep_Wizards_Black_Star_Promos/basep-28.png"
+    },
+    "basep-29": {
+        "name": "Marill",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "29",
+        "image": "basep_Wizards_Black_Star_Promos/basep-29.png"
+    },
+    "basep-3": {
+        "name": "Mewtwo",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "3",
+        "image": "basep_Wizards_Black_Star_Promos/basep-3.png"
+    },
+    "basep-30": {
+        "name": "Togepi",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "30",
+        "image": "basep_Wizards_Black_Star_Promos/basep-30.png"
+    },
+    "basep-31": {
+        "name": "Cleffa",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "31",
+        "image": "basep_Wizards_Black_Star_Promos/basep-31.png"
+    },
+    "basep-32": {
+        "name": "Smeargle",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "32",
+        "image": "basep_Wizards_Black_Star_Promos/basep-32.png"
+    },
+    "basep-33": {
+        "name": "Scizor",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "33",
+        "image": "basep_Wizards_Black_Star_Promos/basep-33.png"
+    },
+    "basep-34": {
+        "name": "Entei",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "34",
+        "image": "basep_Wizards_Black_Star_Promos/basep-34.png"
+    },
+    "basep-35": {
+        "name": "Pichu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "35",
+        "image": "basep_Wizards_Black_Star_Promos/basep-35.png"
+    },
+    "basep-36": {
+        "name": "Igglybuff",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "36",
+        "image": "basep_Wizards_Black_Star_Promos/basep-36.png"
+    },
+    "basep-37": {
+        "name": "Hitmontop",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "37",
+        "image": "basep_Wizards_Black_Star_Promos/basep-37.png"
+    },
+    "basep-38": {
+        "name": "Unown [J]",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "38",
+        "image": "basep_Wizards_Black_Star_Promos/basep-38.png"
+    },
+    "basep-39": {
+        "name": "Misdreavus",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "39",
+        "image": "basep_Wizards_Black_Star_Promos/basep-39.png"
+    },
+    "basep-4": {
+        "name": "Pikachu",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "4",
+        "image": "basep_Wizards_Black_Star_Promos/basep-4.png"
+    },
+    "basep-40": {
+        "name": "Pokémon Center",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "40",
+        "image": "basep_Wizards_Black_Star_Promos/basep-40.png"
+    },
+    "basep-41": {
+        "name": "Lucky Stadium",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "41",
+        "image": "basep_Wizards_Black_Star_Promos/basep-41.png"
+    },
+    "basep-42": {
+        "name": "Pokémon Tower",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "42",
+        "image": "basep_Wizards_Black_Star_Promos/basep-42.png"
+    },
+    "basep-43": {
+        "name": "Machamp",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "43",
+        "image": "basep_Wizards_Black_Star_Promos/basep-43.png"
+    },
+    "basep-44": {
+        "name": "Magmar",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "44",
+        "image": "basep_Wizards_Black_Star_Promos/basep-44.png"
+    },
+    "basep-45": {
+        "name": "Scyther",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "45",
+        "image": "basep_Wizards_Black_Star_Promos/basep-45.png"
+    },
+    "basep-46": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "46",
+        "image": "basep_Wizards_Black_Star_Promos/basep-46.png"
+    },
+    "basep-47": {
+        "name": "Mew",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "47",
+        "image": "basep_Wizards_Black_Star_Promos/basep-47.png"
+    },
+    "basep-48": {
+        "name": "Articuno",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "48",
+        "image": "basep_Wizards_Black_Star_Promos/basep-48.png"
+    },
+    "basep-49": {
+        "name": "Snorlax",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "49",
+        "image": "basep_Wizards_Black_Star_Promos/basep-49.png"
+    },
+    "basep-5": {
+        "name": "Dragonite",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "5",
+        "image": "basep_Wizards_Black_Star_Promos/basep-5.png"
+    },
+    "basep-50": {
+        "name": "Celebi",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "50",
+        "image": "basep_Wizards_Black_Star_Promos/basep-50.png"
+    },
+    "basep-51": {
+        "name": "Rapidash",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "51",
+        "image": "basep_Wizards_Black_Star_Promos/basep-51.png"
+    },
+    "basep-52": {
+        "name": "Ho-oh",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "52",
+        "image": "basep_Wizards_Black_Star_Promos/basep-52.png"
+    },
+    "basep-53": {
+        "name": "Suicune",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "53",
+        "image": "basep_Wizards_Black_Star_Promos/basep-53.png"
+    },
+    "basep-6": {
+        "name": "Arcanine",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "6",
+        "image": "basep_Wizards_Black_Star_Promos/basep-6.png"
+    },
+    "basep-7": {
+        "name": "Jigglypuff",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "7",
+        "image": "basep_Wizards_Black_Star_Promos/basep-7.png"
+    },
+    "basep-8": {
+        "name": "Mew",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "8",
+        "image": "basep_Wizards_Black_Star_Promos/basep-8.png"
+    },
+    "basep-9": {
+        "name": "Mew",
+        "set": {
+            "id": "basep",
+            "name": "Wizards Black Star Promos"
+        },
+        "number": "9",
+        "image": "basep_Wizards_Black_Star_Promos/basep-9.png"
+    },
+    "gym1-1": {
+        "name": "Blaine's Moltres",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "1",
+        "image": "gym1_Gym_Heroes/gym1-1.png"
+    },
+    "gym1-10": {
+        "name": "Misty's Tentacruel",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "10",
+        "image": "gym1_Gym_Heroes/gym1-10.png"
+    },
+    "gym1-100": {
+        "name": "Erika",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "100",
+        "image": "gym1_Gym_Heroes/gym1-100.png"
+    },
+    "gym1-101": {
+        "name": "Lt. Surge",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "101",
+        "image": "gym1_Gym_Heroes/gym1-101.png"
+    },
+    "gym1-102": {
+        "name": "Misty",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "102",
+        "image": "gym1_Gym_Heroes/gym1-102.png"
+    },
+    "gym1-103": {
+        "name": "No Removal Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "103",
+        "image": "gym1_Gym_Heroes/gym1-103.png"
+    },
+    "gym1-104": {
+        "name": "The Rocket's Training Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "104",
+        "image": "gym1_Gym_Heroes/gym1-104.png"
+    },
+    "gym1-105": {
+        "name": "Blaine's Last Resort",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "105",
+        "image": "gym1_Gym_Heroes/gym1-105.png"
+    },
+    "gym1-106": {
+        "name": "Brock's Training Method",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "106",
+        "image": "gym1_Gym_Heroes/gym1-106.png"
+    },
+    "gym1-107": {
+        "name": "Celadon City Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "107",
+        "image": "gym1_Gym_Heroes/gym1-107.png"
+    },
+    "gym1-108": {
+        "name": "Cerulean City Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "108",
+        "image": "gym1_Gym_Heroes/gym1-108.png"
+    },
+    "gym1-109": {
+        "name": "Erika's Maids",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "109",
+        "image": "gym1_Gym_Heroes/gym1-109.png"
+    },
+    "gym1-11": {
+        "name": "Rocket's Hitmonchan",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "11",
+        "image": "gym1_Gym_Heroes/gym1-11.png"
+    },
+    "gym1-110": {
+        "name": "Erika's Perfume",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "110",
+        "image": "gym1_Gym_Heroes/gym1-110.png"
+    },
+    "gym1-111": {
+        "name": "Good Manners",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "111",
+        "image": "gym1_Gym_Heroes/gym1-111.png"
+    },
+    "gym1-112": {
+        "name": "Lt. Surge's Treaty",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "112",
+        "image": "gym1_Gym_Heroes/gym1-112.png"
+    },
+    "gym1-113": {
+        "name": "Minion of Team Rocket",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "113",
+        "image": "gym1_Gym_Heroes/gym1-113.png"
+    },
+    "gym1-114": {
+        "name": "Misty's Wrath",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "114",
+        "image": "gym1_Gym_Heroes/gym1-114.png"
+    },
+    "gym1-115": {
+        "name": "Pewter City Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "115",
+        "image": "gym1_Gym_Heroes/gym1-115.png"
+    },
+    "gym1-116": {
+        "name": "Recall",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "116",
+        "image": "gym1_Gym_Heroes/gym1-116.png"
+    },
+    "gym1-117": {
+        "name": "Sabrina's ESP",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "117",
+        "image": "gym1_Gym_Heroes/gym1-117.png"
+    },
+    "gym1-118": {
+        "name": "Secret Mission",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "118",
+        "image": "gym1_Gym_Heroes/gym1-118.png"
+    },
+    "gym1-119": {
+        "name": "Tickling Machine",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "119",
+        "image": "gym1_Gym_Heroes/gym1-119.png"
+    },
+    "gym1-12": {
+        "name": "Rocket's Moltres",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "12",
+        "image": "gym1_Gym_Heroes/gym1-12.png"
+    },
+    "gym1-120": {
+        "name": "Vermilion City Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "120",
+        "image": "gym1_Gym_Heroes/gym1-120.png"
+    },
+    "gym1-121": {
+        "name": "Blaine's Gamble",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "121",
+        "image": "gym1_Gym_Heroes/gym1-121.png"
+    },
+    "gym1-122": {
+        "name": "Energy Flow",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "122",
+        "image": "gym1_Gym_Heroes/gym1-122.png"
+    },
+    "gym1-123": {
+        "name": "Misty's Duel",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "123",
+        "image": "gym1_Gym_Heroes/gym1-123.png"
+    },
+    "gym1-124": {
+        "name": "Narrow Gym",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "124",
+        "image": "gym1_Gym_Heroes/gym1-124.png"
+    },
+    "gym1-125": {
+        "name": "Sabrina's Gaze",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "125",
+        "image": "gym1_Gym_Heroes/gym1-125.png"
+    },
+    "gym1-126": {
+        "name": "Trash Exchange",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "126",
+        "image": "gym1_Gym_Heroes/gym1-126.png"
+    },
+    "gym1-127": {
+        "name": "Fighting Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "127",
+        "image": "gym1_Gym_Heroes/gym1-127.png"
+    },
+    "gym1-128": {
+        "name": "Fire Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "128",
+        "image": "gym1_Gym_Heroes/gym1-128.png"
+    },
+    "gym1-129": {
+        "name": "Grass Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "129",
+        "image": "gym1_Gym_Heroes/gym1-129.png"
+    },
+    "gym1-13": {
+        "name": "Rocket's Scyther",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "13",
+        "image": "gym1_Gym_Heroes/gym1-13.png"
+    },
+    "gym1-130": {
+        "name": "Lightning Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "130",
+        "image": "gym1_Gym_Heroes/gym1-130.png"
+    },
+    "gym1-131": {
+        "name": "Psychic Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "131",
+        "image": "gym1_Gym_Heroes/gym1-131.png"
+    },
+    "gym1-132": {
+        "name": "Water Energy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "132",
+        "image": "gym1_Gym_Heroes/gym1-132.png"
+    },
+    "gym1-14": {
+        "name": "Sabrina's Gengar",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "14",
+        "image": "gym1_Gym_Heroes/gym1-14.png"
+    },
+    "gym1-15": {
+        "name": "Brock",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "15",
+        "image": "gym1_Gym_Heroes/gym1-15.png"
+    },
+    "gym1-16": {
+        "name": "Erika",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "16",
+        "image": "gym1_Gym_Heroes/gym1-16.png"
+    },
+    "gym1-17": {
+        "name": "Lt. Surge",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "17",
+        "image": "gym1_Gym_Heroes/gym1-17.png"
+    },
+    "gym1-18": {
+        "name": "Misty",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "18",
+        "image": "gym1_Gym_Heroes/gym1-18.png"
+    },
+    "gym1-19": {
+        "name": "The Rocket's Trap",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "19",
+        "image": "gym1_Gym_Heroes/gym1-19.png"
+    },
+    "gym1-2": {
+        "name": "Brock's Rhydon",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "2",
+        "image": "gym1_Gym_Heroes/gym1-2.png"
+    },
+    "gym1-20": {
+        "name": "Brock's Golem",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "20",
+        "image": "gym1_Gym_Heroes/gym1-20.png"
+    },
+    "gym1-21": {
+        "name": "Brock's Onix",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "21",
+        "image": "gym1_Gym_Heroes/gym1-21.png"
+    },
+    "gym1-22": {
+        "name": "Brock's Rhyhorn",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "22",
+        "image": "gym1_Gym_Heroes/gym1-22.png"
+    },
+    "gym1-23": {
+        "name": "Brock's Sandslash",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "23",
+        "image": "gym1_Gym_Heroes/gym1-23.png"
+    },
+    "gym1-24": {
+        "name": "Brock's Zubat",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "24",
+        "image": "gym1_Gym_Heroes/gym1-24.png"
+    },
+    "gym1-25": {
+        "name": "Erika's Clefairy",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "25",
+        "image": "gym1_Gym_Heroes/gym1-25.png"
+    },
+    "gym1-26": {
+        "name": "Erika's Victreebel",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "26",
+        "image": "gym1_Gym_Heroes/gym1-26.png"
+    },
+    "gym1-27": {
+        "name": "Lt. Surge's Electabuzz",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "27",
+        "image": "gym1_Gym_Heroes/gym1-27.png"
+    },
+    "gym1-28": {
+        "name": "Lt. Surge's Raichu",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "28",
+        "image": "gym1_Gym_Heroes/gym1-28.png"
+    },
+    "gym1-29": {
+        "name": "Misty's Cloyster",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "29",
+        "image": "gym1_Gym_Heroes/gym1-29.png"
+    },
+    "gym1-3": {
+        "name": "Erika's Clefable",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "3",
+        "image": "gym1_Gym_Heroes/gym1-3.png"
+    },
+    "gym1-30": {
+        "name": "Misty's Goldeen",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "30",
+        "image": "gym1_Gym_Heroes/gym1-30.png"
+    },
+    "gym1-31": {
+        "name": "Misty's Poliwrath",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "31",
+        "image": "gym1_Gym_Heroes/gym1-31.png"
+    },
+    "gym1-32": {
+        "name": "Misty's Tentacool",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "32",
+        "image": "gym1_Gym_Heroes/gym1-32.png"
+    },
+    "gym1-33": {
+        "name": "Rocket's Snorlax",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "33",
+        "image": "gym1_Gym_Heroes/gym1-33.png"
+    },
+    "gym1-34": {
+        "name": "Sabrina's Venomoth",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "34",
+        "image": "gym1_Gym_Heroes/gym1-34.png"
+    },
+    "gym1-35": {
+        "name": "Blaine's Growlithe",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "35",
+        "image": "gym1_Gym_Heroes/gym1-35.png"
+    },
+    "gym1-36": {
+        "name": "Blaine's Kangaskhan",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "36",
+        "image": "gym1_Gym_Heroes/gym1-36.png"
+    },
+    "gym1-37": {
+        "name": "Blaine's Magmar",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "37",
+        "image": "gym1_Gym_Heroes/gym1-37.png"
+    },
+    "gym1-38": {
+        "name": "Brock's Geodude",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "38",
+        "image": "gym1_Gym_Heroes/gym1-38.png"
+    },
+    "gym1-39": {
+        "name": "Brock's Golbat",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "39",
+        "image": "gym1_Gym_Heroes/gym1-39.png"
+    },
+    "gym1-4": {
+        "name": "Erika's Dragonair",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "4",
+        "image": "gym1_Gym_Heroes/gym1-4.png"
+    },
+    "gym1-40": {
+        "name": "Brock's Graveler",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "40",
+        "image": "gym1_Gym_Heroes/gym1-40.png"
+    },
+    "gym1-41": {
+        "name": "Brock's Lickitung",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "41",
+        "image": "gym1_Gym_Heroes/gym1-41.png"
+    },
+    "gym1-42": {
+        "name": "Erika's Dratini",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "42",
+        "image": "gym1_Gym_Heroes/gym1-42.png"
+    },
+    "gym1-43": {
+        "name": "Erika's Exeggcute",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "43",
+        "image": "gym1_Gym_Heroes/gym1-43.png"
+    },
+    "gym1-44": {
+        "name": "Erika's Exeggutor",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "44",
+        "image": "gym1_Gym_Heroes/gym1-44.png"
+    },
+    "gym1-45": {
+        "name": "Erika's Gloom",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "45",
+        "image": "gym1_Gym_Heroes/gym1-45.png"
+    },
+    "gym1-46": {
+        "name": "Erika's Gloom",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "46",
+        "image": "gym1_Gym_Heroes/gym1-46.png"
+    },
+    "gym1-47": {
+        "name": "Erika's Oddish",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "47",
+        "image": "gym1_Gym_Heroes/gym1-47.png"
+    },
+    "gym1-48": {
+        "name": "Erika's Weepinbell",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "48",
+        "image": "gym1_Gym_Heroes/gym1-48.png"
+    },
+    "gym1-49": {
+        "name": "Erika's Weepinbell",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "49",
+        "image": "gym1_Gym_Heroes/gym1-49.png"
+    },
+    "gym1-5": {
+        "name": "Erika's Vileplume",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "5",
+        "image": "gym1_Gym_Heroes/gym1-5.png"
+    },
+    "gym1-50": {
+        "name": "Lt. Surge's Magnemite",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "50",
+        "image": "gym1_Gym_Heroes/gym1-50.png"
+    },
+    "gym1-51": {
+        "name": "Lt. Surge's Raticate",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "51",
+        "image": "gym1_Gym_Heroes/gym1-51.png"
+    },
+    "gym1-52": {
+        "name": "Lt. Surge's Spearow",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "52",
+        "image": "gym1_Gym_Heroes/gym1-52.png"
+    },
+    "gym1-53": {
+        "name": "Misty's Poliwhirl",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "53",
+        "image": "gym1_Gym_Heroes/gym1-53.png"
+    },
+    "gym1-54": {
+        "name": "Misty's Psyduck",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "54",
+        "image": "gym1_Gym_Heroes/gym1-54.png"
+    },
+    "gym1-55": {
+        "name": "Misty's Seaking",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "55",
+        "image": "gym1_Gym_Heroes/gym1-55.png"
+    },
+    "gym1-56": {
+        "name": "Misty's Starmie",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "56",
+        "image": "gym1_Gym_Heroes/gym1-56.png"
+    },
+    "gym1-57": {
+        "name": "Misty's Tentacool",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "57",
+        "image": "gym1_Gym_Heroes/gym1-57.png"
+    },
+    "gym1-58": {
+        "name": "Sabrina's Haunter",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "58",
+        "image": "gym1_Gym_Heroes/gym1-58.png"
+    },
+    "gym1-59": {
+        "name": "Sabrina's Jynx",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "59",
+        "image": "gym1_Gym_Heroes/gym1-59.png"
+    },
+    "gym1-6": {
+        "name": "Lt. Surge's Electabuzz",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "6",
+        "image": "gym1_Gym_Heroes/gym1-6.png"
+    },
+    "gym1-60": {
+        "name": "Sabrina's Slowbro",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "60",
+        "image": "gym1_Gym_Heroes/gym1-60.png"
+    },
+    "gym1-61": {
+        "name": "Blaine's Charmander",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "61",
+        "image": "gym1_Gym_Heroes/gym1-61.png"
+    },
+    "gym1-62": {
+        "name": "Blaine's Growlithe",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "62",
+        "image": "gym1_Gym_Heroes/gym1-62.png"
+    },
+    "gym1-63": {
+        "name": "Blaine's Ponyta",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "63",
+        "image": "gym1_Gym_Heroes/gym1-63.png"
+    },
+    "gym1-64": {
+        "name": "Blaine's Tauros",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "64",
+        "image": "gym1_Gym_Heroes/gym1-64.png"
+    },
+    "gym1-65": {
+        "name": "Blaine's Vulpix",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "65",
+        "image": "gym1_Gym_Heroes/gym1-65.png"
+    },
+    "gym1-66": {
+        "name": "Brock's Geodude",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "66",
+        "image": "gym1_Gym_Heroes/gym1-66.png"
+    },
+    "gym1-67": {
+        "name": "Brock's Mankey",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "67",
+        "image": "gym1_Gym_Heroes/gym1-67.png"
+    },
+    "gym1-68": {
+        "name": "Brock's Mankey",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "68",
+        "image": "gym1_Gym_Heroes/gym1-68.png"
+    },
+    "gym1-69": {
+        "name": "Brock's Onix",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "69",
+        "image": "gym1_Gym_Heroes/gym1-69.png"
+    },
+    "gym1-7": {
+        "name": "Lt. Surge's Fearow",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "7",
+        "image": "gym1_Gym_Heroes/gym1-7.png"
+    },
+    "gym1-70": {
+        "name": "Brock's Rhyhorn",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "70",
+        "image": "gym1_Gym_Heroes/gym1-70.png"
+    },
+    "gym1-71": {
+        "name": "Brock's Sandshrew",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "71",
+        "image": "gym1_Gym_Heroes/gym1-71.png"
+    },
+    "gym1-72": {
+        "name": "Brock's Sandshrew",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "72",
+        "image": "gym1_Gym_Heroes/gym1-72.png"
+    },
+    "gym1-73": {
+        "name": "Brock's Vulpix",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "73",
+        "image": "gym1_Gym_Heroes/gym1-73.png"
+    },
+    "gym1-74": {
+        "name": "Brock's Zubat",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "74",
+        "image": "gym1_Gym_Heroes/gym1-74.png"
+    },
+    "gym1-75": {
+        "name": "Erika's Bellsprout",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "75",
+        "image": "gym1_Gym_Heroes/gym1-75.png"
+    },
+    "gym1-76": {
+        "name": "Erika's Bellsprout",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "76",
+        "image": "gym1_Gym_Heroes/gym1-76.png"
+    },
+    "gym1-77": {
+        "name": "Erika's Exeggcute",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "77",
+        "image": "gym1_Gym_Heroes/gym1-77.png"
+    },
+    "gym1-78": {
+        "name": "Erika's Oddish",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "78",
+        "image": "gym1_Gym_Heroes/gym1-78.png"
+    },
+    "gym1-79": {
+        "name": "Erika's Tangela",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "79",
+        "image": "gym1_Gym_Heroes/gym1-79.png"
+    },
+    "gym1-8": {
+        "name": "Lt. Surge's Magneton",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "8",
+        "image": "gym1_Gym_Heroes/gym1-8.png"
+    },
+    "gym1-80": {
+        "name": "Lt. Surge's Magnemite",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "80",
+        "image": "gym1_Gym_Heroes/gym1-80.png"
+    },
+    "gym1-81": {
+        "name": "Lt. Surge's Pikachu",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "81",
+        "image": "gym1_Gym_Heroes/gym1-81.png"
+    },
+    "gym1-82": {
+        "name": "Lt. Surge's Rattata",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "82",
+        "image": "gym1_Gym_Heroes/gym1-82.png"
+    },
+    "gym1-83": {
+        "name": "Lt. Surge's Spearow",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "83",
+        "image": "gym1_Gym_Heroes/gym1-83.png"
+    },
+    "gym1-84": {
+        "name": "Lt. Surge's Voltorb",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "84",
+        "image": "gym1_Gym_Heroes/gym1-84.png"
+    },
+    "gym1-85": {
+        "name": "Misty's Goldeen",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "85",
+        "image": "gym1_Gym_Heroes/gym1-85.png"
+    },
+    "gym1-86": {
+        "name": "Misty's Horsea",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "86",
+        "image": "gym1_Gym_Heroes/gym1-86.png"
+    },
+    "gym1-87": {
+        "name": "Misty's Poliwag",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "87",
+        "image": "gym1_Gym_Heroes/gym1-87.png"
+    },
+    "gym1-88": {
+        "name": "Misty's Seel",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "88",
+        "image": "gym1_Gym_Heroes/gym1-88.png"
+    },
+    "gym1-89": {
+        "name": "Misty's Shellder",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "89",
+        "image": "gym1_Gym_Heroes/gym1-89.png"
+    },
+    "gym1-9": {
+        "name": "Misty's Seadra",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "9",
+        "image": "gym1_Gym_Heroes/gym1-9.png"
+    },
+    "gym1-90": {
+        "name": "Misty's Staryu",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "90",
+        "image": "gym1_Gym_Heroes/gym1-90.png"
+    },
+    "gym1-91": {
+        "name": "Sabrina's Abra",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "91",
+        "image": "gym1_Gym_Heroes/gym1-91.png"
+    },
+    "gym1-92": {
+        "name": "Sabrina's Drowzee",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "92",
+        "image": "gym1_Gym_Heroes/gym1-92.png"
+    },
+    "gym1-93": {
+        "name": "Sabrina's Gastly",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "93",
+        "image": "gym1_Gym_Heroes/gym1-93.png"
+    },
+    "gym1-94": {
+        "name": "Sabrina's Mr. Mime",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "94",
+        "image": "gym1_Gym_Heroes/gym1-94.png"
+    },
+    "gym1-95": {
+        "name": "Sabrina's Slowpoke",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "95",
+        "image": "gym1_Gym_Heroes/gym1-95.png"
+    },
+    "gym1-96": {
+        "name": "Sabrina's Venonat",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "96",
+        "image": "gym1_Gym_Heroes/gym1-96.png"
+    },
+    "gym1-97": {
+        "name": "Blaine's Quiz #1",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "97",
+        "image": "gym1_Gym_Heroes/gym1-97.png"
+    },
+    "gym1-98": {
+        "name": "Brock",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "98",
+        "image": "gym1_Gym_Heroes/gym1-98.png"
+    },
+    "gym1-99": {
+        "name": "Charity",
+        "set": {
+            "id": "gym1",
+            "name": "Gym Heroes"
+        },
+        "number": "99",
+        "image": "gym1_Gym_Heroes/gym1-99.png"
+    },
+    "gym2-1": {
+        "name": "Blaine's Arcanine",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "1",
+        "image": "gym2_Gym_Challenge/gym2-1.png"
+    },
+    "gym2-10": {
+        "name": "Koga's Ditto",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "10",
+        "image": "gym2_Gym_Challenge/gym2-10.png"
+    },
+    "gym2-100": {
+        "name": "Blaine",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "100",
+        "image": "gym2_Gym_Challenge/gym2-100.png"
+    },
+    "gym2-101": {
+        "name": "Brock's Protection",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "101",
+        "image": "gym2_Gym_Challenge/gym2-101.png"
+    },
+    "gym2-102": {
+        "name": "Chaos Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "102",
+        "image": "gym2_Gym_Challenge/gym2-102.png"
+    },
+    "gym2-103": {
+        "name": "Erika's Kindness",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "103",
+        "image": "gym2_Gym_Challenge/gym2-103.png"
+    },
+    "gym2-104": {
+        "name": "Giovanni",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "104",
+        "image": "gym2_Gym_Challenge/gym2-104.png"
+    },
+    "gym2-105": {
+        "name": "Giovanni's Last Resort",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "105",
+        "image": "gym2_Gym_Challenge/gym2-105.png"
+    },
+    "gym2-106": {
+        "name": "Koga",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "106",
+        "image": "gym2_Gym_Challenge/gym2-106.png"
+    },
+    "gym2-107": {
+        "name": "Lt. Surge's Secret Plan",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "107",
+        "image": "gym2_Gym_Challenge/gym2-107.png"
+    },
+    "gym2-108": {
+        "name": "Misty's Wish",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "108",
+        "image": "gym2_Gym_Challenge/gym2-108.png"
+    },
+    "gym2-109": {
+        "name": "Resistance Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "109",
+        "image": "gym2_Gym_Challenge/gym2-109.png"
+    },
+    "gym2-11": {
+        "name": "Lt. Surge's Raichu",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "11",
+        "image": "gym2_Gym_Challenge/gym2-11.png"
+    },
+    "gym2-110": {
+        "name": "Sabrina",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "110",
+        "image": "gym2_Gym_Challenge/gym2-110.png"
+    },
+    "gym2-111": {
+        "name": "Blaine's Quiz #2",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "111",
+        "image": "gym2_Gym_Challenge/gym2-111.png"
+    },
+    "gym2-112": {
+        "name": "Blaine's Quiz #3",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "112",
+        "image": "gym2_Gym_Challenge/gym2-112.png"
+    },
+    "gym2-113": {
+        "name": "Cinnabar City Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "113",
+        "image": "gym2_Gym_Challenge/gym2-113.png"
+    },
+    "gym2-114": {
+        "name": "Fuchsia City Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "114",
+        "image": "gym2_Gym_Challenge/gym2-114.png"
+    },
+    "gym2-115": {
+        "name": "Koga's Ninja Trick",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "115",
+        "image": "gym2_Gym_Challenge/gym2-115.png"
+    },
+    "gym2-116": {
+        "name": "Master Ball",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "116",
+        "image": "gym2_Gym_Challenge/gym2-116.png"
+    },
+    "gym2-117": {
+        "name": "Max Revive",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "117",
+        "image": "gym2_Gym_Challenge/gym2-117.png"
+    },
+    "gym2-118": {
+        "name": "Misty's Tears",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "118",
+        "image": "gym2_Gym_Challenge/gym2-118.png"
+    },
+    "gym2-119": {
+        "name": "Rocket's Minefield Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "119",
+        "image": "gym2_Gym_Challenge/gym2-119.png"
+    },
+    "gym2-12": {
+        "name": "Misty's Golduck",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "12",
+        "image": "gym2_Gym_Challenge/gym2-12.png"
+    },
+    "gym2-120": {
+        "name": "Rocket's Secret Experiment",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "120",
+        "image": "gym2_Gym_Challenge/gym2-120.png"
+    },
+    "gym2-121": {
+        "name": "Sabrina's Psychic Control",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "121",
+        "image": "gym2_Gym_Challenge/gym2-121.png"
+    },
+    "gym2-122": {
+        "name": "Saffron City Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "122",
+        "image": "gym2_Gym_Challenge/gym2-122.png"
+    },
+    "gym2-123": {
+        "name": "Viridian City Gym",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "123",
+        "image": "gym2_Gym_Challenge/gym2-123.png"
+    },
+    "gym2-124": {
+        "name": "Fervor",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "124",
+        "image": "gym2_Gym_Challenge/gym2-124.png"
+    },
+    "gym2-125": {
+        "name": "Transparent Walls",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "125",
+        "image": "gym2_Gym_Challenge/gym2-125.png"
+    },
+    "gym2-126": {
+        "name": "Warp Point",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "126",
+        "image": "gym2_Gym_Challenge/gym2-126.png"
+    },
+    "gym2-127": {
+        "name": "Fighting Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "127",
+        "image": "gym2_Gym_Challenge/gym2-127.png"
+    },
+    "gym2-128": {
+        "name": "Fire Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "128",
+        "image": "gym2_Gym_Challenge/gym2-128.png"
+    },
+    "gym2-129": {
+        "name": "Grass Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "129",
+        "image": "gym2_Gym_Challenge/gym2-129.png"
+    },
+    "gym2-13": {
+        "name": "Misty's Gyarados",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "13",
+        "image": "gym2_Gym_Challenge/gym2-13.png"
+    },
+    "gym2-130": {
+        "name": "Lightning Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "130",
+        "image": "gym2_Gym_Challenge/gym2-130.png"
+    },
+    "gym2-131": {
+        "name": "Psychic Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "131",
+        "image": "gym2_Gym_Challenge/gym2-131.png"
+    },
+    "gym2-132": {
+        "name": "Water Energy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "132",
+        "image": "gym2_Gym_Challenge/gym2-132.png"
+    },
+    "gym2-14": {
+        "name": "Rocket's Mewtwo",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "14",
+        "image": "gym2_Gym_Challenge/gym2-14.png"
+    },
+    "gym2-15": {
+        "name": "Rocket's Zapdos",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "15",
+        "image": "gym2_Gym_Challenge/gym2-15.png"
+    },
+    "gym2-16": {
+        "name": "Sabrina's Alakazam",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "16",
+        "image": "gym2_Gym_Challenge/gym2-16.png"
+    },
+    "gym2-17": {
+        "name": "Blaine",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "17",
+        "image": "gym2_Gym_Challenge/gym2-17.png"
+    },
+    "gym2-18": {
+        "name": "Giovanni",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "18",
+        "image": "gym2_Gym_Challenge/gym2-18.png"
+    },
+    "gym2-19": {
+        "name": "Koga",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "19",
+        "image": "gym2_Gym_Challenge/gym2-19.png"
+    },
+    "gym2-2": {
+        "name": "Blaine's Charizard",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "2",
+        "image": "gym2_Gym_Challenge/gym2-2.png"
+    },
+    "gym2-20": {
+        "name": "Sabrina",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "20",
+        "image": "gym2_Gym_Challenge/gym2-20.png"
+    },
+    "gym2-21": {
+        "name": "Blaine's Ninetales",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "21",
+        "image": "gym2_Gym_Challenge/gym2-21.png"
+    },
+    "gym2-22": {
+        "name": "Brock's Dugtrio",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "22",
+        "image": "gym2_Gym_Challenge/gym2-22.png"
+    },
+    "gym2-23": {
+        "name": "Giovanni's Nidoqueen",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "23",
+        "image": "gym2_Gym_Challenge/gym2-23.png"
+    },
+    "gym2-24": {
+        "name": "Giovanni's Pinsir",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "24",
+        "image": "gym2_Gym_Challenge/gym2-24.png"
+    },
+    "gym2-25": {
+        "name": "Koga's Arbok",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "25",
+        "image": "gym2_Gym_Challenge/gym2-25.png"
+    },
+    "gym2-26": {
+        "name": "Koga's Muk",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "26",
+        "image": "gym2_Gym_Challenge/gym2-26.png"
+    },
+    "gym2-27": {
+        "name": "Koga's Pidgeotto",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "27",
+        "image": "gym2_Gym_Challenge/gym2-27.png"
+    },
+    "gym2-28": {
+        "name": "Lt. Surge's Jolteon",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "28",
+        "image": "gym2_Gym_Challenge/gym2-28.png"
+    },
+    "gym2-29": {
+        "name": "Sabrina's Gengar",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "29",
+        "image": "gym2_Gym_Challenge/gym2-29.png"
+    },
+    "gym2-3": {
+        "name": "Brock's Ninetales",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "3",
+        "image": "gym2_Gym_Challenge/gym2-3.png"
+    },
+    "gym2-30": {
+        "name": "Sabrina's Golduck",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "30",
+        "image": "gym2_Gym_Challenge/gym2-30.png"
+    },
+    "gym2-31": {
+        "name": "Blaine's Charmeleon",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "31",
+        "image": "gym2_Gym_Challenge/gym2-31.png"
+    },
+    "gym2-32": {
+        "name": "Blaine's Dodrio",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "32",
+        "image": "gym2_Gym_Challenge/gym2-32.png"
+    },
+    "gym2-33": {
+        "name": "Blaine's Rapidash",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "33",
+        "image": "gym2_Gym_Challenge/gym2-33.png"
+    },
+    "gym2-34": {
+        "name": "Brock's Graveler",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "34",
+        "image": "gym2_Gym_Challenge/gym2-34.png"
+    },
+    "gym2-35": {
+        "name": "Brock's Primeape",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "35",
+        "image": "gym2_Gym_Challenge/gym2-35.png"
+    },
+    "gym2-36": {
+        "name": "Brock's Sandslash",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "36",
+        "image": "gym2_Gym_Challenge/gym2-36.png"
+    },
+    "gym2-37": {
+        "name": "Brock's Vulpix",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "37",
+        "image": "gym2_Gym_Challenge/gym2-37.png"
+    },
+    "gym2-38": {
+        "name": "Erika's Bellsprout",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "38",
+        "image": "gym2_Gym_Challenge/gym2-38.png"
+    },
+    "gym2-39": {
+        "name": "Erika's Bulbasaur",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "39",
+        "image": "gym2_Gym_Challenge/gym2-39.png"
+    },
+    "gym2-4": {
+        "name": "Erika's Venusaur",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "4",
+        "image": "gym2_Gym_Challenge/gym2-4.png"
+    },
+    "gym2-40": {
+        "name": "Erika's Clefairy",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "40",
+        "image": "gym2_Gym_Challenge/gym2-40.png"
+    },
+    "gym2-41": {
+        "name": "Erika's Ivysaur",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "41",
+        "image": "gym2_Gym_Challenge/gym2-41.png"
+    },
+    "gym2-42": {
+        "name": "Giovanni's Machoke",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "42",
+        "image": "gym2_Gym_Challenge/gym2-42.png"
+    },
+    "gym2-43": {
+        "name": "Giovanni's Meowth",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "43",
+        "image": "gym2_Gym_Challenge/gym2-43.png"
+    },
+    "gym2-44": {
+        "name": "Giovanni's Nidorina",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "44",
+        "image": "gym2_Gym_Challenge/gym2-44.png"
+    },
+    "gym2-45": {
+        "name": "Giovanni's Nidorino",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "45",
+        "image": "gym2_Gym_Challenge/gym2-45.png"
+    },
+    "gym2-46": {
+        "name": "Koga's Golbat",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "46",
+        "image": "gym2_Gym_Challenge/gym2-46.png"
+    },
+    "gym2-47": {
+        "name": "Koga's Kakuna",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "47",
+        "image": "gym2_Gym_Challenge/gym2-47.png"
+    },
+    "gym2-48": {
+        "name": "Koga's Koffing",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "48",
+        "image": "gym2_Gym_Challenge/gym2-48.png"
+    },
+    "gym2-49": {
+        "name": "Koga's Pidgey",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "49",
+        "image": "gym2_Gym_Challenge/gym2-49.png"
+    },
+    "gym2-5": {
+        "name": "Giovanni's Gyarados",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "5",
+        "image": "gym2_Gym_Challenge/gym2-5.png"
+    },
+    "gym2-50": {
+        "name": "Koga's Weezing",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "50",
+        "image": "gym2_Gym_Challenge/gym2-50.png"
+    },
+    "gym2-51": {
+        "name": "Lt. Surge's Eevee",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "51",
+        "image": "gym2_Gym_Challenge/gym2-51.png"
+    },
+    "gym2-52": {
+        "name": "Lt. Surge's Electrode",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "52",
+        "image": "gym2_Gym_Challenge/gym2-52.png"
+    },
+    "gym2-53": {
+        "name": "Lt. Surge's Raticate",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "53",
+        "image": "gym2_Gym_Challenge/gym2-53.png"
+    },
+    "gym2-54": {
+        "name": "Misty's Dewgong",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "54",
+        "image": "gym2_Gym_Challenge/gym2-54.png"
+    },
+    "gym2-55": {
+        "name": "Sabrina's Haunter",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "55",
+        "image": "gym2_Gym_Challenge/gym2-55.png"
+    },
+    "gym2-56": {
+        "name": "Sabrina's Hypno",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "56",
+        "image": "gym2_Gym_Challenge/gym2-56.png"
+    },
+    "gym2-57": {
+        "name": "Sabrina's Jynx",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "57",
+        "image": "gym2_Gym_Challenge/gym2-57.png"
+    },
+    "gym2-58": {
+        "name": "Sabrina's Kadabra",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "58",
+        "image": "gym2_Gym_Challenge/gym2-58.png"
+    },
+    "gym2-59": {
+        "name": "Sabrina's Mr. Mime",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "59",
+        "image": "gym2_Gym_Challenge/gym2-59.png"
+    },
+    "gym2-6": {
+        "name": "Giovanni's Machamp",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "6",
+        "image": "gym2_Gym_Challenge/gym2-6.png"
+    },
+    "gym2-60": {
+        "name": "Blaine's Charmander",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "60",
+        "image": "gym2_Gym_Challenge/gym2-60.png"
+    },
+    "gym2-61": {
+        "name": "Blaine's Doduo",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "61",
+        "image": "gym2_Gym_Challenge/gym2-61.png"
+    },
+    "gym2-62": {
+        "name": "Blaine's Growlithe",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "62",
+        "image": "gym2_Gym_Challenge/gym2-62.png"
+    },
+    "gym2-63": {
+        "name": "Blaine's Mankey",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "63",
+        "image": "gym2_Gym_Challenge/gym2-63.png"
+    },
+    "gym2-64": {
+        "name": "Blaine's Ponyta",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "64",
+        "image": "gym2_Gym_Challenge/gym2-64.png"
+    },
+    "gym2-65": {
+        "name": "Blaine's Rhyhorn",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "65",
+        "image": "gym2_Gym_Challenge/gym2-65.png"
+    },
+    "gym2-66": {
+        "name": "Blaine's Vulpix",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "66",
+        "image": "gym2_Gym_Challenge/gym2-66.png"
+    },
+    "gym2-67": {
+        "name": "Brock's Diglett",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "67",
+        "image": "gym2_Gym_Challenge/gym2-67.png"
+    },
+    "gym2-68": {
+        "name": "Brock's Geodude",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "68",
+        "image": "gym2_Gym_Challenge/gym2-68.png"
+    },
+    "gym2-69": {
+        "name": "Erika's Jigglypuff",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "69",
+        "image": "gym2_Gym_Challenge/gym2-69.png"
+    },
+    "gym2-7": {
+        "name": "Giovanni's Nidoking",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "7",
+        "image": "gym2_Gym_Challenge/gym2-7.png"
+    },
+    "gym2-70": {
+        "name": "Erika's Oddish",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "70",
+        "image": "gym2_Gym_Challenge/gym2-70.png"
+    },
+    "gym2-71": {
+        "name": "Erika's Paras",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "71",
+        "image": "gym2_Gym_Challenge/gym2-71.png"
+    },
+    "gym2-72": {
+        "name": "Giovanni's Machop",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "72",
+        "image": "gym2_Gym_Challenge/gym2-72.png"
+    },
+    "gym2-73": {
+        "name": "Giovanni's Magikarp",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "73",
+        "image": "gym2_Gym_Challenge/gym2-73.png"
+    },
+    "gym2-74": {
+        "name": "Giovanni's Meowth",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "74",
+        "image": "gym2_Gym_Challenge/gym2-74.png"
+    },
+    "gym2-75": {
+        "name": "Giovanni's Nidoran♀",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "75",
+        "image": "gym2_Gym_Challenge/gym2-75.png"
+    },
+    "gym2-76": {
+        "name": "Giovanni's Nidoran♂",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "76",
+        "image": "gym2_Gym_Challenge/gym2-76.png"
+    },
+    "gym2-77": {
+        "name": "Koga's Ekans",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "77",
+        "image": "gym2_Gym_Challenge/gym2-77.png"
+    },
+    "gym2-78": {
+        "name": "Koga's Grimer",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "78",
+        "image": "gym2_Gym_Challenge/gym2-78.png"
+    },
+    "gym2-79": {
+        "name": "Koga's Koffing",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "79",
+        "image": "gym2_Gym_Challenge/gym2-79.png"
+    },
+    "gym2-8": {
+        "name": "Giovanni's Persian",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "8",
+        "image": "gym2_Gym_Challenge/gym2-8.png"
+    },
+    "gym2-80": {
+        "name": "Koga's Pidgey",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "80",
+        "image": "gym2_Gym_Challenge/gym2-80.png"
+    },
+    "gym2-81": {
+        "name": "Koga's Tangela",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "81",
+        "image": "gym2_Gym_Challenge/gym2-81.png"
+    },
+    "gym2-82": {
+        "name": "Koga's Weedle",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "82",
+        "image": "gym2_Gym_Challenge/gym2-82.png"
+    },
+    "gym2-83": {
+        "name": "Koga's Zubat",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "83",
+        "image": "gym2_Gym_Challenge/gym2-83.png"
+    },
+    "gym2-84": {
+        "name": "Lt. Surge's Pikachu",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "84",
+        "image": "gym2_Gym_Challenge/gym2-84.png"
+    },
+    "gym2-85": {
+        "name": "Lt. Surge's Rattata",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "85",
+        "image": "gym2_Gym_Challenge/gym2-85.png"
+    },
+    "gym2-86": {
+        "name": "Lt. Surge's Voltorb",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "86",
+        "image": "gym2_Gym_Challenge/gym2-86.png"
+    },
+    "gym2-87": {
+        "name": "Misty's Horsea",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "87",
+        "image": "gym2_Gym_Challenge/gym2-87.png"
+    },
+    "gym2-88": {
+        "name": "Misty's Magikarp",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "88",
+        "image": "gym2_Gym_Challenge/gym2-88.png"
+    },
+    "gym2-89": {
+        "name": "Misty's Poliwag",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "89",
+        "image": "gym2_Gym_Challenge/gym2-89.png"
+    },
+    "gym2-9": {
+        "name": "Koga's Beedrill",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "9",
+        "image": "gym2_Gym_Challenge/gym2-9.png"
+    },
+    "gym2-90": {
+        "name": "Misty's Psyduck",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "90",
+        "image": "gym2_Gym_Challenge/gym2-90.png"
+    },
+    "gym2-91": {
+        "name": "Misty's Seel",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "91",
+        "image": "gym2_Gym_Challenge/gym2-91.png"
+    },
+    "gym2-92": {
+        "name": "Misty's Staryu",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "92",
+        "image": "gym2_Gym_Challenge/gym2-92.png"
+    },
+    "gym2-93": {
+        "name": "Sabrina's Abra",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "93",
+        "image": "gym2_Gym_Challenge/gym2-93.png"
+    },
+    "gym2-94": {
+        "name": "Sabrina's Abra",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "94",
+        "image": "gym2_Gym_Challenge/gym2-94.png"
+    },
+    "gym2-95": {
+        "name": "Sabrina's Drowzee",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "95",
+        "image": "gym2_Gym_Challenge/gym2-95.png"
+    },
+    "gym2-96": {
+        "name": "Sabrina's Gastly",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "96",
+        "image": "gym2_Gym_Challenge/gym2-96.png"
+    },
+    "gym2-97": {
+        "name": "Sabrina's Gastly",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "97",
+        "image": "gym2_Gym_Challenge/gym2-97.png"
+    },
+    "gym2-98": {
+        "name": "Sabrina's Porygon",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "98",
+        "image": "gym2_Gym_Challenge/gym2-98.png"
+    },
+    "gym2-99": {
+        "name": "Sabrina's Psyduck",
+        "set": {
+            "id": "gym2",
+            "name": "Gym Challenge"
+        },
+        "number": "99",
+        "image": "gym2_Gym_Challenge/gym2-99.png"
+    },
+    "me03-035": {
+        "name": "Spritzee",
+        "set": {
+            "id": "me03",
+            "name": "Perfect Order"
+        },
+        "number": "035",
+        "image": "me03_Perfect_Order/me03-035.png"
+    },
+    "neo1-1": {
+        "name": "Ampharos",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "1",
+        "image": "neo1_Neo_Genesis/neo1-1.png"
+    },
+    "neo1-10": {
+        "name": "Meganium",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "10",
+        "image": "neo1_Neo_Genesis/neo1-10.png"
+    },
+    "neo1-11": {
+        "name": "Meganium",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "11",
+        "image": "neo1_Neo_Genesis/neo1-11.png"
+    },
+    "neo1-12": {
+        "name": "Pichu",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "12",
+        "image": "neo1_Neo_Genesis/neo1-12.png"
+    },
+    "neo1-13": {
+        "name": "Skarmory",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "13",
+        "image": "neo1_Neo_Genesis/neo1-13.png"
+    },
+    "neo1-14": {
+        "name": "Slowking",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "14",
+        "image": "neo1_Neo_Genesis/neo1-14.png"
+    },
+    "neo1-15": {
+        "name": "Steelix",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "15",
+        "image": "neo1_Neo_Genesis/neo1-15.png"
+    },
+    "neo1-16": {
+        "name": "Togetic",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "16",
+        "image": "neo1_Neo_Genesis/neo1-16.png"
+    },
+    "neo1-17": {
+        "name": "Typhlosion",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "17",
+        "image": "neo1_Neo_Genesis/neo1-17.png"
+    },
+    "neo1-18": {
+        "name": "Typhlosion",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "18",
+        "image": "neo1_Neo_Genesis/neo1-18.png"
+    },
+    "neo1-19": {
+        "name": "Metal Energy",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "19",
+        "image": "neo1_Neo_Genesis/neo1-19.png"
+    },
+    "neo1-2": {
+        "name": "Azumarill",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "2",
+        "image": "neo1_Neo_Genesis/neo1-2.png"
+    },
+    "neo1-20": {
+        "name": "Cleffa",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "20",
+        "image": "neo1_Neo_Genesis/neo1-20.png"
+    },
+    "neo1-21": {
+        "name": "Donphan",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "21",
+        "image": "neo1_Neo_Genesis/neo1-21.png"
+    },
+    "neo1-22": {
+        "name": "Elekid",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "22",
+        "image": "neo1_Neo_Genesis/neo1-22.png"
+    },
+    "neo1-23": {
+        "name": "Magby",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "23",
+        "image": "neo1_Neo_Genesis/neo1-23.png"
+    },
+    "neo1-24": {
+        "name": "Murkrow",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "24",
+        "image": "neo1_Neo_Genesis/neo1-24.png"
+    },
+    "neo1-25": {
+        "name": "Sneasel",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "25",
+        "image": "neo1_Neo_Genesis/neo1-25.png"
+    },
+    "neo1-26": {
+        "name": "Aipom",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "26",
+        "image": "neo1_Neo_Genesis/neo1-26.png"
+    },
+    "neo1-27": {
+        "name": "Ariados",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "27",
+        "image": "neo1_Neo_Genesis/neo1-27.png"
+    },
+    "neo1-28": {
+        "name": "Bayleef",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "28",
+        "image": "neo1_Neo_Genesis/neo1-28.png"
+    },
+    "neo1-29": {
+        "name": "Bayleef",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "29",
+        "image": "neo1_Neo_Genesis/neo1-29.png"
+    },
+    "neo1-3": {
+        "name": "Bellossom",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "3",
+        "image": "neo1_Neo_Genesis/neo1-3.png"
+    },
+    "neo1-30": {
+        "name": "Clefairy",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "30",
+        "image": "neo1_Neo_Genesis/neo1-30.png"
+    },
+    "neo1-31": {
+        "name": "Croconaw",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "31",
+        "image": "neo1_Neo_Genesis/neo1-31.png"
+    },
+    "neo1-32": {
+        "name": "Croconaw",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "32",
+        "image": "neo1_Neo_Genesis/neo1-32.png"
+    },
+    "neo1-33": {
+        "name": "Electabuzz",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "33",
+        "image": "neo1_Neo_Genesis/neo1-33.png"
+    },
+    "neo1-34": {
+        "name": "Flaaffy",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "34",
+        "image": "neo1_Neo_Genesis/neo1-34.png"
+    },
+    "neo1-35": {
+        "name": "Furret",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "35",
+        "image": "neo1_Neo_Genesis/neo1-35.png"
+    },
+    "neo1-36": {
+        "name": "Gloom",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "36",
+        "image": "neo1_Neo_Genesis/neo1-36.png"
+    },
+    "neo1-37": {
+        "name": "Granbull",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "37",
+        "image": "neo1_Neo_Genesis/neo1-37.png"
+    },
+    "neo1-38": {
+        "name": "Lanturn",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "38",
+        "image": "neo1_Neo_Genesis/neo1-38.png"
+    },
+    "neo1-39": {
+        "name": "Ledian",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "39",
+        "image": "neo1_Neo_Genesis/neo1-39.png"
+    },
+    "neo1-4": {
+        "name": "Feraligatr",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "4",
+        "image": "neo1_Neo_Genesis/neo1-4.png"
+    },
+    "neo1-40": {
+        "name": "Magmar",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "40",
+        "image": "neo1_Neo_Genesis/neo1-40.png"
+    },
+    "neo1-41": {
+        "name": "Miltank",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "41",
+        "image": "neo1_Neo_Genesis/neo1-41.png"
+    },
+    "neo1-42": {
+        "name": "Noctowl",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "42",
+        "image": "neo1_Neo_Genesis/neo1-42.png"
+    },
+    "neo1-43": {
+        "name": "Phanpy",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "43",
+        "image": "neo1_Neo_Genesis/neo1-43.png"
+    },
+    "neo1-44": {
+        "name": "Piloswine",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "44",
+        "image": "neo1_Neo_Genesis/neo1-44.png"
+    },
+    "neo1-45": {
+        "name": "Quagsire",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "45",
+        "image": "neo1_Neo_Genesis/neo1-45.png"
+    },
+    "neo1-46": {
+        "name": "Quilava",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "46",
+        "image": "neo1_Neo_Genesis/neo1-46.png"
+    },
+    "neo1-47": {
+        "name": "Quilava",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "47",
+        "image": "neo1_Neo_Genesis/neo1-47.png"
+    },
+    "neo1-48": {
+        "name": "Seadra",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "48",
+        "image": "neo1_Neo_Genesis/neo1-48.png"
+    },
+    "neo1-49": {
+        "name": "Skiploom",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "49",
+        "image": "neo1_Neo_Genesis/neo1-49.png"
+    },
+    "neo1-5": {
+        "name": "Feraligatr",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "5",
+        "image": "neo1_Neo_Genesis/neo1-5.png"
+    },
+    "neo1-50": {
+        "name": "Sunflora",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "50",
+        "image": "neo1_Neo_Genesis/neo1-50.png"
+    },
+    "neo1-51": {
+        "name": "Togepi",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "51",
+        "image": "neo1_Neo_Genesis/neo1-51.png"
+    },
+    "neo1-52": {
+        "name": "Xatu",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "52",
+        "image": "neo1_Neo_Genesis/neo1-52.png"
+    },
+    "neo1-53": {
+        "name": "Chikorita",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "53",
+        "image": "neo1_Neo_Genesis/neo1-53.png"
+    },
+    "neo1-54": {
+        "name": "Chikorita",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "54",
+        "image": "neo1_Neo_Genesis/neo1-54.png"
+    },
+    "neo1-55": {
+        "name": "Chinchou",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "55",
+        "image": "neo1_Neo_Genesis/neo1-55.png"
+    },
+    "neo1-56": {
+        "name": "Cyndaquil",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "56",
+        "image": "neo1_Neo_Genesis/neo1-56.png"
+    },
+    "neo1-57": {
+        "name": "Cyndaquil",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "57",
+        "image": "neo1_Neo_Genesis/neo1-57.png"
+    },
+    "neo1-6": {
+        "name": "Heracross",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "6",
+        "image": "neo1_Neo_Genesis/neo1-6.png"
+    },
+    "neo1-7": {
+        "name": "Jumpluff",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "7",
+        "image": "neo1_Neo_Genesis/neo1-7.png"
+    },
+    "neo1-8": {
+        "name": "Kingdra",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "8",
+        "image": "neo1_Neo_Genesis/neo1-8.png"
+    },
+    "neo1-9": {
+        "name": "Lugia",
+        "set": {
+            "id": "neo1",
+            "name": "Neo Genesis"
+        },
+        "number": "9",
+        "image": "neo1_Neo_Genesis/neo1-9.png"
+    }
+}

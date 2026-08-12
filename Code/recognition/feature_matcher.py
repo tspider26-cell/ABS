@@ -1,74 +1,107 @@
+# ABS FEATURE MATCHER v2.2
+# New hierarchical image storage support
+
+
 import cv2
-import json
-import os
 import numpy as np
+from pathlib import Path
 
 
 class FeatureMatcher:
 
     def __init__(self):
 
-        self.orb = cv2.ORB_create(nfeatures=1000)
+        self.orb = cv2.ORB_create(nfeatures=2000)
 
-        self.matcher = cv2.BFMatcher(cv2.NORM_HAMMING, crossCheck=True)
+        self.bf = cv2.BFMatcher(cv2.NORM_HAMMING)
 
-    def load_features(self, path):
+    def preprocess(self, image_path):
 
-        with open(path, "r", encoding="utf-8") as file:
-
-            return json.load(file)
-
-    def extract_descriptors(self, image_path):
-
-        image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
+        image = cv2.imread(str(image_path))
 
         if image is None:
-
             return None
 
-        keypoints, descriptors = self.orb.detectAndCompute(image, None)
+        gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-        return descriptors
+        clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
 
-    def compare(self, image_a, image_b):
+        enhanced = clahe.apply(gray)
 
-        desc_a = self.extract_descriptors(image_a)
+        enhanced = cv2.GaussianBlur(enhanced, (3, 3), 0)
 
-        desc_b = self.extract_descriptors(image_b)
+        return enhanced
 
-        if desc_a is None or desc_b is None:
+    def extract(self, image_path):
 
+        image = self.preprocess(image_path)
+
+        if image is None:
+            return None, None
+
+        kp, des = self.orb.detectAndCompute(image, None)
+
+        return kp, des
+
+    def compare(self, image1, image2):
+
+        kp1, des1 = self.extract(image1)
+
+        kp2, des2 = self.extract(image2)
+
+        if des1 is None or des2 is None:
             return 0
 
-        matches = self.matcher.match(desc_a, desc_b)
+        matches = self.bf.knnMatch(des1, des2, k=2)
 
-        if len(matches) == 0:
+        good = []
 
-            return 0
+        for pair in matches:
 
-        matches = sorted(matches, key=lambda x: x.distance)
+            if len(pair) != 2:
+                continue
 
-        good = [m for m in matches if m.distance < 60]
+            m, n = pair
 
-        score = int(len(good) / len(matches) * 100)
+            if m.distance < 0.78 * n.distance:
+                good.append(m)
 
-        return score
+        score = len(good)
 
-    def find_best(self, query_image, database_folder):
+        # geometria karty
+        if len(good) >= 8:
+
+            pts1 = np.float32([kp1[m.queryIdx].pt for m in good])
+
+            pts2 = np.float32([kp2[m.trainIdx].pt for m in good])
+
+            H, mask = cv2.findHomography(pts1, pts2, cv2.RANSAC, 5)
+
+            if mask is not None:
+
+                inliers = int(mask.sum())
+
+                score += inliers * 3
+
+        return int(score)
+
+    def find_best(self, image_path, database_folder):
 
         results = []
 
-        for file in os.listdir(database_folder):
+        database = Path(database_folder)
 
-            if not file.endswith((".png", ".jpg", ".jpeg")):
+        for file in database.rglob("*"):
 
+            if not file.is_file():
                 continue
 
-            path = os.path.join(database_folder, file)
+            if file.suffix.lower() not in (".png", ".jpg", ".jpeg"):
+                continue
 
-            score = self.compare(query_image, path)
+            score = self.compare(image_path, file)
 
-            results.append({"card": file, "score": score})
+            results.append({"card": file.name, "path": str(file), "score": int(score)})
 
         results.sort(key=lambda x: x["score"], reverse=True)
 
