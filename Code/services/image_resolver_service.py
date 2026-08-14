@@ -5,13 +5,13 @@ import json
 class ImageResolverService:
 
     def __init__(
-        self, index_file=r"D:\PTCG_FULL_DATABASE\database\image_master_index.json"
+        self,
+        index_file=r"D:\PTCG_FULL_DATABASE\database\image_master_index_ranked_v2.json",
     ):
 
         self.index_file = Path(index_file)
 
         with open(self.index_file, "r", encoding="utf-8") as f:
-
             self.database = json.load(f)
 
         self.cards = self.database.get("cards", {})
@@ -27,17 +27,27 @@ class ImageResolverService:
         if not images:
             return []
 
-        # priorytet jakości
-
-        priority = {"original": 0, "reference": 1, "backup": 2, "unknown": 3}
-
-        images = sorted(images, key=lambda x: priority.get(x.get("quality"), 9))
+        images = sorted(images, key=lambda x: x.get("quality_score", 0), reverse=True)
 
         return images[:limit]
 
+    def get_preferred_image(self, card_key):
+
+        images = self.get_best_images(card_key, limit=1)
+
+        if not images:
+            return None
+
+        return images[0]
+
     def statistics(self):
+
+        total_images = 0
+
+        for images in self.cards.values():
+            total_images += len(images)
 
         return {
             "cards": len(self.cards),
-            "images": self.database.get("statistics", {}).get("total_images", 0),
+            "images": total_images,
         }
