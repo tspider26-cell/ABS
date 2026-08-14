@@ -1,0 +1,74 @@
+# ============================================================
+# ABS — local data / generated artifacts
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local audit outputs
+AUDIT_V2_REPORT/
+AUDIT_V3_REPORT/
+ABS_DATABASE_AUDIT.txt
+
+# Generated reports
+reports/
+database/reports/
+SEREBII_M5_DRYRUN/
+
+# Local/generated databases and large data
+*.sqlite
+*.db
+*.sqlite3
+
+# External ABS data storage
+D:/PTCG_FULL_DATABASE/
+D:/ABS_DATA/
+
+# Downloaded images / media
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+
+# Generated indexes / audits
+*_audit.json
+*_report.json
+*_inventory.json
+*_duplicates.json
+*_classification.json
+
+# Import queues / temporary data
+*_queue.json
+*_queue.json.*
+*.backup
+*.before_fix
+
+database/jp_full_metadata.json
+serebii_discovered_sets.json
+serebii_slug_database_v1.json
+
+# Local temporary files
+*.tmp
+*.temp
+*.bak
+
+# Logs
+*.log
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+
+# ABS local storage references
+# Actual project data lives outside the Git repository,
+# primarily on D:\PTCG_FULL_DATABASE.
